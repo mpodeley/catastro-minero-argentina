@@ -1,0 +1,12 @@
+# Local geospatial env. Conda-first because GDAL/pyproj suffer via pip.
+# The existing `insar` env already satisfies this project; create this one only
+# if you want it isolated:  mamba env create -f environment.yml
+name: catastro-minero
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - gdal
+  - pyproj
+  - shapely>=2.0
+  - pyshp
+  - requests

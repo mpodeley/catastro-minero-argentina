@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body { background: #0f172a; }
+
+/* Leaflet's defaults are built for a light page; recolor the chrome so the
+   controls and popups do not glow white on the dark shell. */
+.leaflet-container { background: #0f172a; font: inherit; }
+.leaflet-bar a,
+.leaflet-control-layers {
+  background: #1e293b;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+.leaflet-bar a:hover { background: #243449; }
+.leaflet-control-attribution {
+  background: rgba(15, 23, 42, 0.8) !important;
+  color: #64748b;
+}
+.leaflet-control-attribution a { color: #94a3b8; }

@@ -1,0 +1,5 @@
+# CI needs no GDAL: the pipeline uses pyproj + shapely only.
+requests>=2.31
+pyproj>=3.6
+shapely>=2.0
+pyshp>=2.3

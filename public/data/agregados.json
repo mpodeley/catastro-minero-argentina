@@ -1,0 +1,633 @@
+{
+  "generated_at": "2026-07-28T13:45:02+00:00",
+  "source": "catastros mineros provinciales",
+  "source_date": null,
+  "data": {
+    "provincias": {
+      "san_juan": {
+        "n_derechos": 4193,
+        "ha": 6873003.9,
+        "pct_provincia": 76.66,
+        "n_titulares": 323,
+        "pct_con_titular": 43.9,
+        "tipos": {
+          "manifestacion_descubrimiento": 1257,
+          "mina": 1172,
+          "cateo": 1135,
+          "cantera": 345,
+          "solicitud": 187,
+          "servidumbre": 96,
+          "planta": 1
+        },
+        "estados": {
+          "desconocido": 3771,
+          "caduco": 257,
+          "tramite": 165
+        },
+        "mineral_dominante": "Au",
+        "minerales": {
+          "Au": 873,
+          "Cu": 842,
+          "Ag": 740,
+          "bentonita": 200,
+          "Sulfato De Aluminio": 164,
+          "Pb": 150,
+          "Sulfato De Magnesio": 144,
+          "Fe": 131,
+          "Zn": 80,
+          "cuarzo": 64
+        },
+        "cobertura": "completa"
+      },
+      "salta": {
+        "n_derechos": 3975,
+        "ha": 5410749.9,
+        "pct_provincia": 34.8,
+        "n_titulares": 739,
+        "pct_con_titular": 90.3,
+        "tipos": {
+          "mina": 1674,
+          "manifestacion_descubrimiento": 1049,
+          "cantera": 490,
+          "cateo": 294,
+          "servidumbre": 243,
+          "otro": 202,
+          "area_proteccion": 13,
+          "solicitud": 10
+        },
+        "estados": {
+          "vigente": 3804,
+          "vacante": 138,
+          "caduco": 22,
+          "tramite": 11
+        },
+        "mineral_dominante": "Li",
+        "minerales": {
+          "Li": 1086,
+          "Cu": 988,
+          "Au": 674,
+          "aridos": 504,
+          "K": 436,
+          "B": 401,
+          "sal": 399,
+          "Ag": 332,
+          "caliza": 170,
+          "Ttrr": 137
+        },
+        "cobertura": "completa"
+      },
+      "catamarca": {
+        "n_derechos": 2385,
+        "ha": 5697594.0,
+        "pct_provincia": 55.53,
+        "n_titulares": 511,
+        "pct_con_titular": 99.9,
+        "tipos": {
+          "mina": 2385
+        },
+        "estados": {
+          "desconocido": 2385
+        },
+        "mineral_dominante": "Cu",
+        "minerales": {
+          "Cu": 948,
+          "Li": 765,
+          "Au": 494,
+          "K": 468,
+          "Ag": 199,
+          "Cloruros": 183,
+          "B": 167,
+          "cuarzo": 120,
+          "aridos": 87,
+          "Carbon Mineral": 84
+        },
+        "cobertura": "completa"
+      },
+      "neuquen": {
+        "n_derechos": 6629,
+        "ha": 2120263.4,
+        "pct_provincia": 22.54,
+        "n_titulares": 609,
+        "pct_con_titular": 32.6,
+        "tipos": {
+          "mina": 5154,
+          "cantera": 783,
+          "manifestacion_descubrimiento": 381,
+          "cateo": 280,
+          "servidumbre": 31
+        },
+        "estados": {
+          "desconocido": 6507,
+          "vigente": 122
+        },
+        "mineral_dominante": "aridos",
+        "minerales": {
+          "aridos": 567,
+          "Cu": 196,
+          "arcilla": 186,
+          "bentonita": 159,
+          "Baritina": 121,
+          "Au": 104,
+          "Celestina": 75,
+          "caliza": 73,
+          "cuarzo": 72,
+          "Piedra Laja": 57
+        },
+        "cobertura": "completa"
+      },
+      "cordoba": {
+        "n_derechos": 705,
+        "ha": 176361.7,
+        "pct_provincia": 1.07,
+        "n_titulares": 0,
+        "pct_con_titular": 0.0,
+        "tipos": {
+          "mina": 294,
+          "area_proteccion": 240,
+          "cantera": 113,
+          "cateo": 58
+        },
+        "estados": {
+          "desconocido": 705
+        },
+        "mineral_dominante": "cuarzo",
+        "minerales": {
+          "cuarzo": 209,
+          "feldespato": 120,
+          "mica": 112,
+          "sal": 107,
+          "Berilo": 42,
+          "Au": 36,
+          "Mn": 22,
+          "Fluorita": 16,
+          "Mineral De Wolfram": 12,
+          "Amatista": 12
+        },
+        "cobertura": "completa"
+      },
+      "santa_cruz": {
+        "cobertura": "sin_datos",
+        "motivo": "Sólo un PDF (CATASTRO-MINERO-AGOSTO-2023.pdf) en minpro.santacruz.gob.ar. Es de las provincias más importantes por producción (Cerro Negro, Cerro Vanguardia, San José) y no publica datos estructurados.",
+        "n_derechos": null
+      },
+      "chubut": {
+        "cobertura": "sin_datos",
+        "motivo": "Sin geoservicio localizado. Ley 5001 restringe explotación; los derechos existen igual.",
+        "n_derechos": null
+      },
+      "rio_negro": {
+        "cobertura": "sin_datos",
+        "motivo": "Sin geoservicio localizado al 2026-07-28.",
+        "n_derechos": null
+      },
+      "mendoza": {
+        "cobertura": "sin_datos",
+        "motivo": "Sin geoservicio localizado. Ley 7722 restringe métodos de explotación.",
+        "n_derechos": null
+      },
+      "la_rioja": {
+        "cobertura": "sin_datos",
+        "motivo": "Sin geoservicio localizado al 2026-07-28.",
+        "n_derechos": null
+      },
+      "san_luis": {
+        "cobertura": "sin_datos",
+        "motivo": "Sin geoservicio localizado al 2026-07-28.",
+        "n_derechos": null
+      },
+      "jujuy": {
+        "cobertura": "declarada_no_implementada",
+        "n_derechos": null
+      }
+    },
+    "departamentos": [
+      {
+        "provincia": "salta",
+        "departamento": "Los Andes",
+        "n_derechos": 2650,
+        "ha": 3204082.1,
+        "mineral_dominante": "Li"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Antofagasta De La Sierra",
+        "n_derechos": 864,
+        "ha": 2164632.9,
+        "mineral_dominante": "Li"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Tinogasta",
+        "n_derechos": 637,
+        "ha": 1592586.0,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Calingasta",
+        "n_derechos": 827,
+        "ha": 673313.0,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Belen",
+        "n_derechos": 289,
+        "ha": 630126.6,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Iglesia",
+        "n_derechos": 567,
+        "ha": 535768.5,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "La Poma",
+        "n_derechos": 334,
+        "ha": 440058.6,
+        "mineral_dominante": "Li"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Poman",
+        "n_derechos": 137,
+        "ha": 380517.2,
+        "mineral_dominante": "Carbon Mineral"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Andalgala",
+        "n_derechos": 185,
+        "ha": 283650.8,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Santa Maria",
+        "n_derechos": 111,
+        "ha": 250523.7,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Santa Victoria",
+        "n_derechos": 74,
+        "ha": 243157.8,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Rosario De Lerma",
+        "n_derechos": 163,
+        "ha": 238601.3,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Guachipas",
+        "n_derechos": 34,
+        "ha": 217737.1,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "San Carlos",
+        "n_derechos": 66,
+        "ha": 147778.7,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Molinos",
+        "n_derechos": 54,
+        "ha": 141353.0,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Cachi",
+        "n_derechos": 57,
+        "ha": 140909.1,
+        "mineral_dominante": "Ta"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Anta",
+        "n_derechos": 39,
+        "ha": 134054.6,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "La Viña",
+        "n_derechos": 23,
+        "ha": 116329.8,
+        "mineral_dominante": "U"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Ancasti",
+        "n_derechos": 48,
+        "ha": 112306.8,
+        "mineral_dominante": "Li"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Jáchal",
+        "n_derechos": 223,
+        "ha": 85635.3,
+        "mineral_dominante": "Au"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Antofagasta de la Sierra",
+        "n_derechos": 28,
+        "ha": 77965.0,
+        "mineral_dominante": "Li"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "El Alto",
+        "n_derechos": 34,
+        "ha": 67410.4,
+        "mineral_dominante": "Li"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "La Paz",
+        "n_derechos": 15,
+        "ha": 66565.6,
+        "mineral_dominante": "Li"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Orán",
+        "n_derechos": 58,
+        "ha": 54514.0,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Chicoana",
+        "n_derechos": 35,
+        "ha": 51087.7,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Metán",
+        "n_derechos": 40,
+        "ha": 49230.5,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "General Güemes",
+        "n_derechos": 53,
+        "ha": 39308.0,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Ullum",
+        "n_derechos": 46,
+        "ha": 39018.2,
+        "mineral_dominante": "Au"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Rosario De La Frontera",
+        "n_derechos": 21,
+        "ha": 38070.7,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Iruya",
+        "n_derechos": 7,
+        "ha": 36037.4,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "La Candelaria",
+        "n_derechos": 4,
+        "ha": 33653.6,
+        "mineral_dominante": null
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Capayan",
+        "n_derechos": 10,
+        "ha": 30513.2,
+        "mineral_dominante": "Cu"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Capital",
+        "n_derechos": 69,
+        "ha": 22287.7,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Cafayate",
+        "n_derechos": 55,
+        "ha": 19984.3,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Valle Fértil",
+        "n_derechos": 121,
+        "ha": 19152.5,
+        "mineral_dominante": "mica"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Cerrillos",
+        "n_derechos": 45,
+        "ha": 16477.4,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Antofagasta",
+        "n_derechos": 4,
+        "ha": 16007.0,
+        "mineral_dominante": "Li"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Caucete",
+        "n_derechos": 13,
+        "ha": 14301.2,
+        "mineral_dominante": "Au"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Zonda",
+        "n_derechos": 13,
+        "ha": 12056.0,
+        "mineral_dominante": "bentonita"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "La Caldera",
+        "n_derechos": 48,
+        "ha": 8083.6,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Antrofagasta",
+        "n_derechos": 1,
+        "ha": 7183.1,
+        "mineral_dominante": "Au"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Santa Mariasanta Maria",
+        "n_derechos": 1,
+        "ha": 6492.0,
+        "mineral_dominante": "Au"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Antofagasta De La Sierraantofagasta De La Sierra",
+        "n_derechos": 1,
+        "ha": 4325.0,
+        "mineral_dominante": "Diatomea"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Nullantofagasta De La Sierra",
+        "n_derechos": 1,
+        "ha": 2665.8,
+        "mineral_dominante": "Li"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Sarmiento",
+        "n_derechos": 4,
+        "ha": 2550.0,
+        "mineral_dominante": "Au"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Belén",
+        "n_derechos": 1,
+        "ha": 1630.9,
+        "mineral_dominante": "Ag"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Valle Viejo",
+        "n_derechos": 4,
+        "ha": 1534.8,
+        "mineral_dominante": "Fluorita"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Capital",
+        "n_derechos": 6,
+        "ha": 538.8,
+        "mineral_dominante": "mica"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Angaco",
+        "n_derechos": 15,
+        "ha": 492.5,
+        "mineral_dominante": "talco"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "General José De San Martín",
+        "n_derechos": 31,
+        "ha": 490.2,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "25 de Mayo",
+        "n_derechos": 2,
+        "ha": 382.1,
+        "mineral_dominante": "Pb"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Paclin",
+        "n_derechos": 3,
+        "ha": 256.6,
+        "mineral_dominante": "cuarzo"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Albardón",
+        "n_derechos": 2,
+        "ha": 252.8,
+        "mineral_dominante": "bentonita"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Ambato",
+        "n_derechos": 3,
+        "ha": 149.9,
+        "mineral_dominante": "mica"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "San Martín",
+        "n_derechos": 6,
+        "ha": 117.7,
+        "mineral_dominante": "talco"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "{\"Anta\"}",
+        "n_derechos": 2,
+        "ha": 52.3,
+        "mineral_dominante": "aridos"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Rivadavia",
+        "n_derechos": 1,
+        "ha": 18.3,
+        "mineral_dominante": "bentonita"
+      },
+      {
+        "provincia": "catamarca",
+        "departamento": "Fray Mamerto Esquiu",
+        "n_derechos": 2,
+        "ha": 12.0,
+        "mineral_dominante": "mica"
+      },
+      {
+        "provincia": "san_juan",
+        "departamento": "Pocito",
+        "n_derechos": 1,
+        "ha": 5.9,
+        "mineral_dominante": "cuarzo"
+      },
+      {
+        "provincia": "salta",
+        "departamento": "Rivadavia",
+        "n_derechos": 1,
+        "ha": 1.8,
+        "mineral_dominante": "arcilla"
+      }
+    ],
+    "totales": {
+      "n_derechos": 17887,
+      "ha": 20277972.9,
+      "n_provincias_con_datos": 5,
+      "n_titulares": 2152
+    },
+    "nota_departamentos": "Tabla sin geometria: no se vendorizan aun los limites departamentales del IGN. Los nombres vienen tal cual los publica cada provincia y no estan normalizados contra INDEC."
+  }
+}

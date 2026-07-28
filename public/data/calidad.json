@@ -1,0 +1,381 @@
+{
+  "generated_at": "2026-07-28T13:44:18+00:00",
+  "source": "validate.py",
+  "source_date": null,
+  "data": {
+    "provincias": [
+      {
+        "provincia": "san_juan",
+        "n": 4193,
+        "checks": {
+          "geometria": {
+            "invalidas": 8,
+            "reparadas": 8,
+            "pct": 0.19,
+            "ejemplos": [
+              "san_juan:minas_padron:vw_minas_padron.fid--39892cb4_19fa8f3268d_-7f6c: Ring Self-intersection[-68.4819 -30.9023]",
+              "san_juan:manifestaciones:vw_manifestaciones_padron.fid--39892cb4_19fa8f3268d_-77c1: Self-intersection[-69.6002 -28.6724]",
+              "san_juan:manifestaciones:vw_manifestaciones_padron.fid--39892cb4_19fa8f3268d_-766a: Self-intersection[-68.9468913211933 -30.7173497869043]",
+              "san_juan:permisos_exploracion:vw_permisos_exploracion.fid--39892cb4_19fa8f3268d_-6e3d: Ring Self-intersection[-69.6591 -30.7854]",
+              "san_juan:permisos_exploracion:vw_permisos_exploracion.fid--39892cb4_19fa8f3268d_-6d48: Ring Self-intersection[-69.7239 -30.2839]"
+            ]
+          },
+          "ubicacion": {
+            "fuera_de_argentina": 0,
+            "desplazados": 0,
+            "limitrofes": 4,
+            "limitrofes_km_max": 5.8,
+            "pct": 0.0,
+            "ejemplos": [
+              {
+                "id": "san_juan:permisos_exploracion:vw_permisos_exploracion.fid--39892cb4_19fa8f3268d_-6d47",
+                "km": 4.5
+              },
+              {
+                "id": "san_juan:permisos_exploracion:vw_permisos_exploracion.fid--39892cb4_19fa8f3268d_-6d46",
+                "km": 1.8
+              },
+              {
+                "id": "san_juan:permisos_exploracion:vw_permisos_exploracion.fid--39892cb4_19fa8f3268d_-6d0d",
+                "km": 5.8
+              },
+              {
+                "id": "san_juan:permisos_exploracion:vw_permisos_exploracion.fid--39892cb4_19fa8f3268d_-6d0c",
+                "km": 3.2
+              }
+            ],
+            "sin_contorno_provincial": false,
+            "nota": "'limitrofes' son derechos cuyo centroide cae hasta 30 km fuera del contorno provincial: cruces de frontera reales o efecto del contorno simplificado (~2 km). 'desplazados' es lo que delata un error de faja."
+          },
+          "superficie": {
+            "con_declarada": 3872,
+            "sin_declarada": 321,
+            "delta_mediana_pct": 0.16,
+            "delta_p90_pct": 1.72,
+            "sobre_5pct": 36
+          },
+          "duplicados": {
+            "expedientes_repetidos": 142,
+            "geometrias_por_expediente_max": 15,
+            "grupos_identicos_restantes": 0,
+            "source_fid_repetido": 0
+          },
+          "superposiciones": {
+            "pares_por_tipo": {
+              "cateo|manifestacion_descubrimiento": 1531,
+              "manifestacion_descubrimiento|manifestacion_descubrimiento": 1253,
+              "cateo|cateo": 878,
+              "manifestacion_descubrimiento|mina": 758,
+              "cateo|mina": 716,
+              "mina|mina": 262,
+              "manifestacion_descubrimiento|servidumbre": 253,
+              "cantera|cateo": 174,
+              "manifestacion_descubrimiento|solicitud": 168,
+              "cantera|manifestacion_descubrimiento": 131
+            },
+            "mina_mina_distinto_titular": 1,
+            "ejemplos": [
+              [
+                "san_juan:minas_padron:vw_minas_padron.fid--39892cb4_19fa8c68cce_7d65",
+                "san_juan:minas_padron:vw_minas_padron.fid--39892cb4_19fa8c68cce_7f95"
+              ]
+            ]
+          },
+          "cobertura": {
+            "ha_total": 6873003.9,
+            "pct_provincia": 76.66
+          }
+        },
+        "fallas": []
+      },
+      {
+        "provincia": "salta",
+        "n": 3975,
+        "checks": {
+          "geometria": {
+            "invalidas": 9,
+            "reparadas": 9,
+            "pct": 0.23,
+            "ejemplos": [
+              "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.65249: Self-intersection[-66.9897092841894 -24.0979424509955]",
+              "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.65319: Self-intersection[-66.6788 -24.76683]",
+              "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.65337: Self-intersection[-66.70874 -24.77619]",
+              "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.65463: Ring Self-intersection[-68.35598 -25.09709]",
+              "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.65514: Ring Self-intersection[-66.3907 -24.37862]"
+            ]
+          },
+          "ubicacion": {
+            "fuera_de_argentina": 0,
+            "desplazados": 0,
+            "limitrofes": 39,
+            "limitrofes_km_max": 5.6,
+            "pct": 0.0,
+            "ejemplos": [
+              {
+                "id": "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.64512",
+                "km": 2.3
+              },
+              {
+                "id": "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.64687",
+                "km": 1.6
+              },
+              {
+                "id": "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.64844",
+                "km": 5.4
+              },
+              {
+                "id": "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.64974",
+                "km": 0.9
+              },
+              {
+                "id": "salta:catastro_minero:poligonos_adaf55f39328ff45c8c60e94eb13a7a0.65159",
+                "km": 0.8
+              }
+            ],
+            "sin_contorno_provincial": false,
+            "nota": "'limitrofes' son derechos cuyo centroide cae hasta 30 km fuera del contorno provincial: cruces de frontera reales o efecto del contorno simplificado (~2 km). 'desplazados' es lo que delata un error de faja."
+          },
+          "superficie": {
+            "con_declarada": 3964,
+            "sin_declarada": 11,
+            "delta_mediana_pct": 0.03,
+            "delta_p90_pct": 0.15,
+            "sobre_5pct": 4
+          },
+          "duplicados": {
+            "expedientes_repetidos": 91,
+            "geometrias_por_expediente_max": 12,
+            "grupos_identicos_restantes": 0,
+            "source_fid_repetido": 0
+          },
+          "superposiciones": {
+            "pares_por_tipo": {
+              "manifestacion_descubrimiento|manifestacion_descubrimiento": 3457,
+              "mina|mina": 2024,
+              "manifestacion_descubrimiento|mina": 995,
+              "cantera|cantera": 682,
+              "mina|servidumbre": 525,
+              "cateo|manifestacion_descubrimiento": 323,
+              "cateo|mina": 238,
+              "manifestacion_descubrimiento|servidumbre": 199,
+              "cantera|otro": 172,
+              "cateo|cateo": 161
+            },
+            "mina_mina_distinto_titular": 0,
+            "ejemplos": []
+          },
+          "cobertura": {
+            "ha_total": 5410749.9,
+            "pct_provincia": 34.8
+          }
+        },
+        "fallas": []
+      },
+      {
+        "provincia": "catamarca",
+        "n": 2385,
+        "checks": {
+          "geometria": {
+            "invalidas": 5,
+            "reparadas": 5,
+            "pct": 0.21,
+            "ejemplos": [
+              "catamarca:minas:MINAS_19022026.113: Self-intersection[-67.3773233725301 -25.2880671776565]",
+              "catamarca:minas:MINAS_19022026.303: Ring Self-intersection[-65.47912 -29.11464]",
+              "catamarca:minas:MINAS_19022026.558: Self-intersection[-65.4890086458584 -28.5062599947]",
+              "catamarca:minas:MINAS_19022026.1113: Self-intersection[-65.6104199189101 -28.5164812812196]",
+              "catamarca:minas:MINAS_19022026.2051: Self-intersection[-65.55092 -28.84706]"
+            ]
+          },
+          "ubicacion": {
+            "fuera_de_argentina": 0,
+            "desplazados": 0,
+            "limitrofes": 0,
+            "limitrofes_km_max": 0,
+            "pct": 0.0,
+            "ejemplos": [],
+            "sin_contorno_provincial": false,
+            "nota": "'limitrofes' son derechos cuyo centroide cae hasta 30 km fuera del contorno provincial: cruces de frontera reales o efecto del contorno simplificado (~2 km). 'desplazados' es lo que delata un error de faja."
+          },
+          "superficie": {
+            "con_declarada": 0,
+            "sin_declarada": 2385
+          },
+          "duplicados": {
+            "expedientes_repetidos": 3,
+            "geometrias_por_expediente_max": 3,
+            "grupos_identicos_restantes": 0,
+            "source_fid_repetido": 0
+          },
+          "superposiciones": {
+            "pares_por_tipo": {
+              "mina|mina": 1660
+            },
+            "mina_mina_distinto_titular": 3,
+            "ejemplos": [
+              [
+                "catamarca:minas:MINAS_19022026.652",
+                "catamarca:minas:MINAS_19022026.2350"
+              ],
+              [
+                "catamarca:minas:MINAS_19022026.655",
+                "catamarca:minas:MINAS_19022026.1999"
+              ],
+              [
+                "catamarca:minas:MINAS_19022026.1877",
+                "catamarca:minas:MINAS_19022026.2074"
+              ]
+            ]
+          },
+          "cobertura": {
+            "ha_total": 5697594.0,
+            "pct_provincia": 55.53
+          }
+        },
+        "fallas": []
+      },
+      {
+        "provincia": "neuquen",
+        "n": 6629,
+        "checks": {
+          "geometria": {
+            "invalidas": 5,
+            "reparadas": 5,
+            "pct": 0.08,
+            "ejemplos": [
+              "neuquen:kmz:ID_10007: Self-intersection[-69.3742806629838 -37.1792107182304]",
+              "neuquen:kmz:ID_30042: Ring Self-intersection[-70.09178 -38.29836]",
+              "neuquen:kmz:ID_30073: Self-intersection[-68.4674 -38.10044]",
+              "neuquen:kmz:ID_40304: Self-intersection[-69.86702 -39.13471]",
+              "neuquen:kmz:ID_70512: Ring Self-intersection[-68.26348 -38.92938]"
+            ]
+          },
+          "ubicacion": {
+            "fuera_de_argentina": 0,
+            "desplazados": 0,
+            "limitrofes": 0,
+            "limitrofes_km_max": 0,
+            "pct": 0.0,
+            "ejemplos": [],
+            "sin_contorno_provincial": false,
+            "nota": "'limitrofes' son derechos cuyo centroide cae hasta 30 km fuera del contorno provincial: cruces de frontera reales o efecto del contorno simplificado (~2 km). 'desplazados' es lo que delata un error de faja."
+          },
+          "superficie": {
+            "con_declarada": 0,
+            "sin_declarada": 6629
+          },
+          "duplicados": {
+            "expedientes_repetidos": 764,
+            "geometrias_por_expediente_max": 36,
+            "grupos_identicos_restantes": 0,
+            "source_fid_repetido": 0
+          },
+          "superposiciones": {
+            "pares_por_tipo": {
+              "mina|mina": 4213,
+              "manifestacion_descubrimiento|mina": 3037,
+              "cateo|mina": 477,
+              "cantera|mina": 303,
+              "mina|servidumbre": 272,
+              "manifestacion_descubrimiento|manifestacion_descubrimiento": 169,
+              "cateo|cateo": 134,
+              "cantera|cateo": 118,
+              "cantera|manifestacion_descubrimiento": 108,
+              "cateo|manifestacion_descubrimiento": 93
+            },
+            "mina_mina_distinto_titular": 4,
+            "ejemplos": [
+              [
+                "neuquen:kmz:ID_40019",
+                "neuquen:kmz:ID_40601"
+              ],
+              [
+                "neuquen:kmz:ID_40019",
+                "neuquen:kmz:ID_40022"
+              ],
+              [
+                "neuquen:kmz:ID_40019",
+                "neuquen:kmz:ID_40020"
+              ],
+              [
+                "neuquen:kmz:ID_40024",
+                "neuquen:kmz:ID_40409"
+              ]
+            ]
+          },
+          "cobertura": {
+            "ha_total": 2120263.4,
+            "pct_provincia": 22.54
+          }
+        },
+        "fallas": []
+      },
+      {
+        "provincia": "cordoba",
+        "n": 705,
+        "checks": {
+          "geometria": {
+            "invalidas": 1,
+            "reparadas": 1,
+            "pct": 0.14,
+            "ejemplos": [
+              "cordoba:canteras:mineria_canteras.105: Ring Self-intersection[-64.3602 -31.4697]"
+            ]
+          },
+          "ubicacion": {
+            "fuera_de_argentina": 0,
+            "desplazados": 0,
+            "limitrofes": 0,
+            "limitrofes_km_max": 0,
+            "pct": 0.0,
+            "ejemplos": [],
+            "sin_contorno_provincial": false,
+            "nota": "'limitrofes' son derechos cuyo centroide cae hasta 30 km fuera del contorno provincial: cruces de frontera reales o efecto del contorno simplificado (~2 km). 'desplazados' es lo que delata un error de faja."
+          },
+          "superficie": {
+            "con_declarada": 0,
+            "sin_declarada": 705
+          },
+          "duplicados": {
+            "expedientes_repetidos": 12,
+            "geometrias_por_expediente_max": 4,
+            "grupos_identicos_restantes": 0,
+            "source_fid_repetido": 0
+          },
+          "superposiciones": {
+            "pares_por_tipo": {
+              "area_proteccion|cateo": 72,
+              "cateo|mina": 61,
+              "area_proteccion|area_proteccion": 23,
+              "area_proteccion|mina": 21,
+              "cateo|cateo": 9,
+              "mina|mina": 7,
+              "cantera|cateo": 6,
+              "cantera|cantera": 4,
+              "area_proteccion|cantera": 2,
+              "cantera|mina": 1
+            },
+            "mina_mina_distinto_titular": 0,
+            "ejemplos": []
+          },
+          "cobertura": {
+            "ha_total": 176361.7,
+            "pct_provincia": 1.07
+          }
+        },
+        "fallas": []
+      },
+      {
+        "provincia": "jujuy",
+        "n": 0,
+        "checks": {
+          "sin_datos": true
+        },
+        "fallas": []
+      }
+    ],
+    "diff_corrida_previa": {
+      "primera_corrida": true
+    }
+  }
+}
