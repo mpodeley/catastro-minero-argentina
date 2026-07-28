@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vite/
+
+# Raw provincial payloads: reproducible from the registry, ~20 MB per refresh.
+raw/
+
+# Derived tenement geometry. Rebuilt in CI and published to the Pages artifact,
+# never committed: ~21 MB refreshed weekly would be ~1 GB/year of git objects,
+# straight into the repo size limit. The small aggregates ARE committed, since
+# their diffs are the human-readable audit trail.
+public/data/tenencias/
+
+.DS_Store
+*.log
