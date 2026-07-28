@@ -168,7 +168,7 @@ class ShpAdapter(BaseAdapter):
         tipo = _TIPO_JUJUY.get(tipo_raw.upper()) or N.map_tipo(tipo_raw, default="otro")
 
         # `dom_corre` (holder e-mail) is deliberately never read.
-        titular = N.strip_pii(rec.get("titular_ac"))
+        titular = N.titular_valido(N.strip_pii(rec.get("titular_ac")))
         nombre = (rec.get("nombre") or "").strip()
         if nombre in ("-", ""):
             nombre = None

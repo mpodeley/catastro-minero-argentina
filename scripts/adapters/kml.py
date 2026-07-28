@@ -218,7 +218,7 @@ class KmlAdapter(BaseAdapter):
         expediente = attrs.get("Expediente") or rec["name"]
         self._check_expediente(expediente, rec["fid"])
 
-        titular = N.strip_pii(attrs.get("Titular"))
+        titular = N.titular_valido(N.strip_pii(attrs.get("Titular")))
         estado_raw = attrs.get("Vigencia") or attrs.get("Estado")
         mineral_raw = attrs.get("Mineral") or attrs.get("Sustancia")
         geom = N.round_coords(rec["geometry"], dp=5)

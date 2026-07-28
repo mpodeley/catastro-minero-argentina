@@ -98,6 +98,13 @@ def main() -> int:
     check("pii email", N.strip_pii("DAJIN RESOURCES S.A. feleit@gmail.com"), "DAJIN RESOURCES S.A")
     check("pii solo email", N.strip_pii("feleit@gmail.com"), None)
 
+    # Statuses that provinces write into the titular column, not holders.
+    check("titular vacante salta", N.titular_valido("Vacancia Solicitada"), None)
+    check("titular vacante neuquen", N.titular_valido("VACANTE"), None)
+    check("titular ver", N.titular_valido("VER"), None)
+    check("titular real pasa", N.titular_valido("HANAQ ARGENTINA S.A"), "HANAQ ARGENTINA S.A")
+    check("titular vacio", N.titular_valido(""), None)
+
     # --- minerals ------------------------------------------------------------
     check("mineral simbolo", N.map_mineral("Li"), ["Li"])
     check("mineral nombre", N.map_mineral("Cobre"), ["Cu"])

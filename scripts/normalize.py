@@ -134,6 +134,31 @@ def strip_pii(value: Optional[str]) -> Optional[str]:
     return re.sub(r"\s{2,}", " ", out).strip(" ,;.-") or None
 
 
+# Values that provinces write into the `titular` column that are not holders:
+# they are statuses. Salta writes "Vacancia Solicitada" (111 records) and
+# Neuquen "VACANTE" (107). Left alone they become phantom companies in the
+# national ranking and in the neighbour tables of client reports.
+_NO_ES_TITULAR = {
+    "vacante", "vacancia", "vacancia solicitada", "vacante solicitada",
+    "sin titular", "sin datos", "s/d", "sd", "n/a", "na", "desconocido",
+    "libre", "ver", "---", "--", "-", "xxx", "null", "none",
+}
+
+
+def titular_valido(value: Optional[str]) -> Optional[str]:
+    """Return the holder name, or None when the field carries a status instead.
+
+    Applied before any other titular processing, so a sentinel never reaches
+    `norm_titular` and never becomes a row in a ranking.
+    """
+    if not value:
+        return None
+    k = re.sub(r"\s+", " ", _strip_accents(str(value)).lower()).strip(" .-")
+    if k in _NO_ES_TITULAR:
+        return None
+    return str(value).strip() or None
+
+
 def _tokens(value: str) -> list[str]:
     """Uppercase, unaccented tokens with legal suffixes collapsed but kept.
 

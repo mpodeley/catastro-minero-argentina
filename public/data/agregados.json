@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T16:42:21+00:00",
+  "generated_at": "2026-07-28T16:58:50+00:00",
   "source": "catastros mineros provinciales",
   "source_date": null,
   "data": {
@@ -49,8 +49,8 @@
         "pct_provincia": 30.34,
         "pct_provincia_suma": 34.8,
         "solape": 1.15,
-        "n_titulares": 739,
-        "pct_con_titular": 90.3,
+        "n_titulares": 738,
+        "pct_con_titular": 87.5,
         "tipos": {
           "mina": 1674,
           "manifestacion_descubrimiento": 1049,
@@ -119,8 +119,8 @@
         "pct_provincia": 20.82,
         "pct_provincia_suma": 22.54,
         "solape": 1.08,
-        "n_titulares": 609,
-        "pct_con_titular": 32.6,
+        "n_titulares": 607,
+        "pct_con_titular": 31.0,
         "tipos": {
           "mina": 5154,
           "cantera": 783,
@@ -794,7 +794,7 @@
       "ha": 22008957.6,
       "ha_suma": 24022659.0,
       "n_provincias_con_datos": 6,
-      "n_titulares": 2418
+      "n_titulares": 2415
     },
     "nota_superficie": "pct_provincia usa la UNION de los poligonos: el suelo cubierto por varios derechos se cuenta una vez. pct_provincia_suma suma las superficies y por lo tanto sobrecuenta. `solape` es el cociente entre ambas y mide cuan superpuesta esta la tenencia: 1,00 en Catamarca (sin solape) y 1,15 en San Juan y Salta.",
     "nota_departamentos": "Tabla sin geometria: no se vendorizan aun los limites departamentales del IGN. Los nombres vienen tal cual los publica cada provincia y no estan normalizados contra INDEC."

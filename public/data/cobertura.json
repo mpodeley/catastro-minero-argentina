@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T15:20:51+00:00",
+  "generated_at": "2026-07-28T16:58:46+00:00",
   "source": "catastros mineros provinciales",
   "source_date": null,
   "data": {
@@ -256,7 +256,7 @@
         "completitud": {
           "expediente": 99.9,
           "nombre": 97.5,
-          "titular": 90.3,
+          "titular": 87.5,
           "mineral": 84.5,
           "estado_origen": 99.7,
           "fecha_inicio": 95.3,
@@ -391,7 +391,7 @@
         "completitud": {
           "expediente": 100.0,
           "nombre": 32.6,
-          "titular": 32.6,
+          "titular": 31.0,
           "mineral": 27.9,
           "estado_origen": 1.8,
           "fecha_inicio": 0.0,

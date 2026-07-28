@@ -271,7 +271,7 @@ class WfsAdapter(BaseAdapter):
 
         expediente = pick("expediente", "expte_siged", "exp", "expte")
         titular_raw = pick("titular", "concesionario", "concsrio", "propietario")
-        titular = N.strip_pii(titular_raw)
+        titular = N.titular_valido(N.strip_pii(titular_raw))
         mineral_raw = pick("mineral", "minerales", "sustancia", "sustancias")
         tipo_raw = pick("tipo", "tipo_derecho", "categoria")
         estado_raw = pick("estado", "situacion")
