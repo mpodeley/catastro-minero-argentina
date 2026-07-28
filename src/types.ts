@@ -92,7 +92,14 @@ export interface ProvinciaAgg {
   cobertura: 'completa' | 'sin_datos' | 'declarada_no_implementada'
   n_derechos: number | null
   ha?: number
+  /** Union of tenement polygons: overlapping ground counted once. */
+  ha_union?: number | null
+  /** Union-based. THE figure for "% of the province under mining title". */
   pct_provincia?: number | null
+  /** Sum of declared areas — overstates, because tenements legitimately overlap. */
+  pct_provincia_suma?: number | null
+  /** suma / union. 1,00 = no overlap; 1,15 = San Juan and Salta. */
+  solape?: number | null
   n_titulares?: number
   pct_con_titular?: number
   tipos?: Record<string, number>
@@ -113,7 +120,10 @@ export interface Agregados {
   }>
   totales: {
     n_derechos: number
+    /** Union across provinces — the headline figure. */
     ha: number
+    /** Sum of declared areas, kept so the overcount stays visible. */
+    ha_suma?: number
     n_provincias_con_datos: number
     n_titulares: number
   }

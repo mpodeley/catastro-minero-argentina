@@ -35,7 +35,7 @@ export default function Cobertura({
       <table style={tabla}>
         <thead>
           <tr>
-            {['Provincia', 'Derechos', 'Superficie', '% provincia', 'Titulares', '% con titular', 'Mineral dominante'].map(
+            {['Provincia', 'Derechos', 'Superficie', '% provincia', 'Solape', 'Titulares', '% con titular', 'Mineral dominante'].map(
               (h) => (
                 <th key={h} style={th}>
                   {h}
@@ -49,8 +49,11 @@ export default function Cobertura({
             <tr key={k}>
               <td style={td}>{nombre(k)}</td>
               <td style={tdNum}>{fmtInt(p.n_derechos ?? 0)}</td>
-              <td style={tdNum}>{fmtHa(p.ha ?? 0)}</td>
+              <td style={tdNum}>{fmtHa(p.ha_union ?? p.ha ?? 0)}</td>
               <td style={tdNum}>{p.pct_provincia?.toFixed(1) ?? '—'}%</td>
+              <td style={{ ...tdNum, color: (p.solape ?? 1) > 1.1 ? c.warn : c.textDim }}>
+                ×{p.solape?.toFixed(2) ?? '—'}
+              </td>
               <td style={tdNum}>{fmtInt(p.n_titulares ?? 0)}</td>
               <td style={{ ...tdNum, color: (p.pct_con_titular ?? 0) < 50 ? c.warn : c.text }}>
                 {p.pct_con_titular?.toFixed(0) ?? '—'}%
@@ -60,6 +63,15 @@ export default function Cobertura({
           ))}
         </tbody>
       </table>
+
+      <p style={{ fontSize: 12, color: c.textDim, maxWidth: 760, lineHeight: 1.6 }}>
+        La superficie es la <b>unión</b> de los polígonos: el suelo cubierto por varios
+        derechos se cuenta una vez. Sumarlos sobrecuenta, porque una mina otorgada dentro
+        de un cateo previo son dos registros sobre las mismas hectáreas — legítimo en un
+        catastro, pero el operador equivocado para esta pregunta. La columna <b>solape</b>
+        es el cociente entre ambas cifras y mide qué tan superpuesta está la tenencia:
+        ×1,00 en Catamarca, ×1,15 en San Juan y Salta.
+      </p>
 
       <H>Provincias sin datos abiertos</H>
       <p style={{ fontSize: 12, color: c.textDim, maxWidth: 760, lineHeight: 1.6 }}>

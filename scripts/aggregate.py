@@ -20,9 +20,18 @@ import json
 import os
 import sys
 from collections import Counter, defaultdict
+from typing import Optional
+
+from pyproj import Geod
+from shapely.geometry import shape
+from shapely.ops import unary_union
+from shapely.validation import make_valid
 
 from _meta import write_json
 import fuentes as F
+
+# Geodesic on the WGS84 ellipsoid: no equal-area projection to choose wrong.
+_GEOD = Geod(ellps="WGS84")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -38,6 +47,45 @@ def cargar(provincia: str) -> list[dict]:
         return []
     with open(path, encoding="utf-8") as f:
         return [x["properties"] for x in json.load(f).get("features") or []]
+
+
+def superficie_union_ha(provincia: str) -> Optional[float]:
+    """Area actually covered by tenements, counting overlapping ground once.
+
+    Summing `superficie_ha_calc` double-counts: a mina granted inside a prior
+    cateo is two records over the same hectares, which is normal and legitimate
+    in a cadastre. For "how much of the province is under mining title" the sum
+    is simply the wrong operator — it overstates San Juan by 15% relative
+    (76,7% -> 66,4%).
+
+    Both figures are published: the sum, the union, and the ratio between them,
+    because the ratio is itself a finding — it measures how layered the
+    province's tenure is. Catamarca comes out at x1.00 (no overlap at all),
+    San Juan and Salta at x1.15.
+    """
+    path = os.path.join(TEN, f"{provincia}.geojson")
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as f:
+        feats = json.load(f).get("features") or []
+    if not feats:
+        return None
+
+    geoms = []
+    for x in feats:
+        try:
+            g = shape(x["geometry"])
+        except Exception:  # noqa: BLE001
+            continue
+        if not g.is_valid:
+            g = make_valid(g)
+        geoms.append(g)
+    if not geoms:
+        return None
+
+    u = unary_union(geoms)
+    a, _ = _GEOD.geometry_area_perimeter(u)
+    return abs(a) / 1e4
 
 
 def main() -> int:
@@ -133,10 +181,19 @@ def main() -> int:
     agg = {}
     for prov, e in por_prov.items():
         km2 = AREA_PROV_KM2.get(prov)
+        union = superficie_union_ha(prov)
+        pct_suma = round(100.0 * (e["ha"] / 100.0) / km2, 2) if km2 else None
+        pct_union = round(100.0 * (union / 100.0) / km2, 2) if (km2 and union) else None
         agg[prov] = {
             "n_derechos": e["n"],
             "ha": round(e["ha"], 1),
-            "pct_provincia": round(100.0 * (e["ha"] / 100.0) / km2, 2) if km2 else None,
+            "ha_union": round(union, 1) if union else None,
+            # `pct_provincia` IS the union figure: it is the one that answers
+            # "how much of the province is under mining title", and it is what
+            # the map and the headline read.
+            "pct_provincia": pct_union,
+            "pct_provincia_suma": pct_suma,
+            "solape": round(e["ha"] / union, 2) if union else None,
             "n_titulares": len(e["titulares"]),
             "pct_con_titular": round(100.0 * e["con_titular"] / e["n"], 1) if e["n"] else 0,
             "tipos": dict(e["tipos"].most_common()),
@@ -179,10 +236,20 @@ def main() -> int:
             "departamentos": deptos,
             "totales": {
                 "n_derechos": len(todos),
-                "ha": round(sum(d.get("superficie_ha_calc") or 0 for d in todos), 1),
+                # Union across provinces: this is the headline figure. The sum
+                # is kept alongside so the difference stays visible.
+                "ha": round(sum(v.get("ha_union") or 0 for v in agg.values()), 1),
+                "ha_suma": round(sum(d.get("superficie_ha_calc") or 0 for d in todos), 1),
                 "n_provincias_con_datos": len(por_prov),
                 "n_titulares": len(titulares),
             },
+            "nota_superficie": (
+                "pct_provincia usa la UNION de los poligonos: el suelo cubierto por "
+                "varios derechos se cuenta una vez. pct_provincia_suma suma las "
+                "superficies y por lo tanto sobrecuenta. `solape` es el cociente "
+                "entre ambas y mide cuan superpuesta esta la tenencia: 1,00 en "
+                "Catamarca (sin solape) y 1,15 en San Juan y Salta."
+            ),
             "nota_departamentos": (
                 "Tabla sin geometria: no se vendorizan aun los limites "
                 "departamentales del IGN. Los nombres vienen tal cual los "

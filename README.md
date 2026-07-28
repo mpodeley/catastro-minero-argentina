@@ -8,19 +8,22 @@ provincias son dueñas del recurso, así que cada una publica —o no— su prop
 registro, con mecanismo de acceso y esquema distintos. Esto es la unión de las que
 publican algo legible por máquina. No existe hoy otra vista pública unificada.
 
-Al 2026-07-28: **19.671 derechos · 24,0 millones de hectáreas · 6 provincias ·
+Al 2026-07-28: **19.671 derechos · 22,0 millones de hectáreas (unión) · 6 provincias ·
 2.418 titulares**.
 
 ## Cobertura
 
 | Provincia | Derechos | Superficie | % provincia | % con titular | Acceso |
 |---|---:|---:|---:|---:|---|
-| San Juan | 4.193 | 6,9 M ha | 76,7% | 44% | WFS `catastrominero.sanjuan.gob.ar` |
-| Salta | 3.975 | 5,4 M ha | 34,8% | 90% | WFS GeoNode `geoportal.salta.gob.ar` |
+| San Juan | 4.193 | 6,0 M ha | 66,4% | 44% | WFS `catastrominero.sanjuan.gob.ar` |
+| Salta | 3.975 | 4,7 M ha | 30,3% | 90% | WFS GeoNode `geoportal.salta.gob.ar` |
 | Catamarca | 2.385 | 5,7 M ha | 55,5% | 100% | WFS `nodoide.catamarca.gob.ar` |
-| Neuquén | 6.629 | 2,1 M ha | 22,5% | 33% | KMZ `hidrocarburos.energianeuquen.gob.ar` |
-| Córdoba | 705 | 176.362 ha | 1,1% | 0% | WFS IDECOR |
-| Jujuy | 1.784 | 3,7 M ha | 70,4% | 99% | SHP `mineriajujuy.gob.ar` |
+| Neuquén | 6.629 | 2,0 M ha | 20,8% | 33% | KMZ `hidrocarburos.energianeuquen.gob.ar` |
+| Córdoba | 705 | 163.124 ha | 1,0% | 0% | WFS IDECOR |
+| Jujuy | 1.784 | 3,5 M ha | 66,2% | 99% | SHP `mineriajujuy.gob.ar` |
+
+Superficie y porcentaje son la **unión** de los polígonos: el suelo bajo varios derechos
+se cuenta una vez. Sumar las superficies declaradas sobrecuenta hasta un 15% relativo.
 
 Sin datos abiertos: **Santa Cruz** (sólo un PDF de agosto 2023, y es de las más
 importantes por producción), Chubut, Río Negro, Mendoza, La Rioja, San Luis. El
@@ -78,6 +81,11 @@ commitean sólo los agregados chicos, cuyo diff es la auditoría legible.
 `recolectado == numberMatched`. Una provincia a medias publica un mapa equivocado
 que nadie nota. San Juan además rechaza `startIndex` (son vistas sin PK), así que
 el adaptador cae a una sola request y mantiene el assert.
+
+**Superficie por unión, no por suma.** Un cateo y la mina otorgada adentro son dos
+registros sobre las mismas hectáreas. Sumarlos infla el titular: San Juan pasa de 66,4%
+a 76,7%. Se publican las dos cifras y el cociente, porque el cociente mide cuán
+superpuesta está la tenencia de cada provincia.
 
 **Procedencia por feature.** Cada derecho lleva URL exacta de la consulta, capa,
 CRS de origen, fecha de descarga y licencia, visibles al hacer clic. Ningún visor
