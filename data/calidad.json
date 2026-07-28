@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T13:44:18+00:00",
+  "generated_at": "2026-07-28T15:20:53+00:00",
   "source": "validate.py",
   "source_date": null,
   "data": {
@@ -367,15 +367,127 @@
       },
       {
         "provincia": "jujuy",
-        "n": 0,
+        "n": 1784,
         "checks": {
-          "sin_datos": true
+          "geometria": {
+            "invalidas": 9,
+            "reparadas": 9,
+            "pct": 0.5,
+            "ejemplos": [
+              "jujuy:catastro_minero:884: Too few points in geometry component[-65.71693 -23.22811]",
+              "jujuy:catastro_minero:889: Ring Self-intersection[-66.6788 -23.52443]",
+              "jujuy:catastro_minero:1116: Ring Self-intersection[-65.50778 -22.15615]",
+              "jujuy:catastro_minero:1083: Self-intersection[-66.766820008648 -23.8421237474718]",
+              "jujuy:catastro_minero:1316: Too few points in geometry component[-66.80845 -23.91899]"
+            ]
+          },
+          "ubicacion": {
+            "fuera_de_argentina": 0,
+            "desplazados": 0,
+            "limitrofes": 6,
+            "limitrofes_km_max": 5.9,
+            "pct": 0.0,
+            "ejemplos": [
+              {
+                "id": "jujuy:catastro_minero:421",
+                "km": 1.0
+              },
+              {
+                "id": "jujuy:catastro_minero:999",
+                "km": 5.9
+              },
+              {
+                "id": "jujuy:catastro_minero:1109",
+                "km": 1.4
+              },
+              {
+                "id": "jujuy:catastro_minero:438",
+                "km": 4.4
+              },
+              {
+                "id": "jujuy:catastro_minero:1125",
+                "km": 5.9
+              }
+            ],
+            "sin_contorno_provincial": false,
+            "nota": "'limitrofes' son derechos cuyo centroide cae hasta 30 km fuera del contorno provincial: cruces de frontera reales o efecto del contorno simplificado (~2 km). 'desplazados' es lo que delata un error de faja."
+          },
+          "superficie": {
+            "con_declarada": 1784,
+            "sin_declarada": 0,
+            "delta_mediana_pct": 0.06,
+            "delta_p90_pct": 18.34,
+            "sobre_5pct": 286
+          },
+          "duplicados": {
+            "expedientes_repetidos": 1,
+            "geometrias_por_expediente_max": 2,
+            "grupos_identicos_restantes": 0,
+            "source_fid_repetido": 0
+          },
+          "superposiciones": {
+            "pares_por_tipo": {
+              "mina|mina": 663,
+              "cateo|cateo": 575,
+              "cateo|solicitud": 546,
+              "mina|solicitud": 274,
+              "solicitud|solicitud": 270,
+              "cateo|mina": 195,
+              "cantera|cateo": 29,
+              "mina|servidumbre": 20,
+              "servidumbre|solicitud": 19,
+              "cantera|solicitud": 8
+            },
+            "mina_mina_distinto_titular": 1,
+            "ejemplos": [
+              [
+                "jujuy:catastro_minero:219",
+                "jujuy:catastro_minero:1082"
+              ]
+            ]
+          },
+          "cobertura": {
+            "ha_total": 3744686.1,
+            "pct_provincia": 70.36
+          }
         },
         "fallas": []
       }
     ],
     "diff_corrida_previa": {
-      "primera_corrida": true
+      "por_provincia": {
+        "san_juan": {
+          "antes": 4193,
+          "ahora": 4193,
+          "delta_pct": 0.0
+        },
+        "salta": {
+          "antes": 3975,
+          "ahora": 3975,
+          "delta_pct": 0.0
+        },
+        "catamarca": {
+          "antes": 2385,
+          "ahora": 2385,
+          "delta_pct": 0.0
+        },
+        "neuquen": {
+          "antes": 6629,
+          "ahora": 6629,
+          "delta_pct": 0.0
+        },
+        "cordoba": {
+          "antes": 705,
+          "ahora": 705,
+          "delta_pct": 0.0
+        },
+        "jujuy": {
+          "antes": 1784,
+          "ahora": 1784,
+          "delta_pct": 0.0
+        }
+      },
+      "fallas": []
     }
   }
 }
