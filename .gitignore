@@ -13,3 +13,8 @@ public/data/tenencias/
 
 .DS_Store
 *.log
+
+# Workflows sin commitear: el token de gh no tiene scope `workflow` y GitHub
+# rechaza el push entero. Quitar estas dos lineas despues de:
+#   gh auth refresh -s workflow
+.github/workflows/
