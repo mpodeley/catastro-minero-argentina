@@ -68,8 +68,8 @@ export default function Cobertura({
         La superficie es la <b>unión</b> de los polígonos: el suelo cubierto por varios
         derechos se cuenta una vez. Sumarlos sobrecuenta, porque una mina otorgada dentro
         de un cateo previo son dos registros sobre las mismas hectáreas — legítimo en un
-        catastro, pero el operador equivocado para esta pregunta. La columna <b>solape</b>
-        es el cociente entre ambas cifras y mide qué tan superpuesta está la tenencia:
+        catastro, pero el operador equivocado para esta pregunta. La columna{' '}
+        <b>solape</b> es el cociente entre ambas cifras y mide qué tan superpuesta está la tenencia:
         ×1,00 en Catamarca, ×1,15 en San Juan y Salta.
       </p>
 
