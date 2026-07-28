@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T16:42:20+00:00",
+  "generated_at": "2026-07-28T16:58:48+00:00",
   "source": "catastros mineros provinciales",
   "source_date": null,
   "data": {
@@ -250,28 +250,6 @@
           "cateo": 26,
           "solicitud": 11,
           "servidumbre": 1
-        }
-      },
-      {
-        "titular_norm": "VACANCIA SOLICITADA",
-        "nombre": "Vacancia Solicitada",
-        "es_persona": true,
-        "n_derechos": 111,
-        "ha": 159283.5,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Cu",
-          "Li",
-          "Au",
-          "B",
-          "K",
-          "sal"
-        ],
-        "tipos": {
-          "mina": 109,
-          "manifestacion_descubrimiento": 2
         }
       },
       {
@@ -4648,29 +4626,6 @@
         ],
         "tipos": {
           "mina": 5
-        }
-      },
-      {
-        "titular_norm": "VACANTE",
-        "nombre": "VACANTE",
-        "es_persona": false,
-        "n_derechos": 107,
-        "ha": 15615.6,
-        "provincias": [
-          "neuquen"
-        ],
-        "minerales": [
-          "bentonita",
-          "Cu",
-          "arcilla",
-          "Baritina",
-          "Au",
-          "Celestina"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 16,
-          "mina": 88,
-          "cantera": 3
         }
       },
       {
@@ -32822,22 +32777,6 @@
         }
       },
       {
-        "titular_norm": "VER",
-        "nombre": "VER",
-        "es_persona": false,
-        "n_derechos": 1,
-        "ha": 22.0,
-        "provincias": [
-          "neuquen"
-        ],
-        "minerales": [
-          "Celestina"
-        ],
-        "tipos": {
-          "mina": 1
-        }
-      },
-      {
         "titular_norm": "ALVAREZ ERIK JOSE ALEXANDER",
         "nombre": "ALVAREZ ERIK JOSE ALEXANDER",
         "es_persona": true,
@@ -41769,12 +41708,12 @@
       }
     ],
     "resumen": {
-      "n_titulares": 2418,
-      "n_empresas": 1203,
-      "n_personas_fisicas": 1215,
-      "ha_empresas": 13579994.9,
-      "ha_personas_fisicas": 3872399.0,
-      "derechos_sin_titular": 8134,
+      "n_titulares": 2415,
+      "n_empresas": 1201,
+      "n_personas_fisicas": 1214,
+      "ha_empresas": 13564357.3,
+      "ha_personas_fisicas": 3713115.5,
+      "derechos_sin_titular": 8353,
       "aviso": "El ranking lista empresas por nombre y agrega a las personas fisicas en un conteo. Es un ranking de lo PUBLICADO: las provincias difieren en si informan titular, y los cateos de San Juan no lo informan."
     }
   }
