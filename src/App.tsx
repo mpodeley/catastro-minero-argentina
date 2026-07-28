@@ -197,6 +197,7 @@ export default function App() {
 
           <MapaCatastro
             provincias={provincias}
+            agg={agg?.provincias ?? null}
             modo={modo}
             filtros={filtros}
             onSelect={setSel}

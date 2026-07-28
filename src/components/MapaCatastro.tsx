@@ -4,6 +4,8 @@ import 'leaflet/dist/leaflet.css'
 import type { DerechoProps } from '../types'
 import { COLOR_ESTADO, COLOR_MINERAL, COLOR_TIPO, c } from '../theme'
 import { loadProvincia } from '../hooks/useData'
+import { SIN_DATOS, quantileBins, rampColor } from '../utils/choropleth'
+import type { ProvinciaAgg } from '../types'
 
 export type ModoColor = 'tipo' | 'estado' | 'mineral'
 
@@ -17,6 +19,8 @@ export interface Filtros {
 
 interface Props {
   provincias: string[]
+  /** Per-province rollups, for the national choropleth below ZOOM_DETALLE. */
+  agg: Record<string, ProvinciaAgg> | null
   modo: ModoColor
   filtros: Filtros
   onSelect: (p: DerechoProps | null) => void
@@ -61,6 +65,7 @@ function pasaFiltro(p: DerechoProps, f: Filtros): boolean {
 
 export default function MapaCatastro({
   provincias,
+  agg,
   modo,
   filtros,
   onSelect,
@@ -82,6 +87,62 @@ export default function MapaCatastro({
   onSelectRef.current = onSelect
   const [cargando, setCargando] = useState<string[]>([])
   const [cargadas, setCargadas] = useState<string[]>([])
+  // Tier 0: the national view. Without it the map opens empty until the user
+  // guesses to zoom in, which is both a bad first impression and a misleading
+  // one — an empty Argentina reads as an unconcessioned Argentina.
+  const provinciasGjRef = useRef<unknown>(null)
+  const coropletaRef = useRef<L.GeoJSON | null>(null)
+  const aggRef = useRef(agg)
+  aggRef.current = agg
+
+  const pintarProvincias = useCallback(() => {
+    const map = mapRef.current
+    const gj = provinciasGjRef.current
+    if (!map || !gj) return
+    coropletaRef.current?.remove()
+
+    const a = aggRef.current ?? {}
+    const bins = quantileBins(
+      Object.values(a).map((p) => p?.pct_provincia ?? 0).filter((v) => v > 0),
+    )
+
+    coropletaRef.current = L.geoJSON(gj as never, {
+      style: (feat) => {
+        const id = (feat?.properties as { id?: string } | undefined)?.id ?? ''
+        const p = a[id]
+        const conDatos = p?.cobertura === 'completa'
+        const pct = p?.pct_provincia ?? 0
+        return {
+          color: conDatos ? '#0f172a' : c.textFaint,
+          weight: conDatos ? 1 : 0.8,
+          // Provinces with no open data are drawn hollow and dashed. They must
+          // never take a colour from the ramp: absence is not zero.
+          dashArray: conDatos ? undefined : '3 3',
+          fillColor: conDatos ? rampColor(pct, bins) : SIN_DATOS,
+          fillOpacity: conDatos ? 0.75 : 0.12,
+        }
+      },
+      onEachFeature: (feat, layer) => {
+        const id = (feat.properties as { id?: string; name?: string }).id ?? ''
+        const nombre = (feat.properties as { name?: string }).name ?? id
+        const p = a[id]
+        layer.bindTooltip(
+          p?.cobertura === 'completa'
+            ? `<b>${nombre}</b><br>${(p.pct_provincia ?? 0).toFixed(1)}% bajo derecho minero` +
+                `<br>${(p.n_derechos ?? 0).toLocaleString('es-AR')} derechos`
+            : `<b>${nombre}</b><br><i>sin datos abiertos</i>`,
+          { sticky: true },
+        )
+      },
+    })
+    // Only meaningful at the national scale; above ZOOM_DETALLE the real
+    // parcels take over and the fill would just muddy them.
+    if (map.getZoom() < ZOOM_DETALLE) coropletaRef.current.addTo(map)
+  }, [])
+
+  useEffect(() => {
+    pintarProvincias()
+  }, [agg, pintarProvincias])
 
   // --- init ------------------------------------------------------------------
   useEffect(() => {
@@ -135,10 +196,8 @@ export default function MapaCatastro({
     fetch('./data/provincias.geojson')
       .then((r) => r.json())
       .then((gj) => {
-        L.geoJSON(gj, {
-          interactive: false,
-          style: { color: c.textFaint, weight: 1, fill: false, opacity: 0.5 },
-        }).addTo(map)
+        provinciasGjRef.current = gj
+        pintarProvincias()
       })
       .catch(() => undefined)
 
@@ -219,10 +278,18 @@ export default function MapaCatastro({
   useEffect(() => {
     const map = mapRef.current
     if (!map) return
-    map.on('moveend zoomend', revisarViewport)
-    revisarViewport()
+    const onMove = () => {
+      revisarViewport()
+      const cp = coropletaRef.current
+      if (!cp) return
+      const detalle = map.getZoom() >= ZOOM_DETALLE
+      if (detalle && map.hasLayer(cp)) cp.remove()
+      else if (!detalle && !map.hasLayer(cp)) cp.addTo(map)
+    }
+    map.on('moveend zoomend', onMove)
+    onMove()
     return () => {
-      map.off('moveend zoomend', revisarViewport)
+      map.off('moveend zoomend', onMove)
     }
   }, [revisarViewport])
 
