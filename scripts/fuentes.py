@@ -212,11 +212,20 @@ CORDOBA = [
 # entry is declared but not yet wired into the build.
 JUJUY = [
     Fuente(
-        id="jujuy.mineria.padron",
-        provincia="jujuy", provincia_nombre="Jujuy", kind="tabular",
+        id="jujuy.jam.catastro_minero",
+        provincia="jujuy", provincia_nombre="Jujuy", kind="shapefile",
         url="https://www.mineriajujuy.gob.ar/site/jam_catastro.php",
-        srs_request=None, verificado_el="2026-07-28",
-        notas="A relevar: registro descargable orientado a Excel + visor. Formato espacial por confirmar.",
+        # Combined layer at the ZIP root; the per-type folders alongside it are
+        # the same 1.784 records split up, so reading both would double-count.
+        layer="CATASTRO_MINERO",
+        srid_declarado=22183,          # POSGAR 94 / Argentina faja 3
+        srs_request=None,              # file source: reprojected locally
+        verificado_el="2026-07-28",
+        notas=(
+            "SHP/KMZ/XLSX detras de un link con token rotativo (se scrapea). "
+            "DBF en latin-1. El campo dom_corre trae mails de titulares: se "
+            "descarta y nunca se publica."
+        ),
     ),
 ]
 

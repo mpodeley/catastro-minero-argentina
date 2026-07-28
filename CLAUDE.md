@@ -16,7 +16,7 @@ UX en español; comentarios y nombres de variables en inglés.
 PY="~/miniforge3/bin/mamba run -n insar python"
 
 cd scripts
-$PY test_normalize.py      # 61 casos, todos derivados de datos reales
+$PY test_normalize.py      # 65 casos, todos derivados de datos reales
 $PY build.py               # fuentes -> public/data/tenencias/
 $PY validate.py            # gate: sale != 0 y bloquea el deploy
 $PY aggregate.py
@@ -31,7 +31,8 @@ npm run build
 
 **`scripts/fuentes.py` es el registro y la fuente de verdad.** Una `Fuente` por
 capa provincial. Agregar una provincia = agregar filas, no escribir un módulo.
-4 de 6 provincias son el mismo `WfsAdapter` parametrizado.
+4 de 6 provincias son el mismo `WfsAdapter` parametrizado; Neuquén usa `kml.py`
+y Jujuy `shp.py`.
 
 Flujo: `fetch` (cache por sha256 en `raw/`) → `parse` → `normalize` → `dedupe` →
 `with_area` → GeoJSON por provincia + por tipo de geometría.
@@ -71,6 +72,13 @@ Flujo: `fetch` (cache por sha256 en `raw/`) → `parse` → `normalize` → `ded
 - EPSG **22173 es POSGAR 98**, no Campo Inchauspe (ése es 22193). 2217x/2218x/
   2219x son tres datums distintos con códigos adyacentes: resolver siempre por
   `pyproj.CRS.from_epsg()` y loguear el datum.
+- **Jujuy: el DBF es latin-1**, no UTF-8 — pyshp muere en el primer símbolo de
+  grado. Y el campo `dom_corre` trae MAILS de titulares: se descarta en el
+  adaptador, nunca se parsea al esquema.
+- Jujuy trae la capa combinada `CATASTRO_MINERO` en la raíz del zip y además las
+  9 carpetas por tipo con los mismos 1.784 registros. Leer las dos duplicaría.
+- El PHP de descarga de Jujuy responde HEAD con 20 bytes: un tamaño implausible
+  se reporta como desconocido, si no la deriva salta al -100% para siempre.
 - Salta publica `coordenadas` (WKT Gauss-Krüger) además de la geometría 4326:
   es una doble representación regalada, la usa el round-trip de CRS. Nunca se
   manda al browser (es ~40% del payload).
@@ -80,8 +88,11 @@ Flujo: `fetch` (cache por sha256 en `raw/`) → `parse` → `normalize` → `ded
 Contrastar contra estos números; un desvío el día 1 significa que algo se rompió.
 
 - San Juan `vw_minas_padron` 1.378 crudos → 1.166 tras dedupe · Salta 3.964 ·
-  Catamarca `idecat:MINAS_19022026` 2.385 · Neuquén 6.629 placemarks
+  Catamarca `idecat:MINAS_19022026` 2.385 · Neuquén 6.629 placemarks ·
+  Jujuy `CATASTRO_MINERO` 1.784
+- Total nacional: 19.671 derechos, 24,0 M ha, 6 provincias, 2.418 titulares
 - Golden record: San Juan `VEGA AZUL`, Calingasta, `GLENCORE PACHON S.A`,
   64,3859 ha declaradas vs 64,5348 calculadas (0,23%)
 - Round-trip de CRS contra el WKT de Salta: desviación máxima 0,60 m (gate < 5 m)
-- Mediana de error de superficie: San Juan 0,18% · Salta 0,03% (gate < 2%)
+- Mediana de error de superficie: San Juan 0,18% · Salta 0,03% · Jujuy 0,06%
+  (gate < 2%) — Jujuy valida la reproyección POSGAR 94 faja 3

@@ -109,6 +109,10 @@ _PII_RE = re.compile(
     r"\b(?:DNI|D\.N\.I\.|CUIT|CUIL|C\.U\.I\.T\.|LE|LC)\b[\s:.\-]*[\d.\-]{6,}",
     re.IGNORECASE,
 )
+# Jujuy's cadastre export carries holder e-mail addresses in `dom_corre`. That
+# column is dropped at the adapter, but a stray address in a free-text field
+# must not survive either.
+_EMAIL_RE = re.compile(r"\b[\w.+-]+@[\w-]+\.[\w.-]+\b")
 
 
 def _strip_accents(s: str) -> str:
@@ -126,7 +130,8 @@ def strip_pii(value: Optional[str]) -> Optional[str]:
     """
     if not value:
         return value
-    return _PII_RE.sub("", str(value)).strip(" ,;.-") or None
+    out = _EMAIL_RE.sub("", _PII_RE.sub("", str(value)))
+    return re.sub(r"\s{2,}", " ", out).strip(" ,;.-") or None
 
 
 def _tokens(value: str) -> list[str]:
@@ -263,6 +268,12 @@ _ESTADO_MAP = {
     # Neuquen canteras carry a boolean "Vigencia" column rather than a status.
     "si": "vigente",
     "no": "caduco",
+    # Jujuy: a mina "INCLUIDA EN G. M. AGUILAR" is administered as part of a
+    # grupo minero (Aguilar is a working Pb-Zn-Ag mine). It is an effective
+    # right, not an unknown state — 283 of 1.784 records, so leaving them
+    # "desconocido" would misreport 16% of the province.
+    "incluida": "vigente",
+    "registrada": "vigente",
 }
 
 

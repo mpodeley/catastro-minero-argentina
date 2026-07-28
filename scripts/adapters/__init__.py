@@ -18,6 +18,10 @@ def build_adapter(fuente: Fuente):
         from adapters.kml import KmlAdapter
 
         return KmlAdapter(fuente)
+    if fuente.kind == "shapefile":
+        from adapters.shp import ShpAdapter
+
+        return ShpAdapter(fuente)
     if fuente.kind in ("tabular", "manual", "ninguna"):
         raise NotImplementedError(
             f"{fuente.id}: fuente '{fuente.kind}' declarada pero no implementada"

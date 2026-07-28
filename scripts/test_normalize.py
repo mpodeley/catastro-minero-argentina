@@ -88,6 +88,15 @@ def main() -> int:
     check("estado sin publicar", N.map_estado("Sin publicar"), "desconocido")
     check("estado desistido", N.map_estado("Desistido"), "desistido")
     check("estado sin datos", N.map_estado("Sin datos"), "desconocido")
+    # Jujuy: pertenencia administered inside a grupo minero — an effective right.
+    check("estado grupo minero", N.map_estado("INCLUIDA EN G. M. AGUILAR"), "vigente")
+    check("estado registrada", N.map_estado("REGISTRADA"), "vigente")
+
+    # --- Jujuy shapefile specifics -------------------------------------------
+    # `dom_corre` carries holder e-mail addresses; the adapter drops the column,
+    # but a stray address in any free-text field must not survive either.
+    check("pii email", N.strip_pii("DAJIN RESOURCES S.A. feleit@gmail.com"), "DAJIN RESOURCES S.A")
+    check("pii solo email", N.strip_pii("feleit@gmail.com"), None)
 
     # --- minerals ------------------------------------------------------------
     check("mineral simbolo", N.map_mineral("Li"), ["Li"])

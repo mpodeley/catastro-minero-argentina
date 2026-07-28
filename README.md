@@ -8,8 +8,8 @@ provincias son dueñas del recurso, así que cada una publica —o no— su prop
 registro, con mecanismo de acceso y esquema distintos. Esto es la unión de las que
 publican algo legible por máquina. No existe hoy otra vista pública unificada.
 
-Al 2026-07-28: **17.887 derechos · 20,3 millones de hectáreas · 5 provincias ·
-2.152 titulares**.
+Al 2026-07-28: **19.671 derechos · 24,0 millones de hectáreas · 6 provincias ·
+2.418 titulares**.
 
 ## Cobertura
 
@@ -20,7 +20,7 @@ Al 2026-07-28: **17.887 derechos · 20,3 millones de hectáreas · 5 provincias 
 | Catamarca | 2.385 | 5,7 M ha | 55,5% | 100% | WFS `nodoide.catamarca.gob.ar` |
 | Neuquén | 6.629 | 2,1 M ha | 22,5% | 33% | KMZ `hidrocarburos.energianeuquen.gob.ar` |
 | Córdoba | 705 | 176.362 ha | 1,1% | 0% | WFS IDECOR |
-| Jujuy | — | — | — | — | declarada, no implementada |
+| Jujuy | 1.784 | 3,7 M ha | 70,4% | 99% | SHP `mineriajujuy.gob.ar` |
 
 Sin datos abiertos: **Santa Cruz** (sólo un PDF de agosto 2023, y es de las más
 importantes por producción), Chubut, Río Negro, Mendoza, La Rioja, San Luis. El
@@ -30,7 +30,7 @@ mapa las dibuja como ausencia explícita, nunca como territorio libre.
 
 ```
 scripts/fuentes.py     EL REGISTRO — una Fuente por capa. Dato, no código.
-scripts/adapters/      wfs.py cubre 4 de 6 provincias; kml.py cubre Neuquén
+scripts/adapters/      wfs.py cubre 4 de 6 provincias; kml.py Neuquén; shp.py Jujuy
 scripts/build.py       fuentes -> public/data/tenencias/<prov>.geojson
 scripts/validate.py    gate de calidad: sale != 0 y bloquea el deploy
 scripts/aggregate.py   índice nacional de titulares + rollups provinciales
@@ -45,7 +45,7 @@ Agregar una provincia es agregar filas en `fuentes.py`, no escribir un módulo.
 ```bash
 mamba env create -f environment.yml     # o usar el env `insar` existente
 cd scripts
-python test_normalize.py                # 61 casos, todos de datos reales
+python test_normalize.py                # 65 casos, todos de datos reales
 python build.py                         # usa el cache de raw/
 python build.py --no-cache              # refetch completo
 python validate.py                      # gate
@@ -65,7 +65,7 @@ npm run build && npm run preview
 
 **Sin vector tiles.** Se midió: los derechos mineros son rectángulos mensurados,
 **9,6 vértices por feature**. Simplificar no compra nada. El total nacional son
-**1,8 MB gzip**, la provincia más grande 0,59 MB, cargada perezosamente. tippecanoe
+**2,0 MB gzip**, la provincia más grande 0,59 MB, cargada perezosamente. tippecanoe
 + PMTiles habría sido una dependencia nueva que además cuantiza coordenadas y
 trunca atributos — justo lo que en un catastro *es* el producto. Revisar si algún
 día se superan ~150k features.
@@ -90,11 +90,14 @@ provincial oficial te dice de cuándo es el corte.
   siempre `tipo_origen` / `estado_origen` / `mineral_origen`.
 - **Sesgo de incompletitud.** Las provincias con buenos datos *parecen* más
   concesionadas. El sesgo está documentado en la vista Cobertura.
-- **El ranking de titulares es de lo publicado, no de la realidad.** 7.911 derechos
+- **El ranking de titulares es de lo publicado, no de la realidad.** 7.917 derechos
   no informan titular; los cateos de San Juan nunca lo traen.
 - **Duplicación de origen.** La vista `vw_minas_padron` de San Juan hace fan-out:
   213 de 4.406 filas (4,8%) eran copias idénticas. Se colapsan y se cuentan en
   `cobertura.json`.
+- **Mails de titulares.** El export de Jujuy incluye un campo `dom_corre` con
+  direcciones de correo de los titulares. Se descarta en el adaptador y nunca se
+  publica; `strip_pii` además borra mails y documentos de cualquier campo libre.
 - **Personas físicas.** El titular es a menudo una persona. El registro es público,
   pero el ranking nacional lista empresas por nombre y agrega a las personas en un
   conteo; nunca se publica DNI/CUIT.

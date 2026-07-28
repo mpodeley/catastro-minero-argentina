@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T13:57:21+00:00",
+  "generated_at": "2026-07-28T15:20:51+00:00",
   "source": "catastros mineros provinciales",
   "source_date": null,
   "data": {
@@ -177,7 +177,7 @@
             "features": 3964,
             "features_fuente": 3964,
             "duplicados_fuente": 0,
-            "fetched_at": "2026-07-28T13:38:59+00:00",
+            "fetched_at": "2026-07-28T13:59:38+00:00",
             "sha256": "ab34318af853993aa790fc8cefb99172e9adb1a6ab4a0cd379043a4d75c52d38",
             "resolved_layer": "geonode:poligonos_adaf55f39328ff45c8c60e94eb13a7a0",
             "bytes": 4152787
@@ -534,27 +534,74 @@
       {
         "provincia": "jujuy",
         "provincia_nombre": "Jujuy",
-        "estado": "caida",
-        "n_derechos": 0,
+        "estado": "ok",
+        "n_derechos": 1784,
         "n_puntos": 0,
         "n_lineas": 0,
-        "ha_total": 0,
+        "ha_total": 3744686.1,
         "fuentes": [
           {
-            "fuente_id": "jujuy.mineria.padron",
-            "layer": null,
-            "kind": "tabular",
+            "fuente_id": "jujuy.jam.catastro_minero",
+            "layer": "CATASTRO_MINERO",
+            "kind": "shapefile",
             "url": "https://www.mineriajujuy.gob.ar/site/jam_catastro.php",
             "licencia": "no_especificada",
-            "notas": "A relevar: registro descargable orientado a Excel + visor. Formato espacial por confirmar.",
-            "estado": "declarada_no_implementada",
-            "error": "jujuy.mineria.padron: fuente 'tabular' declarada pero no implementada"
+            "notas": "SHP/KMZ/XLSX detras de un link con token rotativo (se scrapea). DBF en latin-1. El campo dom_corre trae mails de titulares: se descarta y nunca se publica.",
+            "estado": "ok",
+            "features": 1784,
+            "features_fuente": 1784,
+            "duplicados_fuente": 0,
+            "fetched_at": "2026-07-28T15:20:05+00:00",
+            "sha256": "dc86f940cf0718c50ae8a4d7e212ec92423fd79a76388f0504cdcb7d348b544b",
+            "resolved_layer": "CATASTRO_MINERO",
+            "bytes": 654778
           }
         ],
-        "tipos": {},
-        "estados": {},
-        "minerales": {},
-        "completitud": {}
+        "tipos": {
+          "cateo": 578,
+          "mina": 578,
+          "solicitud": 536,
+          "cantera": 64,
+          "servidumbre": 17,
+          "area_proteccion": 11
+        },
+        "estados": {
+          "tramite": 1141,
+          "vigente": 581,
+          "vacante": 62
+        },
+        "minerales": {
+          "Au": 236,
+          "Ag": 229,
+          "Cu": 227,
+          "Li": 215,
+          "B": 137,
+          "Pb": 126,
+          "Zn": 104,
+          "sal": 43,
+          "caliza": 32,
+          "K": 31,
+          "Diseminado": 30,
+          "Vapores Endogenos": 30,
+          "Sn": 19,
+          "Piedra Laja": 16,
+          "Fe": 16,
+          "Diseminados De 1Ra. Y 2Da. Categoria": 14,
+          "perlita": 14,
+          "aridos": 9,
+          "Tierras Raras": 8,
+          "Ulexita": 6
+        },
+        "completitud": {
+          "expediente": 100.0,
+          "nombre": 66.8,
+          "titular": 87.5,
+          "mineral": 54.4,
+          "estado_origen": 100.0,
+          "fecha_inicio": 0.0,
+          "superficie_ha": 100.0,
+          "departamento": 97.4
+        }
       }
     ],
     "sin_datos_abiertos": {
@@ -566,9 +613,9 @@
       "san_luis": "Sin geoservicio localizado al 2026-07-28."
     },
     "totales": {
-      "n_derechos": 17887,
-      "ha_total": 20277972.9,
-      "provincias_con_datos": 5,
+      "n_derechos": 19671,
+      "ha_total": 24022659.0,
+      "provincias_con_datos": 6,
       "provincias_sin_datos": 6
     }
   }

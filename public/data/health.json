@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T13:57:24+00:00",
+  "generated_at": "2026-07-28T15:21:32+00:00",
   "source": "health_check.py",
   "source_date": null,
   "data": {
@@ -7,7 +7,7 @@
       {
         "fuente_id": "san_juan.catastrominero.minas_padron",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:22+00:00",
+        "checked_at": "2026-07-28T15:21:30+00:00",
         "http_status": 200,
         "feature_count": 1378,
         "field_names": [
@@ -35,7 +35,7 @@
         "geom_type": "SurfacePropertyType",
         "srid": 5344,
         "resolved_layer": "mineria:vw_minas_padron",
-        "elapsed_ms": 40,
+        "elapsed_ms": 77,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -44,7 +44,7 @@
       {
         "fuente_id": "san_juan.catastrominero.manifestaciones",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:22+00:00",
+        "checked_at": "2026-07-28T15:21:30+00:00",
         "http_status": 200,
         "feature_count": 1257,
         "field_names": [
@@ -80,7 +80,7 @@
       {
         "fuente_id": "san_juan.catastrominero.permisos_exploracion",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:22+00:00",
+        "checked_at": "2026-07-28T15:21:30+00:00",
         "http_status": 200,
         "feature_count": 1135,
         "field_names": [
@@ -92,7 +92,7 @@
         "geom_type": "SurfacePropertyType",
         "srid": 5344,
         "resolved_layer": "mineria:vw_permisos_exploracion",
-        "elapsed_ms": 48,
+        "elapsed_ms": 39,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -101,7 +101,7 @@
       {
         "fuente_id": "san_juan.catastrominero.canteras",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:22+00:00",
+        "checked_at": "2026-07-28T15:21:31+00:00",
         "http_status": 200,
         "feature_count": 314,
         "field_names": [
@@ -114,7 +114,7 @@
         "geom_type": "SurfacePropertyType",
         "srid": 5344,
         "resolved_layer": "mineria:vw_canteras",
-        "elapsed_ms": 41,
+        "elapsed_ms": 38,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -123,7 +123,7 @@
       {
         "fuente_id": "san_juan.catastrominero.solicitudes",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:23+00:00",
+        "checked_at": "2026-07-28T15:21:31+00:00",
         "http_status": 200,
         "feature_count": 225,
         "field_names": [
@@ -136,7 +136,7 @@
         "geom_type": "SurfacePropertyType",
         "srid": 5344,
         "resolved_layer": "mineria:vw_solicitudes_poligonos",
-        "elapsed_ms": 35,
+        "elapsed_ms": 34,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -145,7 +145,7 @@
       {
         "fuente_id": "san_juan.catastrominero.servidumbres",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:23+00:00",
+        "checked_at": "2026-07-28T15:21:31+00:00",
         "http_status": 200,
         "feature_count": 97,
         "field_names": [
@@ -166,7 +166,7 @@
       {
         "fuente_id": "salta.geonode.catastro_minero",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:23+00:00",
+        "checked_at": "2026-07-28T15:21:31+00:00",
         "http_status": 200,
         "feature_count": 3964,
         "field_names": [
@@ -189,7 +189,7 @@
         "geom_type": "MultiSurfacePropertyType",
         "srid": 4326,
         "resolved_layer": "geonode:poligonos_adaf55f39328ff45c8c60e94eb13a7a0",
-        "elapsed_ms": 44,
+        "elapsed_ms": 43,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -198,7 +198,7 @@
       {
         "fuente_id": "salta.geonode.servidumbres",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:23+00:00",
+        "checked_at": "2026-07-28T15:21:31+00:00",
         "http_status": 200,
         "feature_count": 115,
         "field_names": [
@@ -216,7 +216,7 @@
         "geom_type": "MultiCurvePropertyType",
         "srid": 4326,
         "resolved_layer": "geonode:servidumbres_l",
-        "elapsed_ms": 35,
+        "elapsed_ms": 33,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -225,7 +225,7 @@
       {
         "fuente_id": "salta.geonode.provisorios",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:23+00:00",
+        "checked_at": "2026-07-28T15:21:31+00:00",
         "http_status": 200,
         "feature_count": 11,
         "field_names": [
@@ -240,7 +240,7 @@
         "geom_type": "MultiSurfacePropertyType",
         "srid": 4326,
         "resolved_layer": "geonode:provisorios",
-        "elapsed_ms": 31,
+        "elapsed_ms": 40,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -249,7 +249,7 @@
       {
         "fuente_id": "catamarca.idecat.minas",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:24+00:00",
+        "checked_at": "2026-07-28T15:21:32+00:00",
         "http_status": 200,
         "feature_count": 2385,
         "field_names": [
@@ -268,7 +268,7 @@
         "geom_type": "MultiSurfacePropertyType",
         "srid": 4326,
         "resolved_layer": "idecat:MINAS_19022026",
-        "elapsed_ms": 38,
+        "elapsed_ms": 35,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -277,7 +277,7 @@
       {
         "fuente_id": "neuquen.casminero.kmz",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:24+00:00",
+        "checked_at": "2026-07-28T15:21:32+00:00",
         "http_status": 200,
         "feature_count": null,
         "field_names": [
@@ -289,7 +289,7 @@
         "geom_type": "Polygon",
         "srid": 4326,
         "resolved_layer": null,
-        "elapsed_ms": 128,
+        "elapsed_ms": 121,
         "error": null,
         "bytes": 477657,
         "estado": "ok"
@@ -297,7 +297,7 @@
       {
         "fuente_id": "cordoba.idecor.pertenencias",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:24+00:00",
+        "checked_at": "2026-07-28T15:21:32+00:00",
         "http_status": 200,
         "feature_count": 294,
         "field_names": [
@@ -318,7 +318,7 @@
       {
         "fuente_id": "cordoba.idecor.area_cateo",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:24+00:00",
+        "checked_at": "2026-07-28T15:21:32+00:00",
         "http_status": 200,
         "feature_count": 58,
         "field_names": [
@@ -329,7 +329,7 @@
         "geom_type": "MultiSurfacePropertyType",
         "srid": 22173,
         "resolved_layer": "idecor:mineria_area_cateo",
-        "elapsed_ms": 7,
+        "elapsed_ms": 6,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -338,7 +338,7 @@
       {
         "fuente_id": "cordoba.idecor.canteras",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:24+00:00",
+        "checked_at": "2026-07-28T15:21:32+00:00",
         "http_status": 200,
         "feature_count": 113,
         "field_names": [
@@ -353,7 +353,7 @@
         "geom_type": "SurfacePropertyType",
         "srid": 22173,
         "resolved_layer": "idecor:mineria_canteras",
-        "elapsed_ms": 7,
+        "elapsed_ms": 6,
         "error": null,
         "bytes": null,
         "estado": "ok",
@@ -362,7 +362,7 @@
       {
         "fuente_id": "cordoba.idecor.area_amparo",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:24+00:00",
+        "checked_at": "2026-07-28T15:21:32+00:00",
         "http_status": 200,
         "feature_count": 240,
         "field_names": [
@@ -383,7 +383,7 @@
       {
         "fuente_id": "cordoba.idecor.minas_puntos",
         "ok": true,
-        "checked_at": "2026-07-28T13:57:24+00:00",
+        "checked_at": "2026-07-28T15:21:32+00:00",
         "http_status": 200,
         "feature_count": 533,
         "field_names": [
@@ -394,15 +394,26 @@
         "geom_type": "PointPropertyType",
         "srid": 22173,
         "resolved_layer": "idecor:mineria_minas",
-        "elapsed_ms": 6,
+        "elapsed_ms": 7,
         "error": null,
         "bytes": null,
         "estado": "ok",
         "delta_pct": 0.0
       },
       {
-        "fuente_id": "jujuy.mineria.padron",
-        "estado": "no_implementada"
+        "fuente_id": "jujuy.jam.catastro_minero",
+        "ok": true,
+        "checked_at": "2026-07-28T15:21:32+00:00",
+        "http_status": 200,
+        "feature_count": null,
+        "field_names": [],
+        "geom_type": "Polygon",
+        "srid": 22183,
+        "resolved_layer": null,
+        "elapsed_ms": 22,
+        "error": null,
+        "bytes": null,
+        "estado": "ok"
       }
     ],
     "derivas": [],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T13:45:02+00:00",
+  "generated_at": "2026-07-28T15:20:53+00:00",
   "source": "catastros mineros provinciales",
   "source_date": null,
   "data": {
@@ -47,6 +47,44 @@
           "manifestacion_descubrimiento": 50,
           "mina": 27,
           "servidumbre": 2
+        }
+      },
+      {
+        "titular_norm": "ANDES BAJO SOCIEDAD ANONIMA",
+        "nombre": "ANDES BAJO SOCIEDAD ANONIMA",
+        "es_persona": false,
+        "n_derechos": 27,
+        "ha": 234907.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 27
+        }
+      },
+      {
+        "titular_norm": "CARDERO ARGENTINA",
+        "nombre": "CARDERO ARGENTINA S.A",
+        "es_persona": false,
+        "n_derechos": 70,
+        "ha": 233098.7,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Au",
+          "Ta",
+          "Qz",
+          "Ag",
+          "Cu",
+          "mica"
+        ],
+        "tipos": {
+          "mina": 36,
+          "cateo": 28,
+          "manifestacion_descubrimiento": 6
         }
       },
       {
@@ -141,6 +179,24 @@
         }
       },
       {
+        "titular_norm": "ECHEVERRIA FEDERICO LUIS",
+        "nombre": "ECHEVERRIA FEDERICO LUIS",
+        "es_persona": true,
+        "n_derechos": 65,
+        "ha": 178794.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Diseminado"
+        ],
+        "tipos": {
+          "solicitud": 28,
+          "cateo": 37
+        }
+      },
+      {
         "titular_norm": "ACRUX",
         "nombre": "ACRUX",
         "es_persona": false,
@@ -166,6 +222,34 @@
         "minerales": [],
         "tipos": {
           "cateo": 20
+        }
+      },
+      {
+        "titular_norm": "HANAQ ARGENTINA",
+        "nombre": "HANAQ ARGENTINA S.A",
+        "es_persona": false,
+        "n_derechos": 72,
+        "ha": 162488.9,
+        "provincias": [
+          "catamarca",
+          "jujuy",
+          "neuquen",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Au",
+          "Ag",
+          "Pb",
+          "Li",
+          "Zn"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 17,
+          "mina": 17,
+          "cateo": 26,
+          "solicitud": 11,
+          "servidumbre": 1
         }
       },
       {
@@ -205,6 +289,29 @@
         }
       },
       {
+        "titular_norm": "PUNA GROUP",
+        "nombre": "PUNA GROUP S.A",
+        "es_persona": false,
+        "n_derechos": 49,
+        "ha": 149658.9,
+        "provincias": [
+          "catamarca",
+          "jujuy"
+        ],
+        "minerales": [
+          "Li",
+          "K",
+          "Cloruros",
+          "Cu",
+          "Au",
+          "Ag"
+        ],
+        "tipos": {
+          "mina": 45,
+          "cateo": 4
+        }
+      },
+      {
         "titular_norm": "INTEGRA RECURSOS NATURALES MINERALES",
         "nombre": "INTEGRA RECURSOS NATURALES MINERALES S.A",
         "es_persona": false,
@@ -223,26 +330,31 @@
         }
       },
       {
-        "titular_norm": "CARDERO ARGENTINA",
-        "nombre": "CARDERO ARGENTINA S.A",
+        "titular_norm": "LITHIUM S CORPORATION",
+        "nombre": "LITHIUM S CORPORATION S.A",
         "es_persona": false,
-        "n_derechos": 57,
-        "ha": 148444.6,
+        "n_derechos": 255,
+        "ha": 145647.4,
         "provincias": [
+          "catamarca",
+          "jujuy",
           "salta"
         ],
         "minerales": [
-          "Au",
-          "Ta",
-          "Qz",
-          "Ag",
-          "Cu",
-          "mica"
+          "Li",
+          "sal",
+          "K",
+          "B",
+          "caliza",
+          "Sulfato De Sodio"
         ],
         "tipos": {
-          "mina": 36,
-          "cateo": 15,
-          "manifestacion_descubrimiento": 6
+          "mina": 231,
+          "servidumbre": 8,
+          "cantera": 4,
+          "manifestacion_descubrimiento": 3,
+          "solicitud": 7,
+          "cateo": 2
         }
       },
       {
@@ -313,6 +425,27 @@
         }
       },
       {
+        "titular_norm": "DAJIN RESOURCES",
+        "nombre": "DAJIN RESOURCES S. A",
+        "es_persona": false,
+        "n_derechos": 36,
+        "ha": 133441.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu",
+          "B",
+          "Ag"
+        ],
+        "tipos": {
+          "cateo": 6,
+          "mina": 12,
+          "solicitud": 18
+        }
+      },
+      {
         "titular_norm": "CORRIENTE ARGENTINA",
         "nombre": "CORRIENTE ARGENTINA S.A",
         "es_persona": false,
@@ -335,6 +468,49 @@
           "mina": 80,
           "servidumbre": 12,
           "cateo": 5
+        }
+      },
+      {
+        "titular_norm": "JUJUY ENERGIA Y MINERIA SOCIEDAD DEL ESTADO",
+        "nombre": "JUJUY ENERGIA Y MINERIA SOCIEDAD DEL ESTADO",
+        "es_persona": false,
+        "n_derechos": 58,
+        "ha": 129883.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "area_proteccion": 11,
+          "cateo": 45,
+          "solicitud": 2
+        }
+      },
+      {
+        "titular_norm": "LITHOS ENERGIA",
+        "nombre": "LITHOS ENERGIA S.A",
+        "es_persona": false,
+        "n_derechos": 54,
+        "ha": 129406.0,
+        "provincias": [
+          "catamarca",
+          "jujuy"
+        ],
+        "minerales": [
+          "Li",
+          "B",
+          "K",
+          "sal",
+          "caliza",
+          "Cloruro De Sodio"
+        ],
+        "tipos": {
+          "mina": 30,
+          "cateo": 19,
+          "solicitud": 5
         }
       },
       {
@@ -383,31 +559,6 @@
         }
       },
       {
-        "titular_norm": "LITHIUM S CORPORATION",
-        "nombre": "LITHIUM S CORPORATION S.A",
-        "es_persona": false,
-        "n_derechos": 239,
-        "ha": 122940.3,
-        "provincias": [
-          "catamarca",
-          "salta"
-        ],
-        "minerales": [
-          "Li",
-          "K",
-          "sal",
-          "caliza",
-          "B",
-          "Sulfato De Sodio"
-        ],
-        "tipos": {
-          "mina": 224,
-          "servidumbre": 8,
-          "cantera": 4,
-          "manifestacion_descubrimiento": 3
-        }
-      },
-      {
         "titular_norm": "FLEMING PATRON COSTAS MARCELO",
         "nombre": "FLEMING PATRON COSTAS MARCELO",
         "es_persona": true,
@@ -428,6 +579,24 @@
           "manifestacion_descubrimiento": 86,
           "mina": 1,
           "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "NEW ENERGY GROUP",
+        "nombre": "NEW ENERGY GROUP S.A",
+        "es_persona": false,
+        "n_derechos": 24,
+        "ha": 118790.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Au",
+          "Ag"
+        ],
+        "tipos": {
+          "solicitud": 24
         }
       },
       {
@@ -472,27 +641,6 @@
         ],
         "tipos": {
           "mina": 44
-        }
-      },
-      {
-        "titular_norm": "PUNA GROUP",
-        "nombre": "PUNA GROUP S.A",
-        "es_persona": false,
-        "n_derechos": 45,
-        "ha": 111512.9,
-        "provincias": [
-          "catamarca"
-        ],
-        "minerales": [
-          "Li",
-          "K",
-          "Cloruros",
-          "Cu",
-          "Au",
-          "Ag"
-        ],
-        "tipos": {
-          "mina": 45
         }
       },
       {
@@ -598,6 +746,20 @@
         }
       },
       {
+        "titular_norm": "INTEGRA TIERRAS RARAS",
+        "nombre": "INTEGRA TIERRAS RARAS S.A",
+        "es_persona": false,
+        "n_derechos": 18,
+        "ha": 93623.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 18
+        }
+      },
+      {
         "titular_norm": "PARADA CARLOS ALBERTO",
         "nombre": "PARADA CARLOS ALBERTO",
         "es_persona": true,
@@ -622,6 +784,21 @@
         }
       },
       {
+        "titular_norm": "ENERTECH",
+        "nombre": "ENERTECH S.A",
+        "es_persona": false,
+        "n_derechos": 24,
+        "ha": 90044.7,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 24
+        }
+      },
+      {
         "titular_norm": "MORENA DEL VALLE MINERALS",
         "nombre": "Morena del Valle Minerals S.A",
         "es_persona": false,
@@ -643,21 +820,17 @@
         }
       },
       {
-        "titular_norm": "LITHOS ENERGIA",
-        "nombre": "LITHOS ENERGIA S.A",
+        "titular_norm": "LOPEZ MARCOS MANUEL MARTINEZ ANGEL GASTON ARAOZ ORTEGA FACUNDO LUIS",
+        "nombre": "LOPEZ MARCOS MANUEL, MARTINEZ ANGEL GASTON, ARAOZ ORTEGA FACUNDO LUIS",
         "es_persona": false,
-        "n_derechos": 27,
-        "ha": 81688.6,
+        "n_derechos": 11,
+        "ha": 83661.7,
         "provincias": [
-          "catamarca"
+          "jujuy"
         ],
-        "minerales": [
-          "Li",
-          "B",
-          "K"
-        ],
+        "minerales": [],
         "tipos": {
-          "mina": 27
+          "cateo": 11
         }
       },
       {
@@ -679,31 +852,6 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 34
-        }
-      },
-      {
-        "titular_norm": "HANAQ ARGENTINA",
-        "nombre": "HANAQ ARGENTINA S.A",
-        "es_persona": false,
-        "n_derechos": 39,
-        "ha": 81014.5,
-        "provincias": [
-          "catamarca",
-          "neuquen",
-          "salta"
-        ],
-        "minerales": [
-          "Cu",
-          "Au",
-          "Ag",
-          "Li",
-          "Pb",
-          "Zn"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 17,
-          "mina": 13,
-          "cateo": 9
         }
       },
       {
@@ -775,6 +923,31 @@
         }
       },
       {
+        "titular_norm": "TIERRA EXPLORACION",
+        "nombre": "TIERRA EXPLORACION S.A",
+        "es_persona": false,
+        "n_derechos": 23,
+        "ha": 77015.2,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "B",
+          "Li",
+          "K",
+          "diatomita",
+          "caliza",
+          "Ulexita"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 4,
+          "mina": 1,
+          "solicitud": 4,
+          "cateo": 14
+        }
+      },
+      {
         "titular_norm": "LITIOS DEL NORTE",
         "nombre": "LITIOS DEL NORTE S.A",
         "es_persona": false,
@@ -791,6 +964,91 @@
         }
       },
       {
+        "titular_norm": "SALES DE JUJUY",
+        "nombre": "SALES DE JUJUY S. A",
+        "es_persona": false,
+        "n_derechos": 41,
+        "ha": 76452.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li",
+          "B",
+          "caliza",
+          "Au",
+          "Cu",
+          "Construccion De Gasoducto"
+        ],
+        "tipos": {
+          "solicitud": 9,
+          "cateo": 3,
+          "mina": 28,
+          "servidumbre": 1
+        }
+      },
+      {
+        "titular_norm": "MOM MINING",
+        "nombre": "MOM MINING S. R. L",
+        "es_persona": false,
+        "n_derechos": 22,
+        "ha": 75283.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu",
+          "Cobalto",
+          "Mo",
+          "Aluvion Aurifero"
+        ],
+        "tipos": {
+          "mina": 4,
+          "solicitud": 2,
+          "cateo": 16
+        }
+      },
+      {
+        "titular_norm": "HANARI",
+        "nombre": "HANARI S.A",
+        "es_persona": false,
+        "n_derechos": 14,
+        "ha": 73870.3,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "K",
+          "Li"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 2,
+          "cateo": 12
+        }
+      },
+      {
+        "titular_norm": "MINERA EXAR",
+        "nombre": "MINERA EXAR S. A",
+        "es_persona": false,
+        "n_derechos": 44,
+        "ha": 72795.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li",
+          "B",
+          "Sulfato De Sodio"
+        ],
+        "tipos": {
+          "mina": 36,
+          "solicitud": 6,
+          "cateo": 2
+        }
+      },
+      {
         "titular_norm": "CARAXES EXPLORATION",
         "nombre": "CARAXES EXPLORATION S.R.L",
         "es_persona": false,
@@ -802,24 +1060,6 @@
         "minerales": [],
         "tipos": {
           "cateo": 8
-        }
-      },
-      {
-        "titular_norm": "HANARI",
-        "nombre": "HANARI S.A",
-        "es_persona": false,
-        "n_derechos": 11,
-        "ha": 69482.9,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "K",
-          "Li"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 2,
-          "cateo": 9
         }
       },
       {
@@ -879,6 +1119,33 @@
           "cantera": 2,
           "cateo": 8,
           "mina": 2
+        }
+      },
+      {
+        "titular_norm": "ARGENTINA LITIO Y ENERGIA",
+        "nombre": "ARGENTINA LITIO Y ENERGIA S.A",
+        "es_persona": false,
+        "n_derechos": 41,
+        "ha": 65892.2,
+        "provincias": [
+          "catamarca",
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Li",
+          "B",
+          "sal",
+          "K",
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "mina": 32,
+          "manifestacion_descubrimiento": 5,
+          "servidumbre": 1,
+          "cateo": 1,
+          "solicitud": 2
         }
       },
       {
@@ -984,6 +1251,44 @@
         }
       },
       {
+        "titular_norm": "HAMUTA",
+        "nombre": "HAMUTA S.A",
+        "es_persona": false,
+        "n_derechos": 16,
+        "ha": 63911.7,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Au",
+          "Cu",
+          "K",
+          "Li"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 3,
+          "cateo": 13
+        }
+      },
+      {
+        "titular_norm": "AUSTROID ARGENTINA RESOURCES",
+        "nombre": "AUSTROID ARGENTINA RESOURCES S.A.U",
+        "es_persona": false,
+        "n_derechos": 29,
+        "ha": 63364.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li"
+        ],
+        "tipos": {
+          "mina": 16,
+          "solicitud": 13
+        }
+      },
+      {
         "titular_norm": "LITHEA ARGENTINA",
         "nombre": "LITHEA ARGENTINA S.A.U",
         "es_persona": false,
@@ -1027,6 +1332,20 @@
         }
       },
       {
+        "titular_norm": "HARAWI",
+        "nombre": "HARAWI S.A",
+        "es_persona": false,
+        "n_derechos": 13,
+        "ha": 60124.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 13
+        }
+      },
+      {
         "titular_norm": "MINERA CIELO AZUL",
         "nombre": "MINERA CIELO AZUL S.A",
         "es_persona": false,
@@ -1065,30 +1384,6 @@
         }
       },
       {
-        "titular_norm": "ARGENTINA LITIO Y ENERGIA",
-        "nombre": "ARGENTINA LITIO Y ENERGIA S.A",
-        "es_persona": false,
-        "n_derechos": 38,
-        "ha": 59346.0,
-        "provincias": [
-          "catamarca",
-          "salta"
-        ],
-        "minerales": [
-          "Li",
-          "B",
-          "sal",
-          "K",
-          "Au",
-          "Cu"
-        ],
-        "tipos": {
-          "mina": 32,
-          "manifestacion_descubrimiento": 5,
-          "servidumbre": 1
-        }
-      },
-      {
         "titular_norm": "JAUREGUIBERRY GUILLERMO JUAN Y VUILLERMET BERNARD PAUL",
         "nombre": "Jaureguiberry, Guillermo Juan y Vuillermet, Bernard Paul",
         "es_persona": false,
@@ -1124,6 +1419,24 @@
         ],
         "tipos": {
           "mina": 18
+        }
+      },
+      {
+        "titular_norm": "PALOU DAMIAN MARTIN PALOU RAMON JOSE Y MONCHOLI PABLO",
+        "nombre": "PALOU DAMIAN MARTIN, PALOU RAMON JOSE Y MONCHOLI PABLO",
+        "es_persona": false,
+        "n_derechos": 18,
+        "ha": 57373.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "cateo": 8,
+          "solicitud": 10
         }
       },
       {
@@ -1234,6 +1547,20 @@
         }
       },
       {
+        "titular_norm": "ANDES EXPLORATION",
+        "nombre": "ANDES EXPLORATION S.A.S",
+        "es_persona": false,
+        "n_derechos": 6,
+        "ha": 52444.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 6
+        }
+      },
+      {
         "titular_norm": "GONZALEZ MARTIN JESUS",
         "nombre": "GONZALEZ MARTIN JESUS",
         "es_persona": true,
@@ -1323,6 +1650,20 @@
         }
       },
       {
+        "titular_norm": "LOPEZ MARCOS MANUEL Y MARTINEZ ANGEL GASTON",
+        "nombre": "LOPEZ MARCOS MANUEL Y MARTINEZ ANGEL GASTON",
+        "es_persona": false,
+        "n_derechos": 7,
+        "ha": 49334.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 7
+        }
+      },
+      {
         "titular_norm": "RUBIOLO DANIEL GERARDO",
         "nombre": "RUBIOLO DANIEL GERARDO",
         "es_persona": true,
@@ -1334,6 +1675,30 @@
         "minerales": [],
         "tipos": {
           "cateo": 5
+        }
+      },
+      {
+        "titular_norm": "CASCADERO MINERALS",
+        "nombre": "CASCADERO MINERALS S.A",
+        "es_persona": false,
+        "n_derechos": 17,
+        "ha": 45763.4,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Au",
+          "Ag",
+          "Mn",
+          "As",
+          "Co"
+        ],
+        "tipos": {
+          "mina": 14,
+          "manifestacion_descubrimiento": 1,
+          "cateo": 2
         }
       },
       {
@@ -1353,6 +1718,52 @@
         ],
         "tipos": {
           "mina": 22
+        }
+      },
+      {
+        "titular_norm": "SOUTH AMERICAN SALARS",
+        "nombre": "SOUTH AMERICAN SALARS S.A",
+        "es_persona": false,
+        "n_derechos": 26,
+        "ha": 44994.2,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Li",
+          "B",
+          "K",
+          "caliza"
+        ],
+        "tipos": {
+          "servidumbre": 1,
+          "solicitud": 22,
+          "cateo": 2,
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "MONCHOLI PABLO",
+        "nombre": "MONCHOLI PABLO",
+        "es_persona": true,
+        "n_derechos": 23,
+        "ha": 43702.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li",
+          "B",
+          "Ag",
+          "Ulexita",
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 20,
+          "mina": 2,
+          "cateo": 1
         }
       },
       {
@@ -1447,17 +1858,25 @@
         }
       },
       {
-        "titular_norm": "ENERTECH",
-        "nombre": "ENERTECH S.A",
+        "titular_norm": "COMPANIA MINERA AGUILAR",
+        "nombre": "COMPAÑIA MINERA AGUILAR S. A",
         "es_persona": false,
-        "n_derechos": 12,
-        "ha": 42256.0,
+        "n_derechos": 59,
+        "ha": 42261.9,
         "provincias": [
-          "salta"
+          "jujuy"
         ],
-        "minerales": [],
+        "minerales": [
+          "Ag",
+          "Pb",
+          "Zn",
+          "Fe",
+          "Mn"
+        ],
         "tipos": {
-          "cateo": 12
+          "cateo": 8,
+          "mina": 11,
+          "solicitud": 40
         }
       },
       {
@@ -1548,6 +1967,23 @@
         }
       },
       {
+        "titular_norm": "MINERALES AUSTRALES",
+        "nombre": "MINERALES AUSTRALES S. A",
+        "es_persona": false,
+        "n_derechos": 18,
+        "ha": 40150.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li"
+        ],
+        "tipos": {
+          "solicitud": 16,
+          "mina": 2
+        }
+      },
+      {
         "titular_norm": "TRANSPORTE RADA TILLY",
         "nombre": "TRANSPORTE RADA TILLY S.A",
         "es_persona": false,
@@ -1566,6 +2002,20 @@
         }
       },
       {
+        "titular_norm": "RUIZ DANISA",
+        "nombre": "RUIZ DANISA",
+        "es_persona": true,
+        "n_derechos": 12,
+        "ha": 39760.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 12
+        }
+      },
+      {
         "titular_norm": "MIR DALMIRO ZOLEZZI PRIETO HUGO NELSON SALAZAR CHRISTIAN ALEXIS",
         "nombre": "MIR DALMIRO ZOLEZZI-PRIETO HUGO NELSON-SALAZAR CHRISTIAN ALEXIS",
         "es_persona": false,
@@ -1577,6 +2027,30 @@
         "minerales": [],
         "tipos": {
           "cateo": 4
+        }
+      },
+      {
+        "titular_norm": "ANGLOGOLD ARGENTINA EXPLORACIONES",
+        "nombre": "ANGLOGOLD ARGENTINA EXPLORACIONES S.A",
+        "es_persona": false,
+        "n_derechos": 16,
+        "ha": 38648.5,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Au",
+          "Cu",
+          "Ag",
+          "Mo",
+          "Mn",
+          "Pb"
+        ],
+        "tipos": {
+          "mina": 11,
+          "cateo": 4,
+          "manifestacion_descubrimiento": 1
         }
       },
       {
@@ -1620,6 +2094,29 @@
           "mina": 58,
           "manifestacion_descubrimiento": 26,
           "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "ADVANTAGE LITHIUM ARGENTINA",
+        "nombre": "ADVANTAGE LITHIUM ARGENTINA S.A",
+        "es_persona": false,
+        "n_derechos": 20,
+        "ha": 37484.6,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "B",
+          "Li",
+          "K",
+          "caliza",
+          "Sulfato De Sodio",
+          "Ag"
+        ],
+        "tipos": {
+          "mina": 8,
+          "solicitud": 12
         }
       },
       {
@@ -1749,6 +2246,20 @@
         }
       },
       {
+        "titular_norm": "MINERIA POSITIVA",
+        "nombre": "MINERIA POSITIVA S.R.L",
+        "es_persona": false,
+        "n_derechos": 5,
+        "ha": 35582.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 5
+        }
+      },
+      {
         "titular_norm": "YMAD",
         "nombre": "Y.M.A.D",
         "es_persona": false,
@@ -1803,6 +2314,20 @@
         ],
         "tipos": {
           "mina": 11
+        }
+      },
+      {
+        "titular_norm": "ALEXANDER CAROLINA",
+        "nombre": "ALEXANDER CAROLINA",
+        "es_persona": true,
+        "n_derechos": 9,
+        "ha": 33911.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 9
         }
       },
       {
@@ -1878,6 +2403,30 @@
         }
       },
       {
+        "titular_norm": "PACHA MINERALS",
+        "nombre": "PACHA MINERALS S.A",
+        "es_persona": false,
+        "n_derechos": 15,
+        "ha": 33037.7,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Ag",
+          "Ba",
+          "Fe",
+          "Mn",
+          "Au"
+        ],
+        "tipos": {
+          "mina": 5,
+          "cateo": 9,
+          "manifestacion_descubrimiento": 1
+        }
+      },
+      {
         "titular_norm": "VICUNA ARGENTINA",
         "nombre": "VICUÑA ARGENTINA S.A",
         "es_persona": false,
@@ -1913,6 +2462,30 @@
         }
       },
       {
+        "titular_norm": "ESTADO PROVINCIAL",
+        "nombre": "Estado Provincial",
+        "es_persona": false,
+        "n_derechos": 22,
+        "ha": 32529.1,
+        "provincias": [
+          "catamarca",
+          "jujuy"
+        ],
+        "minerales": [
+          "Diseminados De 1Ra. Y 2Da. Categoria",
+          "Au",
+          "Ag",
+          "Pb",
+          "B",
+          "Diseminado"
+        ],
+        "tipos": {
+          "mina": 3,
+          "solicitud": 18,
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "BARROS MIRTHA DE JESUS",
         "nombre": "Barros, Mirtha de Jesús",
         "es_persona": true,
@@ -1930,25 +2503,39 @@
         }
       },
       {
-        "titular_norm": "CASCADERO MINERALS",
-        "nombre": "CASCADERO MINERALS S.A",
+        "titular_norm": "INTEGRA RECURSOS NATURALES",
+        "nombre": "INTEGRA RECURSOS NATURALES S.A",
         "es_persona": false,
-        "n_derechos": 14,
-        "ha": 32076.9,
+        "n_derechos": 7,
+        "ha": 31824.8,
         "provincias": [
+          "jujuy",
           "salta"
         ],
         "minerales": [
+          "Li",
           "Cu",
           "Au",
-          "Ag",
-          "Mn",
-          "As",
-          "Co"
+          "Ag"
         ],
         "tipos": {
-          "mina": 13,
-          "manifestacion_descubrimiento": 1
+          "cateo": 4,
+          "solicitud": 3
+        }
+      },
+      {
+        "titular_norm": "PALOMINO MERMA CARLA GABY",
+        "nombre": "PALOMINO MERMA CARLA GABY",
+        "es_persona": true,
+        "n_derechos": 6,
+        "ha": 31668.9,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 6
         }
       },
       {
@@ -2062,6 +2649,45 @@
         }
       },
       {
+        "titular_norm": "PALOU DAMIAN MARTIN PALOU RAMON JOSE MONCHOLI PABLO Y OCHOA NATALIA SOLEDAD",
+        "nombre": "PALOU DAMIAN MARTIN, PALOU RAMON JOSE, MONCHOLI PABLO Y OCHOA NATALIA SOLEDAD",
+        "es_persona": false,
+        "n_derechos": 11,
+        "ha": 29401.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B"
+        ],
+        "tipos": {
+          "solicitud": 1,
+          "cateo": 10
+        }
+      },
+      {
+        "titular_norm": "PERAL MIGUEL ALBERTO",
+        "nombre": "Peral, Miguel Alberto",
+        "es_persona": true,
+        "n_derechos": 10,
+        "ha": 29131.2,
+        "provincias": [
+          "catamarca",
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu",
+          "Ag",
+          "Pb"
+        ],
+        "tipos": {
+          "mina": 2,
+          "solicitud": 4,
+          "cateo": 4
+        }
+      },
+      {
         "titular_norm": "LEIVA FABIAN ALEJANDRO",
         "nombre": "Leiva, Fabián Alejandro",
         "es_persona": true,
@@ -2094,6 +2720,38 @@
         "tipos": {
           "mina": 1,
           "manifestacion_descubrimiento": 20
+        }
+      },
+      {
+        "titular_norm": "GARKUS HORACIO ALEJANDRO",
+        "nombre": "GARKUS HORACIO ALEJANDRO",
+        "es_persona": true,
+        "n_derechos": 10,
+        "ha": 28959.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu",
+          "Ag"
+        ],
+        "tipos": {
+          "solicitud": 10
+        }
+      },
+      {
+        "titular_norm": "VILLANUEVA CARLOS ALBERTO",
+        "nombre": "VILLANUEVA CARLOS ALBERTO",
+        "es_persona": true,
+        "n_derechos": 9,
+        "ha": 28903.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 9
         }
       },
       {
@@ -2213,6 +2871,39 @@
         }
       },
       {
+        "titular_norm": "SANCHEZ DANIELA BEATRIZ JOSEFA",
+        "nombre": "SANCHEZ DANIELA BEATRIZ JOSEFA",
+        "es_persona": true,
+        "n_derechos": 6,
+        "ha": 27775.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 6
+        }
+      },
+      {
+        "titular_norm": "LOS ANDES COMPANIA MINERA",
+        "nombre": "LOS ANDES COMPAÑIA MINERA S. A",
+        "es_persona": false,
+        "n_derechos": 11,
+        "ha": 27565.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "cateo": 6,
+          "mina": 1,
+          "solicitud": 4
+        }
+      },
+      {
         "titular_norm": "DE GAUCHOS ENERGY",
         "nombre": "DE GAUCHOS ENERGY S.R.L",
         "es_persona": false,
@@ -2236,6 +2927,34 @@
         }
       },
       {
+        "titular_norm": "SANCHEZ FASCIO MARTIN IGNACIO DE ANCHORENA SANTAGO JOAQUIN DI GIORGIO OSVALDO ALEJANDRO",
+        "nombre": "SANCHEZ FASCIO MARTIN IGNACIO, DE ANCHORENA SANTAGO JOAQUIN, DI GIORGIO OSVALDO ALEJANDRO",
+        "es_persona": false,
+        "n_derechos": 4,
+        "ha": 27446.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 4
+        }
+      },
+      {
+        "titular_norm": "TESLER ALEJANDRO MANUEL",
+        "nombre": "TESLER ALEJANDRO MANUEL",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 27193.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 3
+        }
+      },
+      {
         "titular_norm": "RIO DE ORO",
         "nombre": "RIO DE ORO S.A",
         "es_persona": false,
@@ -2254,26 +2973,17 @@
         }
       },
       {
-        "titular_norm": "ANGLOGOLD ARGENTINA EXPLORACIONES",
-        "nombre": "ANGLOGOLD ARGENTINA EXPLORACIONES S.A",
+        "titular_norm": "SENTINEL MINERALS 92",
+        "nombre": "SENTINEL MINERALS 92 S.A",
         "es_persona": false,
-        "n_derechos": 13,
-        "ha": 26582.0,
+        "n_derechos": 4,
+        "ha": 26479.8,
         "provincias": [
-          "salta"
+          "jujuy"
         ],
-        "minerales": [
-          "Au",
-          "Cu",
-          "Ag",
-          "Mo",
-          "Mn",
-          "Pb"
-        ],
+        "minerales": [],
         "tipos": {
-          "mina": 11,
-          "cateo": 1,
-          "manifestacion_descubrimiento": 1
+          "cateo": 4
         }
       },
       {
@@ -2313,6 +3023,20 @@
         ],
         "tipos": {
           "mina": 22
+        }
+      },
+      {
+        "titular_norm": "ALTO CULLUN",
+        "nombre": "ALTO CULLUN S. A",
+        "es_persona": false,
+        "n_derechos": 7,
+        "ha": 26356.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 7
         }
       },
       {
@@ -2395,6 +3119,26 @@
         }
       },
       {
+        "titular_norm": "BECCARI RODOLFO ADRIAN",
+        "nombre": "BECCARI RODOLFO ADRIAN",
+        "es_persona": true,
+        "n_derechos": 9,
+        "ha": 25522.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Pb",
+          "Zn",
+          "Au",
+          "Ag"
+        ],
+        "tipos": {
+          "solicitud": 9
+        }
+      },
+      {
         "titular_norm": "ELEVADOS GOLD",
         "nombre": "ELEVADOS GOLD S.A",
         "es_persona": false,
@@ -2409,6 +3153,20 @@
         ],
         "tipos": {
           "mina": 4
+        }
+      },
+      {
+        "titular_norm": "RTCR BA",
+        "nombre": "RTCR-BA S.A",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 24761.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 3
         }
       },
       {
@@ -2479,6 +3237,30 @@
         ],
         "tipos": {
           "mina": 7
+        }
+      },
+      {
+        "titular_norm": "ALANI HECTOR HORACIO",
+        "nombre": "ALANI HECTOR HORACIO",
+        "es_persona": true,
+        "n_derechos": 20,
+        "ha": 24477.3,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Li",
+          "K",
+          "Au",
+          "Ag",
+          "Pb"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 5,
+          "solicitud": 14,
+          "cateo": 1
         }
       },
       {
@@ -2583,6 +3365,30 @@
         }
       },
       {
+        "titular_norm": "BRAGANTINI JORGE ALBERTO",
+        "nombre": "BRAGANTINI JORGE ALBERTO",
+        "es_persona": true,
+        "n_derechos": 17,
+        "ha": 23609.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Ag",
+          "onix",
+          "Cu",
+          "Zn",
+          "Diseminado Polimetalico"
+        ],
+        "tipos": {
+          "cateo": 7,
+          "solicitud": 6,
+          "mina": 3,
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "MADERO MINERALS",
         "nombre": "Madero Minerals S.A",
         "es_persona": false,
@@ -2603,6 +3409,42 @@
         }
       },
       {
+        "titular_norm": "MANSILLA RICARDO SEBASTIAN",
+        "nombre": "MANSILLA RICARDO SEBASTIAN",
+        "es_persona": true,
+        "n_derechos": 9,
+        "ha": 23209.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 9
+        }
+      },
+      {
+        "titular_norm": "MANSFIELD MINERA",
+        "nombre": "MANSFIELD MINERA S.A",
+        "es_persona": false,
+        "n_derechos": 18,
+        "ha": 23143.2,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Ag",
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "servidumbre": 11,
+          "cateo": 5,
+          "manifestacion_descubrimiento": 1,
+          "mina": 1
+        }
+      },
+      {
         "titular_norm": "LOBO PEDRO RAMON",
         "nombre": "Lobo, Pedro Ramon",
         "es_persona": true,
@@ -2620,7 +3462,7 @@
       },
       {
         "titular_norm": "MINERA MILLARAY",
-        "nombre": "Minera  Millaray S A",
+        "nombre": "Minera Millaray S A",
         "es_persona": false,
         "n_derechos": 6,
         "ha": 22513.2,
@@ -2746,6 +3588,43 @@
         ],
         "tipos": {
           "mina": 5
+        }
+      },
+      {
+        "titular_norm": "MINERA EL TORO",
+        "nombre": "MINERA EL TORO S.A",
+        "es_persona": false,
+        "n_derechos": 9,
+        "ha": 20877.1,
+        "provincias": [
+          "catamarca",
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Ag",
+          "Au",
+          "Cu",
+          "Co",
+          "Mo",
+          "Zn"
+        ],
+        "tipos": {
+          "mina": 9
+        }
+      },
+      {
+        "titular_norm": "POGREBNAIA DARIA",
+        "nombre": "POGREBNAIA DARIA",
+        "es_persona": true,
+        "n_derechos": 4,
+        "ha": 20787.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 4
         }
       },
       {
@@ -2880,6 +3759,38 @@
         }
       },
       {
+        "titular_norm": "GAIDUK ANDREI",
+        "nombre": "GAIDUK ANDREI",
+        "es_persona": true,
+        "n_derechos": 7,
+        "ha": 19865.2,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Li"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 3,
+          "cateo": 4
+        }
+      },
+      {
+        "titular_norm": "CRISTALDO TERESA ELBA",
+        "nombre": "CRISTALDO TERESA ELBA",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 19770.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
+        }
+      },
+      {
         "titular_norm": "LA ZUBIA",
         "nombre": "LA ZUBIA S.A.S",
         "es_persona": false,
@@ -2954,6 +3865,26 @@
         }
       },
       {
+        "titular_norm": "ARGENTINA FORTESCUE",
+        "nombre": "ARGENTINA FORTESCUE S.A.U",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 19309.7,
+        "provincias": [
+          "jujuy",
+          "san_juan"
+        ],
+        "minerales": [
+          "Cu",
+          "Au",
+          "Ag"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 1,
+          "cateo": 2
+        }
+      },
+      {
         "titular_norm": "MASIP JUAN FRANCISCO",
         "nombre": "MASIP JUAN FRANCISCO",
         "es_persona": true,
@@ -2970,6 +3901,79 @@
         "tipos": {
           "cateo": 2,
           "manifestacion_descubrimiento": 2
+        }
+      },
+      {
+        "titular_norm": "GEOTERMIA ANDINA",
+        "nombre": "GEOTERMIA ANDINA S.A",
+        "es_persona": false,
+        "n_derechos": 28,
+        "ha": 19185.2,
+        "provincias": [
+          "jujuy",
+          "san_juan"
+        ],
+        "minerales": [
+          "Vapores Endogenos",
+          "Vapores Endógenos"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 1,
+          "mina": 27
+        }
+      },
+      {
+        "titular_norm": "PAGANINI GABRIEL ALEJANDRO",
+        "nombre": "PAGANINI GABRIEL ALEJANDRO",
+        "es_persona": true,
+        "n_derechos": 5,
+        "ha": 19152.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 5
+        }
+      },
+      {
+        "titular_norm": "GIULIANOTTI JUAN PABLO",
+        "nombre": "GIULIANOTTI JUAN PABLO",
+        "es_persona": true,
+        "n_derechos": 5,
+        "ha": 19114.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Minerales Sulfurados"
+        ],
+        "tipos": {
+          "solicitud": 2,
+          "cateo": 3
+        }
+      },
+      {
+        "titular_norm": "BORAX ARGENTINA",
+        "nombre": "BORAX ARGENTINA S.A",
+        "es_persona": false,
+        "n_derechos": 65,
+        "ha": 19012.9,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "B",
+          "Ulexita",
+          "Borax",
+          "Li"
+        ],
+        "tipos": {
+          "servidumbre": 13,
+          "mina": 51,
+          "cateo": 1
         }
       },
       {
@@ -3006,6 +4010,23 @@
         ],
         "tipos": {
           "mina": 9
+        }
+      },
+      {
+        "titular_norm": "SUSQUES ENERGIA",
+        "nombre": "SUSQUES ENERGIA S.A",
+        "es_persona": false,
+        "n_derechos": 6,
+        "ha": 18639.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li"
+        ],
+        "tipos": {
+          "solicitud": 3,
+          "cateo": 3
         }
       },
       {
@@ -3064,6 +4085,48 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 9
+        }
+      },
+      {
+        "titular_norm": "GOLDINKA ENERGY",
+        "nombre": "Goldinka Energy S.A",
+        "es_persona": false,
+        "n_derechos": 4,
+        "ha": 17690.3,
+        "provincias": [
+          "catamarca",
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Au",
+          "Ag",
+          "sal"
+        ],
+        "tipos": {
+          "mina": 1,
+          "solicitud": 3
+        }
+      },
+      {
+        "titular_norm": "NORTE EXPLORACIONES",
+        "nombre": "NORTE EXPLORACIONES S.A",
+        "es_persona": false,
+        "n_derechos": 8,
+        "ha": 17626.9,
+        "provincias": [
+          "catamarca",
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Au"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 1,
+          "mina": 3,
+          "solicitud": 4
         }
       },
       {
@@ -3142,25 +4205,6 @@
         }
       },
       {
-        "titular_norm": "BORAX ARGENTINA",
-        "nombre": "BORAX ARGENTINA S.A",
-        "es_persona": false,
-        "n_derechos": 63,
-        "ha": 17301.8,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "B",
-          "Ulexita",
-          "Borax"
-        ],
-        "tipos": {
-          "servidumbre": 13,
-          "mina": 50
-        }
-      },
-      {
         "titular_norm": "POWER MINERALS",
         "nombre": "POWER MINERALS S.A",
         "es_persona": false,
@@ -3180,28 +4224,6 @@
         "tipos": {
           "mina": 7,
           "manifestacion_descubrimiento": 1
-        }
-      },
-      {
-        "titular_norm": "MINERA EL TORO",
-        "nombre": "MINERA EL TORO S.A",
-        "es_persona": false,
-        "n_derechos": 7,
-        "ha": 17277.8,
-        "provincias": [
-          "catamarca",
-          "salta"
-        ],
-        "minerales": [
-          "Ag",
-          "Au",
-          "Cu",
-          "Co",
-          "Mo",
-          "Zn"
-        ],
-        "tipos": {
-          "mina": 7
         }
       },
       {
@@ -3316,6 +4338,30 @@
         }
       },
       {
+        "titular_norm": "MINA PIRQUITAS",
+        "nombre": "MINA PIRQUITAS S. A",
+        "es_persona": false,
+        "n_derechos": 63,
+        "ha": 16574.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ag",
+          "Zn",
+          "Au",
+          "Pb",
+          "Sn",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 5,
+          "mina": 56,
+          "cateo": 1,
+          "servidumbre": 1
+        }
+      },
+      {
         "titular_norm": "DIONISIO RAMOS",
         "nombre": "Dionisio Ramos",
         "es_persona": true,
@@ -3334,6 +4380,45 @@
         "tipos": {
           "mina": 4,
           "manifestacion_descubrimiento": 11
+        }
+      },
+      {
+        "titular_norm": "MP MINERIA POSITIVA",
+        "nombre": "MP MINERIA POSITIVA S.R.L",
+        "es_persona": false,
+        "n_derechos": 4,
+        "ha": 16407.5,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Ttrr",
+          "U"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 1,
+          "cateo": 3
+        }
+      },
+      {
+        "titular_norm": "HASTANA",
+        "nombre": "HASTANA S.A",
+        "es_persona": false,
+        "n_derechos": 17,
+        "ha": 16385.9,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Vapores Endogenos",
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "mina": 17
         }
       },
       {
@@ -3589,6 +4674,20 @@
         }
       },
       {
+        "titular_norm": "WILLEM ANTON HENDRIK FUCHTER PONTE CARLOS EUGENIO Y ZABALLA HERNAN MIGUEL",
+        "nombre": "WILLEM ANTON HENDRIK FUCHTER, PONTE CARLOS EUGENIO Y ZABALLA HERNAN MIGUEL",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 15491.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
+        }
+      },
+      {
         "titular_norm": "BORRA JUAN PABLO Y UPH BLUE SOCIEDAD MINERA",
         "nombre": "Borra, Juan Pablo y UPH&BLUE SOCIEDAD MINERA S.R.L",
         "es_persona": false,
@@ -3603,6 +4702,20 @@
         ],
         "tipos": {
           "mina": 4
+        }
+      },
+      {
+        "titular_norm": "LOPEZ MARCOS MANUEL",
+        "nombre": "LOPEZ MARCOS MANUEL",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 15372.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 3
         }
       },
       {
@@ -3628,27 +4741,6 @@
         }
       },
       {
-        "titular_norm": "MANSFIELD MINERA",
-        "nombre": "MANSFIELD MINERA S.A",
-        "es_persona": false,
-        "n_derechos": 17,
-        "ha": 15041.0,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Ag",
-          "Au",
-          "Cu"
-        ],
-        "tipos": {
-          "servidumbre": 11,
-          "cateo": 4,
-          "manifestacion_descubrimiento": 1,
-          "mina": 1
-        }
-      },
-      {
         "titular_norm": "VUILLERMET BERNARD PAUL Y GERINEAU CRITTO DANIEL",
         "nombre": "Vuillermet, Bernard Paul y Gerineau Critto, Daniel",
         "es_persona": false,
@@ -3668,26 +4760,61 @@
         }
       },
       {
-        "titular_norm": "PACHA MINERALS",
-        "nombre": "PACHA MINERALS S.A",
-        "es_persona": false,
-        "n_derechos": 12,
-        "ha": 14672.2,
+        "titular_norm": "SARAVIA FRIAS CONSUELO",
+        "nombre": "SARAVIA FRIAS CONSUELO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 14860.4,
         "provincias": [
-          "salta"
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
+        }
+      },
+      {
+        "titular_norm": "OCHOA NATALIA SOLEDAD",
+        "nombre": "OCHOA NATALIA SOLEDAD",
+        "es_persona": true,
+        "n_derechos": 5,
+        "ha": 14844.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 5
+        }
+      },
+      {
+        "titular_norm": "MARQUINA EDUARDO WILFREDO",
+        "nombre": "MARQUINA EDUARDO WILFREDO",
+        "es_persona": true,
+        "n_derechos": 8,
+        "ha": 14772.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 8
+        }
+      },
+      {
+        "titular_norm": "MIAVASA",
+        "nombre": "MIAVASA S.A",
+        "es_persona": false,
+        "n_derechos": 11,
+        "ha": 14721.1,
+        "provincias": [
+          "jujuy"
         ],
         "minerales": [
-          "Cu",
-          "Ag",
-          "Ba",
-          "Fe",
-          "Mn",
-          "Au"
+          "Cu"
         ],
         "tipos": {
-          "mina": 5,
-          "cateo": 6,
-          "manifestacion_descubrimiento": 1
+          "solicitud": 11
         }
       },
       {
@@ -3707,6 +4834,43 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 6
+        }
+      },
+      {
+        "titular_norm": "RODRIGUEZ SILVIA RENE Y PERAL MARIA LUZ",
+        "nombre": "RODRIGUEZ SILVIA RENE Y PERAL MARIA LUZ",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 14564.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 3
+        }
+      },
+      {
+        "titular_norm": "HANACOLLA",
+        "nombre": "HANACOLLA S.A",
+        "es_persona": false,
+        "n_derechos": 8,
+        "ha": 14176.5,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Au",
+          "Cu",
+          "Ag",
+          "Pb",
+          "Zn"
+        ],
+        "tipos": {
+          "mina": 2,
+          "manifestacion_descubrimiento": 5,
+          "cateo": 1
         }
       },
       {
@@ -3845,6 +5009,20 @@
         }
       },
       {
+        "titular_norm": "CASTILLO CLAUDIA IRENE",
+        "nombre": "CASTILLO CLAUDIA IRENE",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 13600.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 3
+        }
+      },
+      {
         "titular_norm": "LIS DE SALVO MARISA LAZZARO GUTIERREZ MARIA PIA LAROCCA CLAUDIO HORACIO RAUL AVENA VIVIANA GRACIELA Y BAUME ESTEBAN MARIA",
         "nombre": "Lis de Salvo, Marisa; Lazzaro Gutierrez, Maria Pia; Larocca, Claudio Horacio Raul; Avena, Viviana Graciela y Baume Esteban Maria",
         "es_persona": false,
@@ -3897,20 +5075,6 @@
         "tipos": {
           "mina": 9,
           "manifestacion_descubrimiento": 1
-        }
-      },
-      {
-        "titular_norm": "INTEGRA RECURSOS NATURALES",
-        "nombre": "INTEGRA RECURSOS NATURALES S.A",
-        "es_persona": false,
-        "n_derechos": 3,
-        "ha": 12986.6,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [],
-        "tipos": {
-          "cateo": 3
         }
       },
       {
@@ -4062,6 +5226,39 @@
         }
       },
       {
+        "titular_norm": "MICHEL GUSTAVO HUMBERTO",
+        "nombre": "MICHEL GUSTAVO HUMBERTO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 12735.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
+        }
+      },
+      {
+        "titular_norm": "MONCHOLI PABLO PALOU RAMON JOSE PALOU DAMIAN MARTIN NATALIA SOLEDAD OCHOA Y CAROLINA ALEXANDER",
+        "nombre": "MONCHOLI PABLO, PALOU RAMON JOSE, PALOU DAMIAN MARTIN, NATALIA SOLEDAD OCHOA Y CAROLINA ALEXANDER",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 12707.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Tierras Raras 2Da Cat",
+          "K",
+          "Cu",
+          "B"
+        ],
+        "tipos": {
+          "solicitud": 2
+        }
+      },
+      {
         "titular_norm": "POTASIO Y LITIO DE ARGENTINA",
         "nombre": "POTASIO Y LITIO DE ARGENTINA S.A",
         "es_persona": false,
@@ -4085,22 +5282,19 @@
         }
       },
       {
-        "titular_norm": "MP MINERIA POSITIVA",
-        "nombre": "MP MINERIA POSITIVA S.R.L",
+        "titular_norm": "HANAQ ARGENTINA S A DAMIAN MARTIN POLOU RAMON JOSE PALOU Y PABLO MONCHOLI DANIEL ERNESTO GALLI HANACOLLA",
+        "nombre": "HANAQ ARGENTINA S. A., DAMIAN MARTIN POLOU, RAMON JOSE PALOU, Y PABLO MONCHOLI, DANIEL ERNESTO GALLI, HANACOLLA S.A",
         "es_persona": false,
-        "n_derechos": 3,
-        "ha": 12525.9,
+        "n_derechos": 2,
+        "ha": 12556.0,
         "provincias": [
-          "salta"
+          "jujuy"
         ],
         "minerales": [
-          "Cu",
-          "Ttrr",
-          "U"
+          "Cu"
         ],
         "tipos": {
-          "manifestacion_descubrimiento": 1,
-          "cateo": 2
+          "solicitud": 2
         }
       },
       {
@@ -4118,6 +5312,24 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 2
+        }
+      },
+      {
+        "titular_norm": "BERRUEZO ANTONIO MANUEL",
+        "nombre": "BERRUEZO ANTONIO MANUEL",
+        "es_persona": true,
+        "n_derechos": 4,
+        "ha": 12495.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ag",
+          "Pb",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 4
         }
       },
       {
@@ -4178,24 +5390,27 @@
         }
       },
       {
-        "titular_norm": "ADVANTAGE LITHIUM ARGENTINA",
-        "nombre": "ADVANTAGE LITHIUM ARGENTINA S.A",
+        "titular_norm": "LUIS LOSI",
+        "nombre": "LUIS LOSI S.A",
         "es_persona": false,
-        "n_derechos": 8,
-        "ha": 12332.5,
+        "n_derechos": 17,
+        "ha": 12246.1,
         "provincias": [
-          "salta"
+          "jujuy"
         ],
         "minerales": [
+          "Au",
           "B",
           "Li",
-          "caliza",
-          "Sulfato De Sodio",
-          "K",
-          "Ag"
+          "2Da Categ.",
+          "Playa De Secado P",
+          "Mina Guayatayoc N° 82"
         ],
         "tipos": {
-          "mina": 8
+          "mina": 5,
+          "solicitud": 7,
+          "cateo": 2,
+          "servidumbre": 3
         }
       },
       {
@@ -4210,6 +5425,24 @@
         "minerales": [],
         "tipos": {
           "cateo": 2
+        }
+      },
+      {
+        "titular_norm": "SOLAROZ",
+        "nombre": "SOLAROZ S.A",
+        "es_persona": false,
+        "n_derechos": 8,
+        "ha": 12074.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li",
+          "B"
+        ],
+        "tipos": {
+          "mina": 7,
+          "solicitud": 1
         }
       },
       {
@@ -4246,6 +5479,49 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 4
+        }
+      },
+      {
+        "titular_norm": "MI",
+        "nombre": "SE. MI. S. A",
+        "es_persona": false,
+        "n_derechos": 36,
+        "ha": 11959.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Sn",
+          "Ag",
+          "Minerales De Primera Y Segunda Categoría",
+          "Aluvional Aurifero",
+          "Cu"
+        ],
+        "tipos": {
+          "mina": 10,
+          "solicitud": 22,
+          "cateo": 4
+        }
+      },
+      {
+        "titular_norm": "ALBERTO VALERIA ANGELA",
+        "nombre": "ALBERTO VALERIA ANGELA",
+        "es_persona": true,
+        "n_derechos": 4,
+        "ha": 11922.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Zn",
+          "Ag",
+          "Sn",
+          "Cu"
+        ],
+        "tipos": {
+          "mina": 4
         }
       },
       {
@@ -4286,27 +5562,6 @@
         }
       },
       {
-        "titular_norm": "HANACOLLA",
-        "nombre": "HANACOLLA S.A",
-        "es_persona": false,
-        "n_derechos": 7,
-        "ha": 11707.0,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Au",
-          "Cu",
-          "Ag",
-          "Pb",
-          "Zn"
-        ],
-        "tipos": {
-          "mina": 2,
-          "manifestacion_descubrimiento": 5
-        }
-      },
-      {
         "titular_norm": "ROMERO PATRICIA ALEJANDRA",
         "nombre": "ROMERO PATRICIA ALEJANDRA",
         "es_persona": true,
@@ -4341,6 +5596,26 @@
         ],
         "tipos": {
           "mina": 2
+        }
+      },
+      {
+        "titular_norm": "EMPRENDIMIENTOS MINEROS KALLPA",
+        "nombre": "EMPRENDIMIENTOS MINEROS KALLPA S. R. L",
+        "es_persona": false,
+        "n_derechos": 8,
+        "ha": 11452.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Zn",
+          "Pb",
+          "Ag",
+          "Li"
+        ],
+        "tipos": {
+          "solicitud": 3,
+          "cateo": 5
         }
       },
       {
@@ -4436,6 +5711,20 @@
         ],
         "tipos": {
           "mina": 9
+        }
+      },
+      {
+        "titular_norm": "FIGUEROA FERNANDEZ FRANCISCO ROSENDO Y OVIEDO EDGARDO RAUL",
+        "nombre": "FIGUEROA FERNANDEZ FRANCISCO ROSENDO Y OVIEDO EDGARDO RAUL",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 11099.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
         }
       },
       {
@@ -4566,6 +5855,26 @@
         }
       },
       {
+        "titular_norm": "GIULIANOTTI JUAN PABLO GIULIANOTTI MARIA GABRIELA Y GIULIANOTTI CLAUDIA KARINA",
+        "nombre": "GIULIANOTTI JUAN PABLO, GIULIANOTTI MARIA GABRIELA Y GIULIANOTTI CLAUDIA KARINA",
+        "es_persona": false,
+        "n_derechos": 7,
+        "ha": 10583.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Au",
+          "cuarzo",
+          "Diseminado De Pirita Aurifera"
+        ],
+        "tipos": {
+          "solicitud": 6,
+          "mina": 1
+        }
+      },
+      {
         "titular_norm": "JESUS ARMANDO SANCHEZ",
         "nombre": "Jesus Armando Sanchez",
         "es_persona": true,
@@ -4603,6 +5912,20 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 5
+        }
+      },
+      {
+        "titular_norm": "PALOU RAMON JOSE",
+        "nombre": "PALOU RAMON JOSE",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 10499.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
         }
       },
       {
@@ -4833,6 +6156,54 @@
         }
       },
       {
+        "titular_norm": "GAGLIANO GIANNINA GARCIA SANTIAGO RAFAEL",
+        "nombre": "GAGLIANO GIANNINA, GARCIA SANTIAGO RAFAEL",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 9998.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "OLAROZ NORTH",
+        "nombre": "OLAROZ NORTH S.A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 9990.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "RODRIGUEZ SILVIA RENE",
+        "nombre": "RODRIGUEZ SILVIA RENE",
+        "es_persona": true,
+        "n_derechos": 4,
+        "ha": 9983.4,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Au"
+        ],
+        "tipos": {
+          "mina": 1,
+          "cateo": 2,
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "OPERBANK AG",
         "nombre": "Operbank A.G. S.A",
         "es_persona": false,
@@ -4851,6 +6222,24 @@
         ],
         "tipos": {
           "mina": 5
+        }
+      },
+      {
+        "titular_norm": "PIRCA AMARILLA EN FORMACION",
+        "nombre": "PIRCA AMARILLA S.A. EN FORMACION",
+        "es_persona": false,
+        "n_derechos": 8,
+        "ha": 9981.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu",
+          "Tierras Raras"
+        ],
+        "tipos": {
+          "solicitud": 8
         }
       },
       {
@@ -4952,6 +6341,20 @@
         "ha": 9898.5,
         "provincias": [
           "neuquen"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "ANDES ALTO",
+        "nombre": "ANDES ALTO S.A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 9890.7,
+        "provincias": [
+          "jujuy"
         ],
         "minerales": [],
         "tipos": {
@@ -5103,6 +6506,24 @@
         }
       },
       {
+        "titular_norm": "ALMA HUAYRA",
+        "nombre": "ALMA HUAYRA S. A",
+        "es_persona": false,
+        "n_derechos": 4,
+        "ha": 9615.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Pb",
+          "Ag"
+        ],
+        "tipos": {
+          "solicitud": 4
+        }
+      },
+      {
         "titular_norm": "MARVA",
         "nombre": "Marva SRL",
         "es_persona": false,
@@ -5131,6 +6552,27 @@
         "minerales": [],
         "tipos": {
           "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "OLAROZ LITHIUM",
+        "nombre": "OLAROZ LITHIUM S.A",
+        "es_persona": false,
+        "n_derechos": 6,
+        "ha": 9573.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B",
+          "Au",
+          "Cu",
+          "Li",
+          "Ulexita"
+        ],
+        "tipos": {
+          "mina": 2,
+          "solicitud": 4
         }
       },
       {
@@ -5262,19 +6704,31 @@
         }
       },
       {
-        "titular_norm": "HASTANA",
-        "nombre": "HASTANA S.A",
+        "titular_norm": "ZULIANI GUSTAVO ARIEL CHAVARRIA MANUEL ALEJANDRO",
+        "nombre": "ZULIANI GUSTAVO ARIEL, CHAVARRIA MANUEL ALEJANDRO",
         "es_persona": false,
-        "n_derechos": 16,
-        "ha": 9387.7,
+        "n_derechos": 1,
+        "ha": 9430.0,
         "provincias": [
-          "salta"
+          "jujuy"
         ],
-        "minerales": [
-          "Vapores Endogenos"
-        ],
+        "minerales": [],
         "tipos": {
-          "mina": 16
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "GARCIA ARIEL FERNANDO",
+        "nombre": "GARCIA ARIEL FERNANDO",
+        "es_persona": true,
+        "n_derechos": 5,
+        "ha": 9365.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 5
         }
       },
       {
@@ -5326,6 +6780,20 @@
         ],
         "tipos": {
           "mina": 4
+        }
+      },
+      {
+        "titular_norm": "LITHOS COMPANIA MINERA",
+        "nombre": "LITHOS COMPAÑIA MINERA S. A",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 9295.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
         }
       },
       {
@@ -5440,6 +6908,43 @@
         }
       },
       {
+        "titular_norm": "URANIO DEL SUR",
+        "nombre": "URANIO DEL SUR S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 9094.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "MINERA LOMA BLANCA",
+        "nombre": "MINERA LOMA BLANCA S. A",
+        "es_persona": false,
+        "n_derechos": 13,
+        "ha": 9074.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B",
+          "Campamentos",
+          "Cancha Mina Y Contruccion De Diques Para Colas P",
+          "Mina Loma Blanca Expte. N° 117",
+          "I",
+          "1984"
+        ],
+        "tipos": {
+          "solicitud": 4,
+          "mina": 8,
+          "servidumbre": 1
+        }
+      },
+      {
         "titular_norm": "SANZ BARONI JORGE PABLO Y RUIBAL SILVIA DEL CARMEN",
         "nombre": "Sanz Baroni, Jorge Pablo y Ruibal, Silvia del Carmen",
         "es_persona": false,
@@ -5455,6 +6960,20 @@
         ],
         "tipos": {
           "mina": 3
+        }
+      },
+      {
+        "titular_norm": "ZAMBRANA COSSIO ANGEL",
+        "nombre": "ZAMBRANA COSSIO ANGEL",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 8959.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 3
         }
       },
       {
@@ -5498,6 +7017,25 @@
         }
       },
       {
+        "titular_norm": "BURRIEZA DIEGO",
+        "nombre": "BURRIEZA DIEGO",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 8821.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Zn",
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 3
+        }
+      },
+      {
         "titular_norm": "GRET CARLOS ADRIAN SALAZAR ANGEL",
         "nombre": "GRET CARLOS ADRIAN-SALAZAR ANGEL",
         "es_persona": false,
@@ -5509,6 +7047,26 @@
         "minerales": [],
         "tipos": {
           "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "PUNA METALS",
+        "nombre": "PUNA METALS S. A",
+        "es_persona": false,
+        "n_derechos": 16,
+        "ha": 8814.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Au",
+          "Diseminado"
+        ],
+        "tipos": {
+          "solicitud": 5,
+          "mina": 9,
+          "cateo": 2
         }
       },
       {
@@ -5525,6 +7083,26 @@
         ],
         "tipos": {
           "mina": 2
+        }
+      },
+      {
+        "titular_norm": "PERAL MIGUEL ALBERTO Y RODRIGUEZ SILVIA RENE",
+        "nombre": "PERAL MIGUEL ALBERTO Y RODRIGUEZ SILVIA RENE",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 8790.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Pb",
+          "Ag",
+          "B",
+          "Li"
+        ],
+        "tipos": {
+          "solicitud": 3
         }
       },
       {
@@ -5545,24 +7123,6 @@
         }
       },
       {
-        "titular_norm": "NORTE EXPLORACIONES",
-        "nombre": "NORTE EXPLORACIONES S.A",
-        "es_persona": false,
-        "n_derechos": 4,
-        "ha": 8648.7,
-        "provincias": [
-          "catamarca",
-          "salta"
-        ],
-        "minerales": [
-          "Cu"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 1,
-          "mina": 3
-        }
-      },
-      {
         "titular_norm": "COMPANIA MINERA PIUQUENES",
         "nombre": "COMPAÑIA MINERA PIUQUENES S.A",
         "es_persona": false,
@@ -5579,6 +7139,26 @@
         "tipos": {
           "mina": 4,
           "manifestacion_descubrimiento": 14
+        }
+      },
+      {
+        "titular_norm": "WINTRU",
+        "nombre": "WINTRU S.R.L",
+        "es_persona": false,
+        "n_derechos": 4,
+        "ha": 8619.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li",
+          "B",
+          "K",
+          "caliza",
+          "Magnesio"
+        ],
+        "tipos": {
+          "mina": 4
         }
       },
       {
@@ -5727,6 +7307,23 @@
         }
       },
       {
+        "titular_norm": "DESARROLLOS DE RECURSOS",
+        "nombre": "DESARROLLOS DE RECURSOS S. A",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 8211.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1,
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "SBARDOLINI JOSE ANTONIO ROMERO ERNESTO ANTONIO RAMOS PAMELA KARINA Y TORRES JAQUELINA NANCY",
         "nombre": "Sbardolini, Jose Antonio; Romero Ernesto Antonio; Ramos, Pamela Karina y Torres, Jaquelina Nancy",
         "es_persona": false,
@@ -5840,6 +7437,20 @@
           "mina": 6,
           "servidumbre": 1,
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "MIRANDA VICTORIA AGUSTINA",
+        "nombre": "MIRANDA VICTORIA AGUSTINA",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 8043.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
         }
       },
       {
@@ -6147,6 +7758,23 @@
         }
       },
       {
+        "titular_norm": "BELLOMO",
+        "nombre": "BELLOMO S.A",
+        "es_persona": false,
+        "n_derechos": 7,
+        "ha": 7218.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Fe"
+        ],
+        "tipos": {
+          "cateo": 6,
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "DIRECCION PROVINCIAL DE MINERIA",
         "nombre": "DIRECCION PROVINCIAL DE MINERIA",
         "es_persona": true,
@@ -6157,6 +7785,46 @@
         ],
         "minerales": [],
         "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "MAIOLI ALDO MARIANO",
+        "nombre": "MAIOLI ALDO MARIANO",
+        "es_persona": true,
+        "n_derechos": 5,
+        "ha": 7176.5,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Ag",
+          "Au",
+          "B",
+          "Li"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 3,
+          "solicitud": 2
+        }
+      },
+      {
+        "titular_norm": "SANCHEZ FASCIO MARTIN IGNACIO",
+        "nombre": "SANCHEZ FASCIO MARTIN IGNACIO",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 7134.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Diatomea",
+          "Vapores Endogenos"
+        ],
+        "tipos": {
+          "solicitud": 2,
           "cateo": 1
         }
       },
@@ -6174,6 +7842,30 @@
         ],
         "tipos": {
           "mina": 2
+        }
+      },
+      {
+        "titular_norm": "SALTA EXPLORACIONES",
+        "nombre": "SALTA EXPLORACIONES S.A",
+        "es_persona": false,
+        "n_derechos": 5,
+        "ha": 7118.1,
+        "provincias": [
+          "catamarca",
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Pb",
+          "K",
+          "Zn",
+          "Au",
+          "Mo"
+        ],
+        "tipos": {
+          "mina": 4,
+          "solicitud": 1
         }
       },
       {
@@ -6422,6 +8114,23 @@
         }
       },
       {
+        "titular_norm": "SANCHEZ FASCIO MARTIN IGNACIO Y RODRIGUEZ RICO CORINA",
+        "nombre": "SANCHEZ FASCIO MARTIN IGNACIO Y RODRIGUEZ RICO CORINA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 6972.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "AGUILAR SERGIO IGNACIO ESPINOSA LUIS ADRIAN",
         "nombre": "AGUILAR SERGIO IGNACIO,ESPINOSA LUIS ADRIAN",
         "es_persona": false,
@@ -6437,6 +8146,23 @@
         "tipos": {
           "mina": 2,
           "manifestacion_descubrimiento": 2
+        }
+      },
+      {
+        "titular_norm": "SANCHEZ FASCIO MARTIN IGNACIO RODRIGUEZ RICO CORINA LUBETKIN RODRIGO",
+        "nombre": "SANCHEZ FASCIO MARTIN IGNACIO, RODRIGUEZ RICO CORINA, LUBETKIN RODRIGO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 6954.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -6504,6 +8230,22 @@
         ],
         "tipos": {
           "mina": 5
+        }
+      },
+      {
+        "titular_norm": "HUAYRAMIN EX SOLAR SAN PEDRO",
+        "nombre": "HUAYRAMIN S.A. (EX SOLAR SAN PEDRO 2 S.A.)",
+        "es_persona": false,
+        "n_derechos": 6,
+        "ha": 6832.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 6
         }
       },
       {
@@ -6675,6 +8417,20 @@
         }
       },
       {
+        "titular_norm": "RODRIGUEZ SILVIA RENE Y PERAL MIGUEL ALBERTO",
+        "nombre": "RODRIGUEZ SILVIA RENE Y PERAL MIGUEL ALBERTO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 6494.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "DIEGO FEDERICO OMAR RUBEN OMAR DIEGO",
         "nombre": "DIEGO FEDERICO OMAR,RUBEN OMAR DIEGO",
         "es_persona": false,
@@ -6715,25 +8471,6 @@
         }
       },
       {
-        "titular_norm": "HAMUTA",
-        "nombre": "HAMUTA S.A",
-        "es_persona": false,
-        "n_derechos": 3,
-        "ha": 6389.6,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Au",
-          "Cu",
-          "K",
-          "Li"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 3
-        }
-      },
-      {
         "titular_norm": "ARAUJO PABLO DANIEL",
         "nombre": "ARAUJO PABLO DANIEL",
         "es_persona": true,
@@ -6750,6 +8487,23 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 4
+        }
+      },
+      {
+        "titular_norm": "ROJO SILVIA MONICA",
+        "nombre": "ROJO SILVIA MONICA",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 6337.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ag",
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -7056,41 +8810,6 @@
         }
       },
       {
-        "titular_norm": "ALANI HECTOR HORACIO",
-        "nombre": "ALANI HECTOR HORACIO",
-        "es_persona": true,
-        "n_derechos": 5,
-        "ha": 6057.4,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Li",
-          "K"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 5
-        }
-      },
-      {
-        "titular_norm": "PERAL MIGUEL ALBERTO",
-        "nombre": "Peral, Miguel Alberto",
-        "es_persona": true,
-        "n_derechos": 2,
-        "ha": 6006.7,
-        "provincias": [
-          "catamarca"
-        ],
-        "minerales": [
-          "Cu",
-          "Au",
-          "Ag"
-        ],
-        "tipos": {
-          "mina": 2
-        }
-      },
-      {
         "titular_norm": "SOUTHERN CROSS BRITANNIA",
         "nombre": "SOUTHERN CROSS BRITANNIA LTD",
         "es_persona": false,
@@ -7106,6 +8825,25 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "LIGREEN",
+        "nombre": "LIGREEN S.A",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 6000.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ag",
+          "Pb",
+          "Zn",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 3
         }
       },
       {
@@ -7212,6 +8950,34 @@
         }
       },
       {
+        "titular_norm": "ARNEDO EDUARDO ROQUE",
+        "nombre": "ARNEDO EDUARDO ROQUE",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 5977.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "MONCHOLI PABLO PALOU RAMON JOSE Y PALOU DAMIAN MARTIN",
+        "nombre": "MONCHOLI PABLO, PALOU RAMON JOSE Y PALOU DAMIAN MARTIN",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 5974.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "CALDART PABLO GABRIEL",
         "nombre": "CALDART PABLO GABRIEL",
         "es_persona": true,
@@ -7223,6 +8989,36 @@
         "minerales": [],
         "tipos": {
           "cateo": 2
+        }
+      },
+      {
+        "titular_norm": "SANCHEZ FASCIO MARTIN IGNACIO Y LUBETKIN RODRIGO",
+        "nombre": "SANCHEZ FASCIO MARTIN IGNACIO Y LUBETKIN RODRIGO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 5944.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "COMPANIA MINERA AGUILAR S A RODRIGO LUBETKIN ZIMBARO",
+        "nombre": "COMPAÑIA MINERA AGUILAR S. A. - RODRIGO LUBETKIN ZIMBARO",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 5944.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ag"
+        ],
+        "tipos": {
+          "solicitud": 2
         }
       },
       {
@@ -7245,6 +9041,23 @@
         "tipos": {
           "mina": 4,
           "manifestacion_descubrimiento": 2
+        }
+      },
+      {
+        "titular_norm": "COMPANIA MINERA PALGAL",
+        "nombre": "COMPAÑIA MINERA PALGAL",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 5880.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ag",
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -7304,6 +9117,20 @@
         ],
         "tipos": {
           "mina": 3
+        }
+      },
+      {
+        "titular_norm": "AQUINO WALTER LEANDRO ALBERTO",
+        "nombre": "AQUINO WALTER LEANDRO ALBERTO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 5801.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
         }
       },
       {
@@ -7377,6 +9204,20 @@
         }
       },
       {
+        "titular_norm": "VERA HUMBERTO NELSON",
+        "nombre": "VERA HUMBERTO NELSON",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 5721.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "LEMURES",
         "nombre": "LEMURES S.R.L",
         "es_persona": false,
@@ -7429,25 +9270,25 @@
         }
       },
       {
-        "titular_norm": "SALTA EXPLORACIONES",
-        "nombre": "SALTA EXPLORACIONES S.A",
+        "titular_norm": "ALQA LITHIUM",
+        "nombre": "ALQA LITHIUM S.A",
         "es_persona": false,
         "n_derechos": 4,
-        "ha": 5618.1,
+        "ha": 5511.0,
         "provincias": [
-          "catamarca",
+          "jujuy",
           "salta"
         ],
         "minerales": [
-          "Cu",
-          "K",
-          "Au",
-          "Mo",
-          "Pb",
-          "B"
+          "B",
+          "Li",
+          "Sulfato De Sodio",
+          "Ag",
+          "Cu"
         ],
         "tipos": {
-          "mina": 4
+          "mina": 3,
+          "manifestacion_descubrimiento": 1
         }
       },
       {
@@ -7486,27 +9327,6 @@
         }
       },
       {
-        "titular_norm": "TIERRA EXPLORACION",
-        "nombre": "TIERRA EXPLORACION S.A",
-        "es_persona": false,
-        "n_derechos": 5,
-        "ha": 5464.5,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Li",
-          "K",
-          "diatomita",
-          "B",
-          "caliza"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 4,
-          "mina": 1
-        }
-      },
-      {
         "titular_norm": "DE LA VEGA GUILLERMO",
         "nombre": "DE LA VEGA GUILLERMO",
         "es_persona": true,
@@ -7535,6 +9355,26 @@
         ],
         "tipos": {
           "mina": 2
+        }
+      },
+      {
+        "titular_norm": "MENDEZ EDUARDO ROBERTO",
+        "nombre": "MENDEZ EDUARDO ROBERTO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 5409.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Zn",
+          "Ag",
+          "Sn",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 2
         }
       },
       {
@@ -7593,6 +9433,26 @@
         ],
         "tipos": {
           "mina": 3
+        }
+      },
+      {
+        "titular_norm": "VILLARROEL ALCOCER FERNANDO ERIK",
+        "nombre": "VILLARROEL ALCOCER FERNANDO ERIK",
+        "es_persona": true,
+        "n_derechos": 5,
+        "ha": 5199.9,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Li",
+          "K",
+          "diatomita"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 3,
+          "solicitud": 2
         }
       },
       {
@@ -7757,6 +9617,52 @@
         }
       },
       {
+        "titular_norm": "INTEGRA RECURSOS NATURALES S A Y NEW ENERGY GROUP",
+        "nombre": "INTEGRA RECURSOS NATURALES S. A. y NEW ENERGY GROUP S.A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 4999.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Au",
+          "Ag"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "PALOU DAMIAN MARTIN",
+        "nombre": "PALOU DAMIAN MARTIN",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 4999.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "CEBALLOS HERNAN JAVIER",
+        "nombre": "CEBALLOS HERNAN JAVIER",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 4999.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "JUAN ANGEL LOVERA JUAN JOSE LOVERA",
         "nombre": "Juan Angel Lovera - Juan Jose Lovera",
         "es_persona": false,
@@ -7845,6 +9751,22 @@
         }
       },
       {
+        "titular_norm": "MONCHOLI PABLO Y SKROBAK ALDO",
+        "nombre": "MONCHOLI PABLO Y SKROBAK ALDO A",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 4951.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Diseminado De Minerales Metaliferos"
+        ],
+        "tipos": {
+          "solicitud": 2
+        }
+      },
+      {
         "titular_norm": "REIS BERSANI ARNALDO",
         "nombre": "Reis Bersani, Arnaldo",
         "es_persona": true,
@@ -7877,6 +9799,24 @@
         ],
         "tipos": {
           "mina": 3
+        }
+      },
+      {
+        "titular_norm": "LAPACHA MINERA",
+        "nombre": "LAPACHA MINERA S. R. L",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 4917.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Ag"
+        ],
+        "tipos": {
+          "mina": 1,
+          "solicitud": 1
         }
       },
       {
@@ -7943,6 +9883,27 @@
         "minerales": [],
         "tipos": {
           "cateo": 3
+        }
+      },
+      {
+        "titular_norm": "PERAL FERNANDO MIGUEL",
+        "nombre": "PERAL FERNANDO MIGUEL",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 4896.3,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Ag",
+          "Au",
+          "Cu",
+          "Pb"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 1,
+          "cateo": 1
         }
       },
       {
@@ -8151,6 +10112,20 @@
         }
       },
       {
+        "titular_norm": "FELLNER MARTIN Y CONDOR PROSPECTING",
+        "nombre": "FELLNER MARTIN Y CONDOR PROSPECTING S.A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 4672.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "SAN JUAN MINING",
         "nombre": "SAN JUAN MINING S.A",
         "es_persona": false,
@@ -8324,6 +10299,22 @@
         }
       },
       {
+        "titular_norm": "BARAHONA RUIZ WALTER FEDERICO",
+        "nombre": "BARAHONA RUIZ WALTER FEDERICO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 4500.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 2
+        }
+      },
+      {
         "titular_norm": "LITICA RESOURCES",
         "nombre": "LITICA RESOURCES S.A",
         "es_persona": false,
@@ -8342,23 +10333,42 @@
         }
       },
       {
-        "titular_norm": "MAIOLI ALDO MARIANO",
-        "nombre": "MAIOLI ALDO MARIANO",
+        "titular_norm": "IACOVONE REINALDO",
+        "nombre": "Iacovone, Reinaldo",
         "es_persona": true,
-        "n_derechos": 3,
-        "ha": 4498.2,
+        "n_derechos": 2,
+        "ha": 4466.8,
         "provincias": [
-          "salta"
+          "catamarca",
+          "jujuy"
         ],
         "minerales": [
-          "Ag",
-          "Au",
-          "B",
-          "Cu",
-          "Li"
+          "Li",
+          "Sodio",
+          "K",
+          "Cu"
         ],
         "tipos": {
-          "manifestacion_descubrimiento": 3
+          "mina": 1,
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "TRIGO ADOLFO NESTOR",
+        "nombre": "TRIGO ADOLFO NESTOR",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 4460.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Ag"
+        ],
+        "tipos": {
+          "cateo": 1,
+          "solicitud": 1
         }
       },
       {
@@ -8428,6 +10438,25 @@
         ],
         "tipos": {
           "mina": 2
+        }
+      },
+      {
+        "titular_norm": "BALLADARES OSCAR ALEJANDRO",
+        "nombre": "BALLADARES OSCAR ALEJANDRO",
+        "es_persona": true,
+        "n_derechos": 15,
+        "ha": 4365.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ag",
+          "Pb",
+          "Cu",
+          "Zn"
+        ],
+        "tipos": {
+          "mina": 15
         }
       },
       {
@@ -8577,6 +10606,30 @@
         }
       },
       {
+        "titular_norm": "MINERA SANTA RITA",
+        "nombre": "MINERA SANTA RITA S.R.L",
+        "es_persona": false,
+        "n_derechos": 15,
+        "ha": 4200.7,
+        "provincias": [
+          "catamarca",
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "B",
+          "Li",
+          "Cu",
+          "K"
+        ],
+        "tipos": {
+          "mina": 11,
+          "servidumbre": 2,
+          "manifestacion_descubrimiento": 1,
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "COMPANIA MINERALES DEL NOA Y DI GIORGIO OSVALDO",
         "nombre": "COMPAÑÍA MINERALES DEL NOA S.A. y Di Giorgio, Osvaldo",
         "es_persona": false,
@@ -8682,28 +10735,6 @@
         ],
         "tipos": {
           "mina": 1
-        }
-      },
-      {
-        "titular_norm": "MINERA SANTA RITA",
-        "nombre": "MINERA SANTA RITA S.R.L",
-        "es_persona": false,
-        "n_derechos": 14,
-        "ha": 4124.1,
-        "provincias": [
-          "catamarca",
-          "salta"
-        ],
-        "minerales": [
-          "B",
-          "Li",
-          "Cu",
-          "K"
-        ],
-        "tipos": {
-          "mina": 11,
-          "servidumbre": 2,
-          "manifestacion_descubrimiento": 1
         }
       },
       {
@@ -8903,6 +10934,41 @@
         }
       },
       {
+        "titular_norm": "BECCARI RODOLFO ADRIAN Y CORTES DANIEL FRANCO GONZALO",
+        "nombre": "BECCARI RODOLFO ADRIAN Y CORTES DANIEL FRANCO GONZALO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 4000.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Zn",
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "ZEBALLOS OSCAR ADOLFO Y MEJIA MARCELO",
+        "nombre": "ZEBALLOS OSCAR ADOLFO Y MEJIA MARCELO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 4000.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ulexita"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "PERLICZ EDUARDO OSCAR",
         "nombre": "Perlicz, Eduardo Oscar",
         "es_persona": true,
@@ -8979,6 +11045,69 @@
         }
       },
       {
+        "titular_norm": "FUNDACION MISION DE LA PAZ",
+        "nombre": "FUNDACION MISION DE LA PAZ",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 3965.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "GALLI DANIEL ERNESTO",
+        "nombre": "GALLI DANIEL ERNESTO",
+        "es_persona": true,
+        "n_derechos": 5,
+        "ha": 3963.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 5
+        }
+      },
+      {
+        "titular_norm": "BECCARI RODOLFO ADRIAN Y FERRAZANO RAUL EXEQUIEL",
+        "nombre": "BECCARI RODOLFO ADRIAN Y FERRAZANO RAUL EXEQUIEL",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 3900.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Zn",
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "SECRETARIA DE MINERIA E HIDROCARBUROS",
+        "nombre": "SECRETARIA DE MINERIA E HIDROCARBUROS",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 3894.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "servidumbre": 1
+        }
+      },
+      {
         "titular_norm": "ALBORNOZ JUAN CARLOS",
         "nombre": "ALBORNOZ JUAN CARLOS",
         "es_persona": true,
@@ -8994,6 +11123,23 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 9
+        }
+      },
+      {
+        "titular_norm": "ALGERUM",
+        "nombre": "ALGERUM S. A",
+        "es_persona": false,
+        "n_derechos": 5,
+        "ha": 3874.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "aridos"
+        ],
+        "tipos": {
+          "solicitud": 1,
+          "cateo": 4
         }
       },
       {
@@ -9025,6 +11171,22 @@
         ],
         "minerales": [
           "Cu"
+        ],
+        "tipos": {
+          "mina": 2
+        }
+      },
+      {
+        "titular_norm": "ESPIRITU DE LOS ANDES",
+        "nombre": "ESPIRITU DE LOS ANDES S. A",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 3805.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
         ],
         "tipos": {
           "mina": 2
@@ -9104,6 +11266,39 @@
         ],
         "tipos": {
           "mina": 6,
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "INFANTE MARIA DEL VALLE",
+        "nombre": "INFANTE MARÍA DEL VALLE",
+        "es_persona": true,
+        "n_derechos": 5,
+        "ha": 3753.6,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Caolin",
+          "caliza"
+        ],
+        "tipos": {
+          "mina": 4,
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "OROZCO JUAN GUILLERMO",
+        "nombre": "OROZCO JUAN GUILLERMO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 3726.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
           "cateo": 1
         }
       },
@@ -9249,6 +11444,39 @@
         }
       },
       {
+        "titular_norm": "LOPEZ SAENZ PATRICIA ALEJANDRA CABA ROBERTO JAVIER GRILLO JAVIER ANIBAL GARCE BEATRIZ DEL CARMEN",
+        "nombre": "LOPEZ SAENZ PATRICIA ALEJANDRA, CABA ROBERTO JAVIER, GRILLO JAVIER ANIBAL, GARCE BEATRIZ DEL CARMEN",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 3599.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "DEL CAMPO CONTRERAS SUSANA MILAGRO DEL CAMPO CONTRERAS MATILDE BEATRIZ READ SILVIA EMILIA Y MUNIZ SATURNINO HOY SU SUCESION",
+        "nombre": "DEL CAMPO CONTRERAS SUSANA MILAGRO, DEL CAMPO CONTRERAS MATILDE BEATRIZ, READ SILVIA EMILIA Y MUÑIZ SATURNINO (HOY SU SUCESION)",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 3598.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Niquel Y Cobalto"
+        ],
+        "tipos": {
+          "solicitud": 3
+        }
+      },
+      {
         "titular_norm": "HERRERA NICOLAS Y HERRERA RINALDO NICOLAS",
         "nombre": "Herrera, Nicolas y Herrera, Rinaldo Nicolas",
         "es_persona": false,
@@ -9266,6 +11494,26 @@
         }
       },
       {
+        "titular_norm": "RIO MARIA GRACIELA",
+        "nombre": "RIO MARIA GRACIELA",
+        "es_persona": true,
+        "n_derechos": 6,
+        "ha": 3595.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Sulfuros Diseminados",
+          "Pb",
+          "caliza"
+        ],
+        "tipos": {
+          "cateo": 1,
+          "solicitud": 5
+        }
+      },
+      {
         "titular_norm": "APEX LITHIUM",
         "nombre": "APEX LITHIUM S.A",
         "es_persona": false,
@@ -9280,6 +11528,20 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "LUFT ENERGIA",
+        "nombre": "LUFT ENERGIA S.A",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 3583.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
         }
       },
       {
@@ -9543,6 +11805,20 @@
         }
       },
       {
+        "titular_norm": "ORTIZ PISTONE JORGE ANTONIO",
+        "nombre": "ORTIZ PISTONE JORGE ANTONIO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 3419.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "HUGO ATILIO BASTIAS",
         "nombre": "Hugo Atilio Bastias",
         "es_persona": true,
@@ -9614,22 +11890,6 @@
         "tipos": {
           "cateo": 1,
           "mina": 1
-        }
-      },
-      {
-        "titular_norm": "GEOTERMIA ANDINA",
-        "nombre": "GEOTERMIA ANDINA S.A",
-        "es_persona": false,
-        "n_derechos": 1,
-        "ha": 3361.4,
-        "provincias": [
-          "san_juan"
-        ],
-        "minerales": [
-          "Vapores Endógenos"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 1
         }
       },
       {
@@ -9741,22 +12001,6 @@
         }
       },
       {
-        "titular_norm": "GAIDUK ANDREI",
-        "nombre": "GAIDUK ANDREI",
-        "es_persona": true,
-        "n_derechos": 3,
-        "ha": 3290.4,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Li"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 3
-        }
-      },
-      {
         "titular_norm": "DARIO ERIC MARTIN BECERRA PAZ",
         "nombre": "Dario Eric Martin Becerra Paz",
         "es_persona": false,
@@ -9842,6 +12086,23 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "LITHOS MINERALES DEL NORTE",
+        "nombre": "LITHOS MINERALES DEL NORTE S.A",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 3152.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B"
+        ],
+        "tipos": {
+          "mina": 1,
+          "cateo": 1
         }
       },
       {
@@ -9952,6 +12213,23 @@
         }
       },
       {
+        "titular_norm": "ZULIANI GUSTAVO ARIEL",
+        "nombre": "ZULIANI GUSTAVO ARIEL",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 3092.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1,
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "NESTOR GUIDO ARTURO",
         "nombre": "Nestor Guido Arturo",
         "es_persona": true,
@@ -10024,22 +12302,6 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 3
-        }
-      },
-      {
-        "titular_norm": "GOLDINKA ENERGY",
-        "nombre": "Goldinka Energy S.A",
-        "es_persona": false,
-        "n_derechos": 1,
-        "ha": 3064.9,
-        "provincias": [
-          "catamarca"
-        ],
-        "minerales": [
-          "sal"
-        ],
-        "tipos": {
-          "mina": 1
         }
       },
       {
@@ -10193,6 +12455,20 @@
         }
       },
       {
+        "titular_norm": "BESIN PABLO RUBEN",
+        "nombre": "BESIN PABLO RUBEN",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 3010.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "BILLITON ARGENTINA BU",
         "nombre": "Billiton Argentina B.U",
         "es_persona": false,
@@ -10335,6 +12611,20 @@
         }
       },
       {
+        "titular_norm": "VELIZ ROMAN ALEJANDRO",
+        "nombre": "VELIZ ROMAN ALEJANDRO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 2999.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "ALVAREZ LUIS MANUEL Y ULTRA ARGENTINA",
         "nombre": "Alvarez, Luis Manuel y ULTRA ARGENTINA S.R.L",
         "es_persona": false,
@@ -10467,6 +12757,40 @@
         }
       },
       {
+        "titular_norm": "MINERA JUJUY",
+        "nombre": "MINERA JUJUY S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2998.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "BESIN PABLO RUBEN BESIN PEDRO HECTOR",
+        "nombre": "BESIN PABLO RUBEN, BESIN PEDRO HECTOR",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2998.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Pb",
+          "Ag"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
         "titular_norm": "PEREZ ANTICH ENRIQUE DOMINGO HERRERA RNALDO NICOLAS",
         "nombre": "Perez Antich Enrique Domingo, Herrera Rnaldo Nicolas",
         "es_persona": false,
@@ -10583,24 +12907,6 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 1
-        }
-      },
-      {
-        "titular_norm": "IACOVONE REINALDO",
-        "nombre": "Iacovone, Reinaldo",
-        "es_persona": true,
-        "n_derechos": 1,
-        "ha": 2967.2,
-        "provincias": [
-          "catamarca"
-        ],
-        "minerales": [
-          "Li",
-          "Sodio",
-          "K"
-        ],
-        "tipos": {
-          "mina": 1
         }
       },
       {
@@ -10755,6 +13061,20 @@
         }
       },
       {
+        "titular_norm": "MINERA CROSBY",
+        "nombre": "MINERA CROSBY S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2906.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "BERTETTO ARMANDO FABIAN",
         "nombre": "Bertetto, Armando Fabian",
         "es_persona": true,
@@ -10863,6 +13183,22 @@
         }
       },
       {
+        "titular_norm": "TIERRA DEL CAPRICORNIO",
+        "nombre": "TIERRA DEL CAPRICORNIO S.A.S",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2819.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Mn"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "SOUTHERN EAGLE MINING ARGENTINA",
         "nombre": "SOUTHERN EAGLE MINING ARGENTINA S.A",
         "es_persona": false,
@@ -10904,6 +13240,29 @@
         }
       },
       {
+        "titular_norm": "HOLCIM ARGENTINA",
+        "nombre": "HOLCIM (ARGENTINA) S.A",
+        "es_persona": false,
+        "n_derechos": 7,
+        "ha": 2804.1,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "caliza",
+          "travertino",
+          "Cretacico (Observado)",
+          "Fe",
+          "Desmontes",
+          "Lutita"
+        ],
+        "tipos": {
+          "cantera": 5,
+          "mina": 2
+        }
+      },
+      {
         "titular_norm": "SANCHEZ FERRER HERNAN DARIO",
         "nombre": "SANCHEZ FERRER HERNAN DARIO",
         "es_persona": true,
@@ -10919,6 +13278,20 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 2
+        }
+      },
+      {
+        "titular_norm": "MIGUEZ MERCEDES MARTA",
+        "nombre": "MIGUEZ MERCEDES MARTA",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 2789.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
         }
       },
       {
@@ -11236,6 +13609,22 @@
         }
       },
       {
+        "titular_norm": "CESAR DANIEL ALBERTO",
+        "nombre": "CESAR DANIEL ALBERTO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 2595.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "ELEVADO GOLD",
         "nombre": "ELEVADO GOLD S.A",
         "es_persona": false,
@@ -11299,6 +13688,22 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "BUITRAGO MARIA ALICIA PARIS GUSTAVO CARLOS Y EAL MARKETING",
+        "nombre": "BUITRAGO MARIA ALICIA, PARIS GUSTAVO CARLOS Y EAL MARKETING S.R.L",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2532.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -11465,6 +13870,22 @@
         }
       },
       {
+        "titular_norm": "NICANOR BENICIO",
+        "nombre": "NICANOR BENICIO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 2499.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ulexita"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "COLQUE EXPLORACIONES PACHA MINERALS SALTA GEOTHERMAL",
         "nombre": "COLQUE EXPLORACIONES S.A.,PACHA MINERALS S.A.,SALTA GEOTHERMAL S.A",
         "es_persona": false,
@@ -11552,6 +13973,20 @@
         }
       },
       {
+        "titular_norm": "BRAGANTINI BRUNO ALBERTO Y BRAGANTINI GUILLERMO PABLO",
+        "nombre": "BRAGANTINI BRUNO ALBERTO Y BRAGANTINI GUILLERMO PABLO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2486.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "PEREZ OLIVARES JORGE",
         "nombre": "Perez Olivares, Jorge A",
         "es_persona": true,
@@ -11588,6 +14023,20 @@
           "manifestacion_descubrimiento": 1,
           "mina": 2,
           "cantera": 2
+        }
+      },
+      {
+        "titular_norm": "BLASCO GABRIEL GUSTAVO MARIA EUGENIA LA MORGIA BLASCO GABRIEL IGNACIO",
+        "nombre": "BLASCO GABRIEL GUSTAVO, MARIA EUGENIA LA MORGIA, BLASCO GABRIEL IGNACIO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2478.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
         }
       },
       {
@@ -12196,24 +14645,6 @@
         }
       },
       {
-        "titular_norm": "VILLARROEL ALCOCER FERNANDO ERIK",
-        "nombre": "VILLARROEL ALCOCER FERNANDO ERIK",
-        "es_persona": true,
-        "n_derechos": 3,
-        "ha": 2225.6,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "K",
-          "Li",
-          "diatomita"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 3
-        }
-      },
-      {
         "titular_norm": "EMISA",
         "nombre": "EMISA S.A",
         "es_persona": false,
@@ -12311,6 +14742,22 @@
         }
       },
       {
+        "titular_norm": "FORESTAL NORTENA",
+        "nombre": "FORESTAL NORTEÑA S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2149.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Fe"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "ALVAREZ LUIS MANUEL Y SANZ BARONI JORGE PABLOL",
         "nombre": "Alvarez, Luis Manuel y Sanz Baroni, Jorge Pablol",
         "es_persona": false,
@@ -12326,6 +14773,22 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "BUITRAGO LUIS GUILLERMO BUITRAGO FERNANDO Y BUITRAGO JOSE MARIANO",
+        "nombre": "BUITRAGO LUIS GUILLERMO, BUITRAGO FERNANDO Y BUITRAGO JOSE MARIANO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2103.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -12392,6 +14855,23 @@
         ],
         "tipos": {
           "mina": 2
+        }
+      },
+      {
+        "titular_norm": "MINEROS DE SALINAS GRANDES",
+        "nombre": "COOP. MINEROS DE SALINAS GRANDES LTDA",
+        "es_persona": false,
+        "n_derechos": 4,
+        "ha": 2089.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal",
+          "Li"
+        ],
+        "tipos": {
+          "mina": 4
         }
       },
       {
@@ -12596,6 +15076,56 @@
         }
       },
       {
+        "titular_norm": "CLAPIER ANDREA FABIANA",
+        "nombre": "CLAPIER ANDREA FABIANA",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 2009.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "cateo": 1,
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "MARTOS ESTEBAN GABRIEL Y REARTE GUSTAVO ERNESTO",
+        "nombre": "MARTOS ESTEBAN GABRIEL Y REARTE GUSTAVO ERNESTO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2000.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ag",
+          "Pb",
+          "Zn",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "ALDERETE DANIEL ALEJANDRO",
+        "nombre": "ALDERETE DANIEL ALEJANDRO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 2000.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "VELEZ SERAFINA E ZELADA DE Y OTROS",
         "nombre": "Velez, Serafina E. Zelada de y Otros",
         "es_persona": false,
@@ -12665,25 +15195,6 @@
         }
       },
       {
-        "titular_norm": "PERAL FERNANDO MIGUEL",
-        "nombre": "PERAL FERNANDO MIGUEL",
-        "es_persona": true,
-        "n_derechos": 1,
-        "ha": 1994.0,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Ag",
-          "Au",
-          "Cu",
-          "Pb"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 1
-        }
-      },
-      {
         "titular_norm": "MARQUEZ ZAVALIA GUILLERMO",
         "nombre": "MARQUEZ ZAVALIA GUILLERMO",
         "es_persona": true,
@@ -12695,26 +15206,6 @@
         "minerales": [],
         "tipos": {
           "cateo": 1
-        }
-      },
-      {
-        "titular_norm": "ALQA LITHIUM",
-        "nombre": "ALQA LITHIUM S.A",
-        "es_persona": false,
-        "n_derechos": 2,
-        "ha": 1949.2,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Li",
-          "Sulfato De Sodio",
-          "Ag",
-          "Cu"
-        ],
-        "tipos": {
-          "mina": 1,
-          "manifestacion_descubrimiento": 1
         }
       },
       {
@@ -12732,6 +15223,20 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "PIRCA AMARILLA",
+        "nombre": "PIRCA AMARILLA S.A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1939.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
         }
       },
       {
@@ -13278,17 +15783,17 @@
         }
       },
       {
-        "titular_norm": "RODRIGUEZ SILVIA RENE",
-        "nombre": "RODRIGUEZ SILVIA RENE",
-        "es_persona": true,
+        "titular_norm": "FRONTERA MINERALS",
+        "nombre": "FRONTERA MINERALS SAU",
+        "es_persona": false,
         "n_derechos": 1,
         "ha": 1799.7,
         "provincias": [
-          "salta"
+          "jujuy"
         ],
         "minerales": [
-          "Au",
-          "Cu"
+          "B",
+          "Li"
         ],
         "tipos": {
           "mina": 1
@@ -13305,6 +15810,22 @@
         ],
         "minerales": [
           "sal"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "RAFAELLI LEANDRO ADOLFO",
+        "nombre": "RAFAELLI LEANDRO ADOLFO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1798.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B"
         ],
         "tipos": {
           "mina": 1
@@ -13380,6 +15901,22 @@
         }
       },
       {
+        "titular_norm": "ZEBALLOS OSCAR ADOLFO",
+        "nombre": "ZEBALLOS OSCAR ADOLFO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1779.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ulexita"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "ARGENTUM LITHIUM",
         "nombre": "ARGENTUM LITHIUM S.A",
         "es_persona": false,
@@ -13449,6 +15986,22 @@
           "manifestacion_descubrimiento": 2,
           "cantera": 2,
           "servidumbre": 1,
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "PARTY LUIS ALBERTO",
+        "nombre": "PARTY LUIS ALBERTO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1748.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
           "mina": 1
         }
       },
@@ -13741,6 +16294,41 @@
         }
       },
       {
+        "titular_norm": "BESIN PEDRO HECTOR",
+        "nombre": "BESIN PEDRO HECTOR",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1576.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Pb",
+          "Ag"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "SANCHEZ FASCIO MARTIN IGNACIO GIORGIO OSVALDO Y ROMANO LUIS EDUARDO",
+        "nombre": "SANCHEZ FASCIO MARTIN IGNACIO, GIORGIO OSVALDO Y ROMANO LUIS EDUARDO",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 1566.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Vapores Endogenos"
+        ],
+        "tipos": {
+          "solicitud": 1,
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "LOS ARCANGELES",
         "nombre": "LOS ARCANGELES S.A",
         "es_persona": false,
@@ -13791,6 +16379,22 @@
           "manifestacion_descubrimiento": 1,
           "otro": 1,
           "cantera": 3
+        }
+      },
+      {
+        "titular_norm": "COMPANIA MINERA SAN RAFAEL",
+        "nombre": "COMPAÑIA MINERA SAN RAFAEL",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 1533.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "mina": 2
         }
       },
       {
@@ -13947,24 +16551,6 @@
         "es_persona": true,
         "n_derechos": 1,
         "ha": 1502.1,
-        "provincias": [
-          "san_juan"
-        ],
-        "minerales": [
-          "Cu",
-          "Au",
-          "Ag"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 1
-        }
-      },
-      {
-        "titular_norm": "ARGENTINA FORTESCUE",
-        "nombre": "ARGENTINA FORTESCUE S.A.U",
-        "es_persona": false,
-        "n_derechos": 1,
-        "ha": 1500.5,
         "provincias": [
           "san_juan"
         ],
@@ -14268,6 +16854,22 @@
         }
       },
       {
+        "titular_norm": "BARAHONA RUIZ WALTER FEDERICO WALTER ENRIQUE BARAHONA HURTADO JORGE ORLANDO BARAHONA Y SONIA MARLENE BARAHONA",
+        "nombre": "BARAHONA RUIZ WALTER FEDERICO - WALTER ENRIQUE BARAHONA HURTADO, JORGE ORLANDO BARAHONA Y SONIA MARLENE BARAHONA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1491.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
         "titular_norm": "MENENDEZ MANUEL PASTRANA EFRAIN Y MENENDEZ JAZMIN DEL VALLE SOLEDAD",
         "nombre": "Menendez, Manuel; Pastrana, Efrain y Menendez, Jazmin del Valle Soledad",
         "es_persona": false,
@@ -14283,6 +16885,36 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "AGUIAR ERNESTO MARTIN",
+        "nombre": "AGUIAR ERNESTO MARTIN",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1483.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "COM AB PAN DE AZUCAR SANCHEZ FASCIO MARTIN IGNACIO RODRIGUEZ RICO CORINA Y RODRIGO LUBETKIN",
+        "nombre": "COM. AB. PAN DE AZUCAR, SANCHEZ FASCIO MARTIN IGNACIO, RODRIGUEZ RICO CORINA y RODRIGO LUBETKIN",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1472.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
         }
       },
       {
@@ -14389,6 +17021,23 @@
         }
       },
       {
+        "titular_norm": "LOS TILIANES IC Y FSA",
+        "nombre": "LOS TILIANES I.C. Y F.S.A",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 1448.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "caliza"
+        ],
+        "tipos": {
+          "cateo": 1,
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "CURA PATRICIA E Y OTRO",
         "nombre": "Cura, Patricia E. y Otro",
         "es_persona": false,
@@ -14437,22 +17086,6 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 2
-        }
-      },
-      {
-        "titular_norm": "HOLCIM ARGENTINA",
-        "nombre": "HOLCIM (ARGENTINA) S.A",
-        "es_persona": false,
-        "n_derechos": 1,
-        "ha": 1416.8,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "caliza"
-        ],
-        "tipos": {
-          "cantera": 1
         }
       },
       {
@@ -14576,6 +17209,22 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "COMPANIA MINERA AGUILAR S A RODRIGO LUBETKIN ZIMBARO COM AB PAN DE AZUCAR",
+        "nombre": "COMPAÑIA MINERA AGUILAR S. A. - RODRIGO LUBETKIN ZIMBARO - COM. AB. PAN DE AZUCAR",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1358.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Ag"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -14788,6 +17437,23 @@
         ],
         "tipos": {
           "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "OSAN FELIX ISIDORO Y OSAN MARIA MARGARITA HEREDEROS DECLARADOS",
+        "nombre": "OSAN FELIX ISIDORO Y OSAN MARIA MARGARITA (HEREDEROS DECLARADOS)",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 1290.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Sulfuros Diseminados",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 3
         }
       },
       {
@@ -15230,6 +17896,23 @@
         }
       },
       {
+        "titular_norm": "CASTILLO RAMON JOSE Y GUERRERO ANGEL FERNANDO",
+        "nombre": "CASTILLO RAMON JOSE Y GUERRERO ANGEL FERNANDO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1237.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B",
+          "Li"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "ALEXANDER GOLD GROUP LIMITED",
         "nombre": "ALEXANDER GOLD GROUP LIMITED",
         "es_persona": false,
@@ -15305,6 +17988,38 @@
         }
       },
       {
+        "titular_norm": "CHEDRESE EDUARDO FABIAN",
+        "nombre": "CHEDRESE EDUARDO FABIAN",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1199.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "MINERA LOMA BLANCA S A Y PROCESADORA DE BORATOS ARGENTINOS",
+        "nombre": "MINERA LOMA BLANCA S. A. Y PROCESADORA DE BORATOS ARGENTINOS S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1196.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "GEM STONE AMERICA CORPORATION",
         "nombre": "Gem Stone America Corporation",
         "es_persona": true,
@@ -15338,6 +18053,20 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "MARTIN EDUARDO FELNER CONDOR PROSPECTING",
+        "nombre": "MARTIN EDUARDO FELNER - CONDOR PROSPECTING S.A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1145.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
         }
       },
       {
@@ -15411,6 +18140,24 @@
         }
       },
       {
+        "titular_norm": "MONCHOLI MARIO ANGEL BLAS HOY SU SUCESION",
+        "nombre": "MONCHOLI MARIO ANGEL BLAS (HOY SU SUCESION)",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 1101.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Sn"
+        ],
+        "tipos": {
+          "cateo": 1,
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "RUBEN OMAR DIEGO",
         "nombre": "RUBEN OMAR DIEGO",
         "es_persona": true,
@@ -15445,6 +18192,22 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "JENSEN NICOLAS JOSE",
+        "nombre": "JENSEN NICOLAS JOSE",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1095.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -15496,6 +18259,23 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "HECTOR FIAD SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+        "nombre": "HECTOR FIAD SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+        "es_persona": false,
+        "n_derechos": 11,
+        "ha": 1085.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal",
+          "Cloruro De Sodio"
+        ],
+        "tipos": {
+          "mina": 11
         }
       },
       {
@@ -15568,6 +18348,22 @@
         }
       },
       {
+        "titular_norm": "MUNOZ MIGUEL ANGEL H FALLECIDO CON HEREDEROS DECLARADOS MUNOZ MARTHA BETTY MUNOZ BLANCA FANY Y MUNOZ MARIA ANGELICA",
+        "nombre": "MUÑOZ MIGUEL ANGEL (H) (FALLECIDO CON HEREDEROS DECLARADOS) , MUÑOZ MARTHA BETTY , MUÑOZ BLANCA FANY Y MUÑOZ MARIA ANGELICA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1063.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "caliza"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "TINOGASTA",
         "nombre": "TINOGASTA",
         "es_persona": false,
@@ -15621,6 +18417,22 @@
         ],
         "tipos": {
           "mina": 3
+        }
+      },
+      {
+        "titular_norm": "COM AB DE ORATORIO",
+        "nombre": "COM. AB. DE ORATORIO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1027.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Aluvion Aurifero"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -15708,6 +18520,20 @@
         }
       },
       {
+        "titular_norm": "DEL CAMPO HELIO ANDRES MUNIZ SATURNINO Y READ CARLOS MARCELO",
+        "nombre": "DEL CAMPO HELIO ANDRES, MUÑIZ SATURNINO Y READ CARLOS MARCELO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 999.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "MALBEX SAN JUAN",
         "nombre": "Malbex San Juan S.A",
         "es_persona": false,
@@ -15737,6 +18563,20 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "MEDINA FERNANDO MARTIN",
+        "nombre": "MEDINA FERNANDO MARTIN",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 989.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 2
         }
       },
       {
@@ -15868,6 +18708,22 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "ROMAROVSKY LEON Y COSTA VICENTE JUAN ANTONIO",
+        "nombre": "ROMAROVSKY LEON Y COSTA VICENTE JUAN ANTONIO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 910.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -16366,6 +19222,22 @@
         }
       },
       {
+        "titular_norm": "LOS TILIANES",
+        "nombre": "LOS TILIANES S.A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 852.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "caliza"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "MENENDEZ MANUEL SANZ BARONI JORGE PABLO LOMBARDO FREITAS MONICA Y BERTORELLO CARLOS ALBERTO",
         "nombre": "Menendez, Manuel; Sanz Baroni, Jorge Pablo; Lombardo Freitas, Monica y Bertorello, Carlos Alberto",
         "es_persona": false,
@@ -16569,6 +19441,22 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "ADMINISTRADORA DEL NORTE",
+        "nombre": "ADMINISTRADORA DEL NORTE S.R.L",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 801.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -16811,6 +19699,24 @@
         }
       },
       {
+        "titular_norm": "PATAGONIA LITHIUM ARGENTINA",
+        "nombre": "PATAGONIA LITHIUM ARGENTINA S.A",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 770.7,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "B"
+        ],
+        "tipos": {
+          "mina": 2
+        }
+      },
+      {
         "titular_norm": "LAGOS CLAUDIO ANTONIO",
         "nombre": "LAGOS CLAUDIO ANTONIO",
         "es_persona": true,
@@ -16842,6 +19748,42 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "SOLIS MEGDONIO JOAQUIN",
+        "nombre": "SOLIS MEGDONIO JOAQUIN",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 754.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "ELECTROQUIMICA EL CARMEN",
+        "nombre": "ELECTROQUIMICA EL CARMEN S.A",
+        "es_persona": false,
+        "n_derechos": 4,
+        "ha": 741.9,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Caolin",
+          "Azufre",
+          "Cu"
+        ],
+        "tipos": {
+          "mina": 1,
+          "solicitud": 3
         }
       },
       {
@@ -17056,20 +19998,6 @@
         }
       },
       {
-        "titular_norm": "PALOMINO MERMA CARLA GABY",
-        "nombre": "PALOMINO MERMA CARLA GABY",
-        "es_persona": true,
-        "n_derechos": 1,
-        "ha": 694.9,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [],
-        "tipos": {
-          "cateo": 1
-        }
-      },
-      {
         "titular_norm": "BERAZZA JOSE MARIA",
         "nombre": "Berazza, José María",
         "es_persona": true,
@@ -17217,6 +20145,22 @@
         ],
         "minerales": [
           "Vapores Endogenos"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "FORAY ROSA MARIA INFANTE GABRIEL ALBERTO E INFANTE MARIA DEL VALLE COMPANIA MINERA URKUPINA",
+        "nombre": "FORAY ROSA MARIA, INFANTE GABRIEL ALBERTO E INFANTE MARIA DEL VALLE (COMPAÑÍA MINERA URKUPIÑA)",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 629.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "caliza"
         ],
         "tipos": {
           "mina": 1
@@ -17410,6 +20354,38 @@
         }
       },
       {
+        "titular_norm": "COM AB DISTRITO SAN MIGUEL DE COLORADOS Y COM AB DE POZO COLORADO",
+        "nombre": "COM. AB. DISTRITO SAN MIGUEL DE COLORADOS Y COM. AB. DE POZO COLORADO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 597.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "PELLEGRINI JOSE RAMON",
+        "nombre": "PELLEGRINI JOSE RAMON",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 597.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
         "titular_norm": "ARCE DARIO ANTONIO",
         "nombre": "ARCE DARIO ANTONIO",
         "es_persona": true,
@@ -17511,22 +20487,6 @@
         }
       },
       {
-        "titular_norm": "PATAGONIA LITHIUM ARGENTINA",
-        "nombre": "PATAGONIA LITHIUM ARGENTINA S.A",
-        "es_persona": false,
-        "n_derechos": 1,
-        "ha": 570.9,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Cu"
-        ],
-        "tipos": {
-          "mina": 1
-        }
-      },
-      {
         "titular_norm": "LOPEZ LEONARDO L Y OTROS",
         "nombre": "López, Leonardo L y Otros",
         "es_persona": false,
@@ -17612,19 +20572,20 @@
         }
       },
       {
-        "titular_norm": "INFANTE MARIA DEL VALLE",
-        "nombre": "INFANTE MARÍA DEL VALLE",
-        "es_persona": true,
-        "n_derechos": 1,
-        "ha": 539.8,
+        "titular_norm": "PUNASTONE",
+        "nombre": "PUNASTONE S.A",
+        "es_persona": false,
+        "n_derechos": 11,
+        "ha": 550.1,
         "provincias": [
-          "salta"
+          "jujuy"
         ],
         "minerales": [
-          "caliza"
+          "perlita",
+          "aridos"
         ],
         "tipos": {
-          "mina": 1
+          "cantera": 11
         }
       },
       {
@@ -17817,6 +20778,22 @@
           "Au",
           "Ag",
           "Cu"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "EVARISTO VELO DE IPOLA",
+        "nombre": "EVARISTO VELO DE IPOLA",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 528.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
         ],
         "tipos": {
           "mina": 1
@@ -18141,6 +21118,26 @@
         }
       },
       {
+        "titular_norm": "VIENTO BLANCO",
+        "nombre": "VIENTO BLANCO S.R.L",
+        "es_persona": false,
+        "n_derechos": 7,
+        "ha": 506.5,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "perlita",
+          "B"
+        ],
+        "tipos": {
+          "mina": 2,
+          "cantera": 4,
+          "servidumbre": 1
+        }
+      },
+      {
         "titular_norm": "BRUNO LUCERO ALESANDRO",
         "nombre": "Bruno, Lucero Alesandro",
         "es_persona": true,
@@ -18192,6 +21189,62 @@
         }
       },
       {
+        "titular_norm": "ATAUCHE EZEQUIEL",
+        "nombre": "ATAUCHE EZEQUIEL",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 500.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "DURRUTY MARIA MALEN",
+        "nombre": "DURRUTY MARIA MALEN",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 500.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "MUNIZ SATURNINO",
+        "nombre": "MUÑIZ SATURNINO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 499.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "MODENA MARTIN",
+        "nombre": "MODENA MARTIN",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 499.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "HUGO ATILIO BASTIAS HUGO ENRIQUE BASTIAS",
         "nombre": "Hugo Atilio Bastias - Hugo Enrique Bastias",
         "es_persona": false,
@@ -18227,6 +21280,34 @@
         }
       },
       {
+        "titular_norm": "DEL CAMPO CONTRERAS SUSANA MILAGRO DEL CAMPO CONTRERAS MATILDE BEATRIZ MUNIZ SATURNINO Y READ SILVIA EMILIA",
+        "nombre": "DEL CAMPO CONTRERAS SUSANA MILAGRO, DEL CAMPO CONTRERAS MATILDE BEATRIZ, MUÑIZ SATURNINO Y READ SILVIA EMILIA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 499.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "QUISPE DOMINGO OSCAR",
+        "nombre": "QUISPE DOMINGO OSCAR",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 497.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "PUNA GROUP CRUZ HECTOR EDUARDO Y CRUZ FRANCO LEONARDO",
         "nombre": "PUNA GROUP S.A. ; Cruz, Hector Eduardo y Cruz, Franco Leonardo",
         "es_persona": false,
@@ -18245,6 +21326,20 @@
         }
       },
       {
+        "titular_norm": "TERRAZAS JUAN MARCOS Y MENOYO CRISTIAN DANIEL",
+        "nombre": "TERRAZAS JUAN MARCOS Y MENOYO CRISTIAN DANIEL",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 486.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "MINERA ORIGEN",
         "nombre": "Minera Origen SA",
         "es_persona": false,
@@ -18259,6 +21354,37 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "BLASCO GABRIEL GUSTAVO",
+        "nombre": "BLASCO GABRIEL GUSTAVO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 466.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "onix"
+        ],
+        "tipos": {
+          "cantera": 1,
+          "cateo": 1
+        }
+      },
+      {
+        "titular_norm": "ESPINOZA GUILLERMO",
+        "nombre": "ESPINOZA GUILLERMO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 462.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
         }
       },
       {
@@ -18348,7 +21474,7 @@
       },
       {
         "titular_norm": "GRET LUIS ERNESTO",
-        "nombre": "GRET  LUIS ERNESTO",
+        "nombre": "GRET LUIS ERNESTO",
         "es_persona": true,
         "n_derechos": 21,
         "ha": 439.9,
@@ -18508,25 +21634,6 @@
         }
       },
       {
-        "titular_norm": "VIENTO BLANCO",
-        "nombre": "VIENTO BLANCO S.R.L",
-        "es_persona": false,
-        "n_derechos": 6,
-        "ha": 406.0,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "perlita",
-          "B"
-        ],
-        "tipos": {
-          "mina": 1,
-          "cantera": 4,
-          "servidumbre": 1
-        }
-      },
-      {
         "titular_norm": "ASTRA CAPSA",
         "nombre": "ASTRA C.A.P.S.A",
         "es_persona": true,
@@ -18665,6 +21772,26 @@
         "tipos": {
           "mina": 1,
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "RUBINETTI EDGAR RENE",
+        "nombre": "RUBINETTI EDGAR RENE",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 385.2,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Au",
+          "Au Aluvional",
+          "Aluvion Aurifero"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 2,
+          "solicitud": 1
         }
       },
       {
@@ -19007,6 +22134,20 @@
         }
       },
       {
+        "titular_norm": "COSTA IBANEZ VICENTE VICTOR",
+        "nombre": "COSTA IBAÑEZ VICENTE VICTOR",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 316.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 1
+        }
+      },
+      {
         "titular_norm": "ESPINOSA MARCOS GABRIEL ROSALES CARLOS MANUEL",
         "nombre": "ESPINOSA MARCOS GABRIEL-ROSALES CARLOS MANUEL",
         "es_persona": false,
@@ -19075,6 +22216,43 @@
         }
       },
       {
+        "titular_norm": "DE LEAO ROSENMANN BERNARDO",
+        "nombre": "DE LEAO ROSENMANN BERNARDO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 305.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Li"
+        ],
+        "tipos": {
+          "solicitud": 2
+        }
+      },
+      {
+        "titular_norm": "YEA RIN WU",
+        "nombre": "YEA RIN WU",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 302.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal",
+          "Acopio Y Cancha Mina P",
+          "Mina Jose Octavio N° 805",
+          "A",
+          "2007"
+        ],
+        "tipos": {
+          "mina": 2,
+          "servidumbre": 1
+        }
+      },
+      {
         "titular_norm": "ANIS ALGARRA RAUL MARIO",
         "nombre": "ANIS ALGARRA RAUL MARIO",
         "es_persona": true,
@@ -19093,6 +22271,22 @@
         "tipos": {
           "manifestacion_descubrimiento": 1,
           "cantera": 3
+        }
+      },
+      {
+        "titular_norm": "GEO ANDINA",
+        "nombre": "GEO ANDINA S. R. L",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 300.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B"
+        ],
+        "tipos": {
+          "mina": 2
         }
       },
       {
@@ -19144,6 +22338,55 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "NOGUERA MIGUEL ADRIAN",
+        "nombre": "NOGUERA MIGUEL ADRIAN",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 299.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal"
+        ],
+        "tipos": {
+          "mina": 3
+        }
+      },
+      {
+        "titular_norm": "SOCIEDAD MINERA SANTA MARIA S A C INHIBICION VOLUNTARIA",
+        "nombre": "SOCIEDAD MINERA SANTA MARIA S. A. C/INHIBICION VOLUNTARIA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 299.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "MAMANI FAUSTINO",
+        "nombre": "MAMANI FAUSTINO",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 296.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal",
+          "Cloruro De Sodio"
+        ],
+        "tipos": {
+          "mina": 3
         }
       },
       {
@@ -19247,6 +22490,23 @@
           "cantera": 1,
           "otro": 3,
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "COM AB DE POZO COLORADO",
+        "nombre": "COM. AB. DE POZO COLORADO",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 275.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal"
+        ],
+        "tipos": {
+          "solicitud": 1,
+          "mina": 1
         }
       },
       {
@@ -19545,23 +22805,6 @@
         }
       },
       {
-        "titular_norm": "RUBINETTI EDGAR RENE",
-        "nombre": "RUBINETTI EDGAR RENE",
-        "es_persona": true,
-        "n_derechos": 2,
-        "ha": 235.1,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Au",
-          "Au Aluvional"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 2
-        }
-      },
-      {
         "titular_norm": "ECHAVARRI MARIA LOURDES",
         "nombre": "ECHAVARRI MARIA LOURDES",
         "es_persona": true,
@@ -19712,22 +22955,24 @@
         }
       },
       {
-        "titular_norm": "SOUTH AMERICAN SALARS",
-        "nombre": "SOUTH AMERICAN SALARS S.A",
-        "es_persona": false,
+        "titular_norm": "WAYAR JAVIER",
+        "nombre": "WAYAR JAVIER",
+        "es_persona": true,
         "n_derechos": 1,
-        "ha": 216.9,
+        "ha": 217.5,
         "provincias": [
-          "salta"
+          "jujuy"
         ],
-        "minerales": [],
+        "minerales": [
+          "Au"
+        ],
         "tipos": {
-          "servidumbre": 1
+          "solicitud": 1
         }
       },
       {
         "titular_norm": "CIA MINERA CASTANO VIEJO",
-        "nombre": "CIA. MINERA CASTAÑO VIEJO  S.A",
+        "nombre": "CIA. MINERA CASTAÑO VIEJO S.A",
         "es_persona": false,
         "n_derechos": 9,
         "ha": 216.4,
@@ -19741,6 +22986,28 @@
         ],
         "tipos": {
           "mina": 9
+        }
+      },
+      {
+        "titular_norm": "DE TRAB MINERO ABORIGEN CACHI DEL CHINCHO",
+        "nombre": "COOP. DE TRAB. MINERO ABORIGEN CACHI DEL CHINCHO LTDA",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 216.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal",
+          "Li",
+          "Minas: Fatima Expte. N° 53",
+          "A",
+          "2002 Nora Expte. N° 904",
+          "1987 Y Paul Expte. N° 36"
+        ],
+        "tipos": {
+          "mina": 2,
+          "servidumbre": 1
         }
       },
       {
@@ -19815,6 +23082,26 @@
         }
       },
       {
+        "titular_norm": "RIO CINCEL",
+        "nombre": "RIO CINCEL S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 209.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Deposito De Colas De La Mina Pan De Azucar N°175",
+          "N",
+          "1918 Rec. 51",
+          "J",
+          "1994"
+        ],
+        "tipos": {
+          "servidumbre": 1
+        }
+      },
+      {
         "titular_norm": "COLQUE GERARDO MARTIN",
         "nombre": "COLQUE GERARDO MARTIN",
         "es_persona": true,
@@ -19829,6 +23116,41 @@
         ],
         "tipos": {
           "cantera": 5
+        }
+      },
+      {
+        "titular_norm": "ALANCAY EUFEMIO",
+        "nombre": "ALANCAY EUFEMIO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 208.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal",
+          "Li"
+        ],
+        "tipos": {
+          "mina": 1,
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "ALABI ANGEL ROSARIO",
+        "nombre": "ALABI ANGEL ROSARIO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 208.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "yeso",
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 2
         }
       },
       {
@@ -19916,6 +23238,22 @@
         }
       },
       {
+        "titular_norm": "HANQ ARGENTINA DAMIAN MARTIN PALOU RAMON JOSE PALOU CAROLINA ALEXANDER MIGUEL ALBERTO PERAL PABLO AGUSTIN ACUNA RAUL ALBERTO CHOCOBAR CONSUELO SARAVIA FRIAS SOFIA PAZ FIGUEROA",
+        "nombre": "HANQ ARGENTINA S.A., DAMIAN MARTIN PALOU, RAMON JOSE PALOU, CAROLINA ALEXANDER, MIGUEL ALBERTO PERAL , PABLO AGUSTIN ACUÑA , RAUL ALBERTO CHOCOBAR, CONSUELO SARAVIA FRIAS, SOFIA PAZ FIGUEROA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 200.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "ROMEO CELAVE CARLOS FERNANDO",
         "nombre": "ROMEO CELAVE CARLOS FERNANDO",
         "es_persona": true,
@@ -19946,20 +23284,6 @@
           "Li",
           "sal"
         ],
-        "tipos": {
-          "mina": 1
-        }
-      },
-      {
-        "titular_norm": "ESTADO PROVINCIAL",
-        "nombre": "Estado Provincial",
-        "es_persona": false,
-        "n_derechos": 1,
-        "ha": 200.1,
-        "provincias": [
-          "catamarca"
-        ],
-        "minerales": [],
         "tipos": {
           "mina": 1
         }
@@ -20025,6 +23349,23 @@
         ],
         "minerales": [
           "Borax"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "ALEXANDER GOLD GROUP LIMITED SUC ARG",
+        "nombre": "ALEXANDER GOLD GROUP LIMITED SUC. ARG",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 200.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Ag"
         ],
         "tipos": {
           "mina": 1
@@ -20133,6 +23474,23 @@
         "tipos": {
           "mina": 2,
           "cantera": 4
+        }
+      },
+      {
+        "titular_norm": "ABDALA FORTUNATO",
+        "nombre": "ABDALA FORTUNATO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 194.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 2
         }
       },
       {
@@ -20268,6 +23626,22 @@
         }
       },
       {
+        "titular_norm": "ALABI HUGO CESAR",
+        "nombre": "ALABI HUGO CESAR",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 180.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pirolusita"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "OTEIZA ANDRES",
         "nombre": "OTEIZA ANDRES",
         "es_persona": true,
@@ -20281,6 +23655,22 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "ALTEA JOSE OSCAR",
+        "nombre": "ALTEA JOSE OSCAR",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 179.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -20484,6 +23874,22 @@
         }
       },
       {
+        "titular_norm": "AMERICA MINING DEVELOPMEN",
+        "nombre": "AMERICA MINING DEVELOPMEN S.A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 157.8,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "DGFM",
         "nombre": "D.G.F.M",
         "es_persona": false,
@@ -20568,6 +23974,42 @@
         }
       },
       {
+        "titular_norm": "MINER GREAT SUN",
+        "nombre": "MINER GREAT SUN S.A.S",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 147.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "perlita"
+        ],
+        "tipos": {
+          "cantera": 3
+        }
+      },
+      {
+        "titular_norm": "DUPONT SANTIAGO EDUARDO",
+        "nombre": "DUPONT SANTIAGO EDUARDO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 146.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Ag",
+          "Pb",
+          "Fe"
+        ],
+        "tipos": {
+          "solicitud": 1,
+          "mina": 1
+        }
+      },
+      {
         "titular_norm": "PAULINO NICASIO VILLAFANE",
         "nombre": "Paulino Nicasio Villafañe",
         "es_persona": true,
@@ -20589,7 +24031,7 @@
       },
       {
         "titular_norm": "LOZANO JUAN Y LOZANO JUAN",
-        "nombre": "LOZANO JUAN  Y LOZANO JUAN A",
+        "nombre": "LOZANO JUAN Y LOZANO JUAN A",
         "es_persona": false,
         "n_derechos": 3,
         "ha": 144.5,
@@ -20602,6 +24044,22 @@
         "tipos": {
           "manifestacion_descubrimiento": 1,
           "mina": 2
+        }
+      },
+      {
+        "titular_norm": "UNIVERSIDAD NACIONAL DE JUJUY",
+        "nombre": "UNIVERSIDAD NACIONAL DE JUJUY",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 144.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Fe"
+        ],
+        "tipos": {
+          "mina": 1
         }
       },
       {
@@ -20843,7 +24301,7 @@
       },
       {
         "titular_norm": "BERNARDET CORBO ERNESTO",
-        "nombre": "BERNARDET CORBO  ERNESTO",
+        "nombre": "BERNARDET CORBO ERNESTO",
         "es_persona": true,
         "n_derechos": 3,
         "ha": 129.9,
@@ -21441,6 +24899,22 @@
         }
       },
       {
+        "titular_norm": "MARCOS ESTEBAN HADDAD Y FROILAN BARRIOS COMPANIA MINERA",
+        "nombre": "MARCOS ESTEBAN HADDAD y FROILAN BARRIOS (COMPAÑIA MINERA)",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 100.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "PEQUENOS HORNEROS ASOCIACION CIVIL",
         "nombre": "PEQUEÑOS HORNEROS ASOCIACIÓN CIVIL",
         "es_persona": true,
@@ -21584,6 +25058,24 @@
         ],
         "tipos": {
           "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "NORMA ISABEL III COMPANIA MINERA",
+        "nombre": "NORMA ISABEL III COMPAÑIA MINERA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 100.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "B",
+          "Li",
+          "sal"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -21769,6 +25261,23 @@
         }
       },
       {
+        "titular_norm": "ABDALA CARMEN ROSA",
+        "nombre": "ABDALA CARMEN ROSA",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 98.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "LOZANO MERCEDES",
         "nombre": "LOZANO MERCEDES",
         "es_persona": true,
@@ -21834,6 +25343,23 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "LACOSEGLIAZ FEDERICO JOSE Y CENTURION OUSSET JAVIER ALFREDO",
+        "nombre": "LACOSEGLIAZ FEDERICO JOSE Y CENTURION OUSSET JAVIER ALFREDO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 97.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -22060,7 +25586,7 @@
       },
       {
         "titular_norm": "LOZANO JUAN",
-        "nombre": "LOZANO  JUAN",
+        "nombre": "LOZANO JUAN",
         "es_persona": true,
         "n_derechos": 7,
         "ha": 93.0,
@@ -22192,6 +25718,22 @@
         }
       },
       {
+        "titular_norm": "MORALES BENICIA ANGELICA",
+        "nombre": "MORALES BENICIA ANGELICA",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 90.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
         "titular_norm": "CERAS SAN JUAN",
         "nombre": "CERAS SAN JUAN S.A",
         "es_persona": false,
@@ -22207,6 +25749,23 @@
         ],
         "tipos": {
           "mina": 13
+        }
+      },
+      {
+        "titular_norm": "MOM MINING S R L EN FORMACION",
+        "nombre": "MOM MINING S. R. L. (EN FORMACION)",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 90.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu",
+          "Mo"
+        ],
+        "tipos": {
+          "mina": 3
         }
       },
       {
@@ -22226,6 +25785,22 @@
         }
       },
       {
+        "titular_norm": "MANSILLA EMILIO SEBASTIAN MANSILLA MARIANA SOLEDAD MANSILLA MONICA VIVIANA MANSILLA PABLO RAFAEL Y MANSILLA GABRIELA DEL VALLE",
+        "nombre": "MANSILLA EMILIO SEBASTIAN, MANSILLA MARIANA SOLEDAD, MANSILLA MONICA VIVIANA, MANSILLA PABLO RAFAEL Y MANSILLA GABRIELA DEL VALLE",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 89.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "DI PIETRO JOSE",
         "nombre": "DI PIETRO JOSE",
         "es_persona": true,
@@ -22242,22 +25817,6 @@
         "tipos": {
           "mina": 1,
           "cantera": 2
-        }
-      },
-      {
-        "titular_norm": "ELECTROQUIMICA EL CARMEN",
-        "nombre": "ELECTROQUIMICA EL CARMEN S.A",
-        "es_persona": false,
-        "n_derechos": 1,
-        "ha": 89.1,
-        "provincias": [
-          "salta"
-        ],
-        "minerales": [
-          "Caolin"
-        ],
-        "tipos": {
-          "mina": 1
         }
       },
       {
@@ -22640,6 +26199,22 @@
         }
       },
       {
+        "titular_norm": "EL TRIGAL",
+        "nombre": "EL TRIGAL S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 73.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "caliza"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "FUENTES ZENAIDA DEL CARMEN",
         "nombre": "FUENTES ZENAIDA DEL CARMEN",
         "es_persona": true,
@@ -22978,7 +26553,7 @@
       },
       {
         "titular_norm": "STEKLI SENOBIA SARITA",
-        "nombre": "STEKLI  SENOBIA SARITA",
+        "nombre": "STEKLI SENOBIA SARITA",
         "es_persona": true,
         "n_derechos": 5,
         "ha": 63.2,
@@ -23109,6 +26684,22 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "QUISPE DOMINGO",
+        "nombre": "QUISPE DOMINGO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 60.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Caolin"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -23632,6 +27223,38 @@
         ],
         "tipos": {
           "cantera": 2
+        }
+      },
+      {
+        "titular_norm": "LAMAS EXALTACION",
+        "nombre": "LAMAS EXALTACION",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 50.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
+        "titular_norm": "VIRAMONTE ITURRIZA GERMAN MARIA",
+        "nombre": "VIRAMONTE ITURRIZA GERMAN MARIA",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 50.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Balasto"
+        ],
+        "tipos": {
+          "cantera": 1
         }
       },
       {
@@ -24196,6 +27819,22 @@
         }
       },
       {
+        "titular_norm": "ALVAREZ ARMANDO",
+        "nombre": "ALVAREZ ARMANDO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 49.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "caliza"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "LAS GRAMAS",
         "nombre": "LAS GRAMAS S.A",
         "es_persona": false,
@@ -24726,6 +28365,22 @@
         }
       },
       {
+        "titular_norm": "DIRECCION GENERAL DE FABRICACIONES MILITARES",
+        "nombre": "DIRECCION GENERAL DE FABRICACIONES MILITARES",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 48.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "aridos"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "VERGARA JUAN CARLOS",
         "nombre": "Vergara, Juan Carlos",
         "es_persona": true,
@@ -24756,6 +28411,22 @@
         ],
         "tipos": {
           "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "ROCHA SOILO E HIJOS",
+        "nombre": "ROCHA SOILO E HIJOS",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 48.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Vapores Endogenos"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -25516,6 +29187,20 @@
         }
       },
       {
+        "titular_norm": "GASODUCTO NOR ANDINO ARGENTINA",
+        "nombre": "GASODUCTO NOR ANDINO ARGENTINA S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 41.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "servidumbre": 1
+        }
+      },
+      {
         "titular_norm": "FACUNDO LEANDRO PINTO JUAN MANUEL PINTO",
         "nombre": "Facundo Leandro Pinto - Juan Manuel Pinto",
         "es_persona": false,
@@ -26165,6 +29850,23 @@
         }
       },
       {
+        "titular_norm": "BACH BILBAO LA VIEJA DIEGO",
+        "nombre": "BACH BILBAO LA VIEJA DIEGO",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 36.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "cuarzo"
+        ],
+        "tipos": {
+          "mina": 2
+        }
+      },
+      {
         "titular_norm": "QUIQUINTO ELIZABET AMERICA",
         "nombre": "QUIQUINTO ELIZABET AMERICA",
         "es_persona": true,
@@ -26276,6 +29978,22 @@
         ],
         "tipos": {
           "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "SARAPURA NESTOR",
+        "nombre": "SARAPURA NESTOR",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 35.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal"
+        ],
+        "tipos": {
+          "mina": 1
         }
       },
       {
@@ -26816,6 +30534,22 @@
         }
       },
       {
+        "titular_norm": "CRUZ MODESTO",
+        "nombre": "CRUZ MODESTO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 30.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "aridos"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "ROSSI LISANDRO SEBASTIAN",
         "nombre": "ROSSI LISANDRO SEBASTIAN",
         "es_persona": true,
@@ -26953,6 +30687,23 @@
         }
       },
       {
+        "titular_norm": "COM AB CATUA COQUENA",
+        "nombre": "COM. AB. CATUA COQUENA",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 30.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "onix",
+          "marmol"
+        ],
+        "tipos": {
+          "cantera": 3
+        }
+      },
+      {
         "titular_norm": "HILDA BET DE OTOYA",
         "nombre": "Hilda Bet de Otoya",
         "es_persona": true,
@@ -27079,6 +30830,38 @@
         ],
         "tipos": {
           "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "JOSE CARTELLONE CONSTRUCCIONES CIVILES",
+        "nombre": "JOSE CARTELLONE CONSTRUCCIONES CIVILES S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 30.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "aridos"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "CERISOLA JOSE ALBERTO Y ROHWEDDER ROLF WALDEMAR",
+        "nombre": "CERISOLA JOSÉ ALBERTO Y ROHWEDDER ROLF WALDEMAR",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 30.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Antimonio"
+        ],
+        "tipos": {
+          "mina": 1
         }
       },
       {
@@ -27349,6 +31132,22 @@
         }
       },
       {
+        "titular_norm": "MIR CARLOS ALBERTO",
+        "nombre": "MIR CARLOS ALBERTO",
+        "es_persona": true,
+        "n_derechos": 2,
+        "ha": 28.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "solicitud": 2
+        }
+      },
+      {
         "titular_norm": "LAMINAT MARIA VERONICA",
         "nombre": "LAMINAT MARIA VERONICA",
         "es_persona": true,
@@ -27494,7 +31293,7 @@
       },
       {
         "titular_norm": "VIVIANI CARLA JANET",
-        "nombre": "VIVIANI  CARLA JANET",
+        "nombre": "VIVIANI CARLA JANET",
         "es_persona": true,
         "n_derechos": 1,
         "ha": 27.0,
@@ -27510,7 +31309,7 @@
       },
       {
         "titular_norm": "IAZKY ARNOLDO",
-        "nombre": "IAZKY  ARNOLDO E",
+        "nombre": "IAZKY ARNOLDO E",
         "es_persona": true,
         "n_derechos": 1,
         "ha": 27.0,
@@ -27850,7 +31649,7 @@
       },
       {
         "titular_norm": "VIEYRA JOSE VICTOR",
-        "nombre": "VIEYRA JOSE  VICTOR",
+        "nombre": "VIEYRA JOSE VICTOR",
         "es_persona": true,
         "n_derechos": 1,
         "ha": 25.0,
@@ -28662,6 +32461,20 @@
         ],
         "tipos": {
           "manifestacion_descubrimiento": 1
+        }
+      },
+      {
+        "titular_norm": "GIULIANOTTI ANTONIO AGUSTIN",
+        "nombre": "GIULIANOTTI ANTONIO AGUSTIN",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 24.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "servidumbre": 1
         }
       },
       {
@@ -29492,6 +33305,38 @@
         }
       },
       {
+        "titular_norm": "CAZON ASENCIO",
+        "nombre": "CAZON ASENCIO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 20.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "TREVISANI VESPA LUCAS GABRIEL",
+        "nombre": "TREVISANI VESPA LUCAS GABRIEL",
+        "es_persona": true,
+        "n_derechos": 3,
+        "ha": 19.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 3
+        }
+      },
+      {
         "titular_norm": "LAGO MABEL",
         "nombre": "LAGO MABEL",
         "es_persona": true,
@@ -29851,7 +33696,7 @@
       },
       {
         "titular_norm": "GREGORINI MANUEL I Y CARLOS",
-        "nombre": "GREGORINI  MANUEL I. y  CARLOS",
+        "nombre": "GREGORINI MANUEL I. y CARLOS",
         "es_persona": false,
         "n_derechos": 1,
         "ha": 18.1,
@@ -29860,6 +33705,22 @@
         ],
         "minerales": [
           "Baritina"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "GARCIA ARIEL FERNANDO Y GABRIELI AUGUSTO CLAUDIO",
+        "nombre": "GARCIA ARIEL FERNANDO Y GABRIELI AUGUSTO CLAUDIO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 18.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu"
         ],
         "tipos": {
           "mina": 1
@@ -30273,7 +34134,7 @@
       },
       {
         "titular_norm": "VIVIANI CARLOS",
-        "nombre": "VIVIANI  CARLOS",
+        "nombre": "VIVIANI CARLOS",
         "es_persona": true,
         "n_derechos": 1,
         "ha": 18.0,
@@ -30464,6 +34325,22 @@
         }
       },
       {
+        "titular_norm": "BUITRAGO MARIA ALICIA",
+        "nombre": "BUITRAGO MARIA ALICIA",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 18.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
         "titular_norm": "MUNICIPALIDAD DE SAN LORENZO",
         "nombre": "MUNICIPALIDAD DE SAN LORENZO",
         "es_persona": false,
@@ -30538,6 +34415,22 @@
         ],
         "minerales": [
           "Au"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "EMPRESA MINERA LAS VICUNAS",
+        "nombre": "EMPRESA MINERA LAS VICUÑAS S. A",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 17.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb"
         ],
         "tipos": {
           "mina": 1
@@ -31145,6 +35038,23 @@
         }
       },
       {
+        "titular_norm": "MINERA LAS VICUNAS",
+        "nombre": "MINERA LAS VICUÑAS",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 15.5,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Pb",
+          "Ag"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "BRAVO JAIME MARIANO",
         "nombre": "BRAVO JAIME MARIANO",
         "es_persona": true,
@@ -31188,6 +35098,22 @@
         "minerales": [
           "aridos",
           "Ripio"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "PANEDILE ARGENTINA SAICFE",
+        "nombre": "PANEDILE ARGENTINA S.A.I.C.F.e I",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 15.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "aridos"
         ],
         "tipos": {
           "cantera": 1
@@ -31344,6 +35270,22 @@
         }
       },
       {
+        "titular_norm": "ZAMBRANA CASARINO VANESA MARISOL",
+        "nombre": "ZAMBRANA CASARINO VANESA MARISOL",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 14.4,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "onix"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "FERNANDEZ MERCEDES ROSALIA",
         "nombre": "FERNANDEZ MERCEDES ROSALIA",
         "es_persona": true,
@@ -31405,6 +35347,23 @@
         ],
         "tipos": {
           "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "AIZA BERNARDO",
+        "nombre": "AIZA BERNARDO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 14.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Escorial",
+          "Escombrera"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -31894,6 +35853,22 @@
         }
       },
       {
+        "titular_norm": "LOPEZ PATRICIA ELVIRA Y ALANI CEDRIC MARCELO",
+        "nombre": "LOPEZ PATRICIA ELVIRA Y ALANI CEDRIC MARCELO",
+        "es_persona": false,
+        "n_derechos": 2,
+        "ha": 12.2,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Cu"
+        ],
+        "tipos": {
+          "solicitud": 2
+        }
+      },
+      {
         "titular_norm": "ROBERTO FELIPE MILIDONI",
         "nombre": "Roberto Felipe Milidoni",
         "es_persona": true,
@@ -32334,7 +36309,7 @@
       },
       {
         "titular_norm": "SCARPATTI CARLOS A I E HIJOS",
-        "nombre": "SCARPATTI CARLOS A I  E HIJOS",
+        "nombre": "SCARPATTI CARLOS A I E HIJOS",
         "es_persona": false,
         "n_derechos": 1,
         "ha": 12.0,
@@ -32350,7 +36325,7 @@
       },
       {
         "titular_norm": "CREXELL ROSASCO MARIA",
-        "nombre": "CREXELL ROSASCO  MARIA E",
+        "nombre": "CREXELL ROSASCO MARIA E",
         "es_persona": true,
         "n_derechos": 1,
         "ha": 12.0,
@@ -32366,7 +36341,7 @@
       },
       {
         "titular_norm": "SUAREZ JULIO CARLOS R CELAVE",
-        "nombre": "SUAREZ  JULIO -CARLOS R. CELAVE",
+        "nombre": "SUAREZ JULIO -CARLOS R. CELAVE",
         "es_persona": false,
         "n_derechos": 1,
         "ha": 12.0,
@@ -32551,6 +36526,37 @@
         ],
         "minerales": [
           "arcilla"
+        ],
+        "tipos": {
+          "mina": 1
+        }
+      },
+      {
+        "titular_norm": "ZAMBIASIO MIGUEL ANGEL",
+        "nombre": "ZAMBIASIO MIGUEL ANGEL",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 12.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "servidumbre": 1
+        }
+      },
+      {
+        "titular_norm": "PORTA JORGE DANIEL",
+        "nombre": "PORTA JORGE DANIEL",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 12.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Antimonio",
+          "Au"
         ],
         "tipos": {
           "mina": 1
@@ -32886,6 +36892,22 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "ZAZZARINI NICOLAS",
+        "nombre": "ZAZZARINI NICOLAS",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 11.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "aridos"
+        ],
+        "tipos": {
+          "cantera": 1
         }
       },
       {
@@ -33451,6 +37473,22 @@
         }
       },
       {
+        "titular_norm": "MEDINA JORGE GABRIEL",
+        "nombre": "MEDINA JORGE GABRIEL",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 10.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "CASTILLO ROBERTO JULIO",
         "nombre": "CASTILLO ROBERTO JULIO",
         "es_persona": true,
@@ -33855,7 +37893,7 @@
       },
       {
         "titular_norm": "TALCOMIN SUR MIN",
-        "nombre": "TALCOMIN SUR  MIN. S.A",
+        "nombre": "TALCOMIN SUR MIN. S.A",
         "es_persona": false,
         "n_derechos": 1,
         "ha": 9.0,
@@ -33899,6 +37937,22 @@
         ],
         "tipos": {
           "mina": 1
+        }
+      },
+      {
+        "titular_norm": "AGROGANADERA INTI HUASI",
+        "nombre": "COOP. AGROGANADERA INTI HUASI LTDA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 9.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "arcilla"
+        ],
+        "tipos": {
+          "cantera": 1
         }
       },
       {
@@ -34064,6 +38118,22 @@
         }
       },
       {
+        "titular_norm": "LOS PAYPAYAS",
+        "nombre": "LOS PAYPAYAS S.R.L",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 8.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal"
+        ],
+        "tipos": {
+          "solicitud": 1
+        }
+      },
+      {
         "titular_norm": "RAV",
         "nombre": "RAV S.R.L",
         "es_persona": false,
@@ -34158,6 +38228,22 @@
         ],
         "tipos": {
           "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "ALANCAY SAMUEL CEFERINO",
+        "nombre": "ALANCAY SAMUEL CEFERINO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 8.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "sal"
+        ],
+        "tipos": {
+          "solicitud": 1
         }
       },
       {
@@ -35734,6 +39820,22 @@
         }
       },
       {
+        "titular_norm": "COM AB VILLA EL PERCHEL",
+        "nombre": "COM. AB. VILLA EL PERCHEL",
+        "es_persona": false,
+        "n_derechos": 3,
+        "ha": 5.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 3
+        }
+      },
+      {
         "titular_norm": "VALLE DE LERMA",
         "nombre": "VALLE DE LERMA U.T.E",
         "es_persona": false,
@@ -35776,6 +39878,22 @@
         ],
         "minerales": [
           "aridos"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "CACERES MONICA LAURA",
+        "nombre": "CACERES MONICA LAURA",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 5.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "caliza"
         ],
         "tipos": {
           "cantera": 1
@@ -35830,6 +39948,22 @@
         }
       },
       {
+        "titular_norm": "COM AB DE PUESTO SEY TERMAS DEL TUZGLE",
+        "nombre": "COM. AB. DE PUESTO SEY TERMAS DEL TUZGLE",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 4.7,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "onix"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "ACUNA BERNARDINO",
         "nombre": "ACUÑA BERNARDINO",
         "es_persona": true,
@@ -35840,6 +39974,22 @@
         ],
         "minerales": [
           "aridos"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "MIRANDA LEONOR FALLECIDO MIRANDA DANIEL Y MIRANDA SALOMON",
+        "nombre": "MIRANDA LEONOR (FALLECIDO), MIRANDA DANIEL Y MIRANDA SALOMON",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 4.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
         ],
         "tipos": {
           "cantera": 1
@@ -36260,6 +40410,25 @@
         }
       },
       {
+        "titular_norm": "CHEDRESE JOSE FRANCISCO",
+        "nombre": "CHEDRESE JOSE FRANCISCO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 3.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Instalacion De Depositos",
+          "Maquinas",
+          "Canchas Para Mineral Y Carguio Y Talleres P",
+          "Mina Techi Y Pancho"
+        ],
+        "tipos": {
+          "servidumbre": 1
+        }
+      },
+      {
         "titular_norm": "MUNICIPALIDAD DE ANIMANA",
         "nombre": "MUNICIPALIDAD DE ANIMANA",
         "es_persona": false,
@@ -36464,6 +40633,57 @@
         }
       },
       {
+        "titular_norm": "COM AB DE RUMICRUZ",
+        "nombre": "COM. AB. DE RUMICRUZ",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 2.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Laja Y Piedra Comun"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "SCHAPIRO SILVIA IRENE",
+        "nombre": "SCHAPIRO SILVIA IRENE",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 2.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Campamento P",
+          "Grupo Minero Osiris N° 104",
+          "I",
+          "1990"
+        ],
+        "tipos": {
+          "servidumbre": 1
+        }
+      },
+      {
+        "titular_norm": "MEDINA JORGE GABRIEL Y MEDINA JOSE ALBERTO",
+        "nombre": "MEDINA JORGE GABRIEL Y MEDINA JOSE ALBERTO",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 2.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Y Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "HIGH LUCK GROUP LIMITED",
         "nombre": "HIGH LUCK GROUP LIMITED",
         "es_persona": false,
@@ -36540,6 +40760,22 @@
         }
       },
       {
+        "titular_norm": "COM AB DE TABLADITAS PUEBLO TOARA",
+        "nombre": "COM. AB. DE TABLADITAS - PUEBLO TOARA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1.3,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Laja Y Piedra Comun"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "SRUR ANTONIO",
         "nombre": "SRUR ANTONIO",
         "es_persona": true,
@@ -36586,6 +40822,187 @@
         }
       },
       {
+        "titular_norm": "GUANUCO ELIAS",
+        "nombre": "GUANUCO ELIAS",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Y Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "TINTE ANGEL DESIDERIO",
+        "nombre": "TINTE ANGEL DESIDERIO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "VILCA FELIPE Y GUTIERREZ DIEGO ROBINSON",
+        "nombre": "VILCA FELIPE Y GUTIERREZ DIEGO ROBINSON",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "TOLABA AQUILINA",
+        "nombre": "TOLABA AQUILINA",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Laja",
+          "Piedra Comun"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "EN FORMACION LAWARAKA",
+        "nombre": "COOP. EN FORMACION LAWARAKA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "CRUZ RAMON RICARDO",
+        "nombre": "CRUZ RAMON RICARDO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Instal.Camp",
+          "Cancha Mina Y Acopio P",
+          "Mina Jose Octavio N° 805",
+          "A",
+          "2007"
+        ],
+        "tipos": {
+          "servidumbre": 1
+        }
+      },
+      {
+        "titular_norm": "VALDIVIEZO SATURNINO",
+        "nombre": "VALDIVIEZO SATURNINO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "ALMENAR RUBEN OBDULIO",
+        "nombre": "ALMENAR RUBEN OBDULIO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "SALAS NELIDA PRESIDENTA COM AB DE CORAYA PERSJUR012 SDDHH 11 01 08",
+        "nombre": "SALAS NELIDA -PRESIDENTA- COM. AB. DE CORAYA-PERS.JUR.012/SDDHH-11/01/08",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "PUCA SANTOS",
+        "nombre": "PUCA SANTOS",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "COM AB DE CARA CARA",
+        "nombre": "COM. AB. DE CARA CARA",
+        "es_persona": false,
+        "n_derechos": 1,
+        "ha": 1.0,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
         "titular_norm": "CONCIVI CONSTRUCCIONES",
         "nombre": "CONCIVI CONSTRUCCIONES S.A",
         "es_persona": false,
@@ -36599,6 +41016,70 @@
         ],
         "tipos": {
           "otro": 1
+        }
+      },
+      {
+        "titular_norm": "QUIPILDOR PIO",
+        "nombre": "QUIPILDOR PIO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 0.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Lajas"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "VILTE ARTEMIO ROBERTO",
+        "nombre": "VILTE ARTEMIO ROBERTO",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 0.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Lajas Y Rocas De Aplicacion"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "FLORES CLEMENTE",
+        "nombre": "FLORES CLEMENTE",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 0.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
+        }
+      },
+      {
+        "titular_norm": "SANTOS EZEQUIEL",
+        "nombre": "SANTOS EZEQUIEL",
+        "es_persona": true,
+        "n_derechos": 1,
+        "ha": 0.9,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Piedra Laja"
+        ],
+        "tipos": {
+          "cantera": 1
         }
       },
       {
@@ -36807,6 +41288,44 @@
         }
       },
       {
+        "titular_norm": "ANDES BAJO SOCIEDAD ANONIMA",
+        "nombre": "ANDES BAJO SOCIEDAD ANONIMA",
+        "es_persona": false,
+        "n_derechos": 27,
+        "ha": 234907.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [],
+        "tipos": {
+          "cateo": 27
+        }
+      },
+      {
+        "titular_norm": "CARDERO ARGENTINA",
+        "nombre": "CARDERO ARGENTINA S.A",
+        "es_persona": false,
+        "n_derechos": 70,
+        "ha": 233098.7,
+        "provincias": [
+          "jujuy",
+          "salta"
+        ],
+        "minerales": [
+          "Au",
+          "Ta",
+          "Qz",
+          "Ag",
+          "Cu",
+          "mica"
+        ],
+        "tipos": {
+          "mina": 36,
+          "cateo": 28,
+          "manifestacion_descubrimiento": 6
+        }
+      },
+      {
         "titular_norm": "IPEEM",
         "nombre": "I.P.E.E.M",
         "es_persona": false,
@@ -36901,6 +41420,34 @@
         }
       },
       {
+        "titular_norm": "HANAQ ARGENTINA",
+        "nombre": "HANAQ ARGENTINA S.A",
+        "es_persona": false,
+        "n_derechos": 72,
+        "ha": 162488.9,
+        "provincias": [
+          "catamarca",
+          "jujuy",
+          "neuquen",
+          "salta"
+        ],
+        "minerales": [
+          "Cu",
+          "Au",
+          "Ag",
+          "Pb",
+          "Li",
+          "Zn"
+        ],
+        "tipos": {
+          "manifestacion_descubrimiento": 17,
+          "mina": 17,
+          "cateo": 26,
+          "solicitud": 11,
+          "servidumbre": 1
+        }
+      },
+      {
         "titular_norm": "MINERA ANGLO AMERICAN ARGENTINA",
         "nombre": "MINERA ANGLO AMERICAN ARGENTINA S.A",
         "es_persona": false,
@@ -36912,6 +41459,29 @@
         "minerales": [],
         "tipos": {
           "cateo": 21
+        }
+      },
+      {
+        "titular_norm": "PUNA GROUP",
+        "nombre": "PUNA GROUP S.A",
+        "es_persona": false,
+        "n_derechos": 49,
+        "ha": 149658.9,
+        "provincias": [
+          "catamarca",
+          "jujuy"
+        ],
+        "minerales": [
+          "Li",
+          "K",
+          "Cloruros",
+          "Cu",
+          "Au",
+          "Ag"
+        ],
+        "tipos": {
+          "mina": 45,
+          "cateo": 4
         }
       },
       {
@@ -36933,26 +41503,31 @@
         }
       },
       {
-        "titular_norm": "CARDERO ARGENTINA",
-        "nombre": "CARDERO ARGENTINA S.A",
+        "titular_norm": "LITHIUM S CORPORATION",
+        "nombre": "LITHIUM S CORPORATION S.A",
         "es_persona": false,
-        "n_derechos": 57,
-        "ha": 148444.6,
+        "n_derechos": 255,
+        "ha": 145647.4,
         "provincias": [
+          "catamarca",
+          "jujuy",
           "salta"
         ],
         "minerales": [
-          "Au",
-          "Ta",
-          "Qz",
-          "Ag",
-          "Cu",
-          "mica"
+          "Li",
+          "sal",
+          "K",
+          "B",
+          "caliza",
+          "Sulfato De Sodio"
         ],
         "tipos": {
-          "mina": 36,
-          "cateo": 15,
-          "manifestacion_descubrimiento": 6
+          "mina": 231,
+          "servidumbre": 8,
+          "cantera": 4,
+          "manifestacion_descubrimiento": 3,
+          "solicitud": 7,
+          "cateo": 2
         }
       },
       {
@@ -36997,6 +41572,27 @@
         }
       },
       {
+        "titular_norm": "DAJIN RESOURCES",
+        "nombre": "DAJIN RESOURCES S. A",
+        "es_persona": false,
+        "n_derechos": 36,
+        "ha": 133441.1,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu",
+          "B",
+          "Ag"
+        ],
+        "tipos": {
+          "cateo": 6,
+          "mina": 12,
+          "solicitud": 18
+        }
+      },
+      {
         "titular_norm": "CORRIENTE ARGENTINA",
         "nombre": "CORRIENTE ARGENTINA S.A",
         "es_persona": false,
@@ -37019,6 +41615,49 @@
           "mina": 80,
           "servidumbre": 12,
           "cateo": 5
+        }
+      },
+      {
+        "titular_norm": "JUJUY ENERGIA Y MINERIA SOCIEDAD DEL ESTADO",
+        "nombre": "JUJUY ENERGIA Y MINERIA SOCIEDAD DEL ESTADO",
+        "es_persona": false,
+        "n_derechos": 58,
+        "ha": 129883.6,
+        "provincias": [
+          "jujuy"
+        ],
+        "minerales": [
+          "Au",
+          "Cu"
+        ],
+        "tipos": {
+          "area_proteccion": 11,
+          "cateo": 45,
+          "solicitud": 2
+        }
+      },
+      {
+        "titular_norm": "LITHOS ENERGIA",
+        "nombre": "LITHOS ENERGIA S.A",
+        "es_persona": false,
+        "n_derechos": 54,
+        "ha": 129406.0,
+        "provincias": [
+          "catamarca",
+          "jujuy"
+        ],
+        "minerales": [
+          "Li",
+          "B",
+          "K",
+          "sal",
+          "caliza",
+          "Cloruro De Sodio"
+        ],
+        "tipos": {
+          "mina": 30,
+          "cateo": 19,
+          "solicitud": 5
         }
       },
       {
@@ -37067,28 +41706,21 @@
         }
       },
       {
-        "titular_norm": "LITHIUM S CORPORATION",
-        "nombre": "LITHIUM S CORPORATION S.A",
+        "titular_norm": "NEW ENERGY GROUP",
+        "nombre": "NEW ENERGY GROUP S.A",
         "es_persona": false,
-        "n_derechos": 239,
-        "ha": 122940.3,
+        "n_derechos": 24,
+        "ha": 118790.2,
         "provincias": [
-          "catamarca",
-          "salta"
+          "jujuy"
         ],
         "minerales": [
-          "Li",
-          "K",
-          "sal",
-          "caliza",
-          "B",
-          "Sulfato De Sodio"
+          "Cu",
+          "Au",
+          "Ag"
         ],
         "tipos": {
-          "mina": 224,
-          "servidumbre": 8,
-          "cantera": 4,
-          "manifestacion_descubrimiento": 3
+          "solicitud": 24
         }
       },
       {
@@ -37134,152 +41766,15 @@
         "tipos": {
           "mina": 44
         }
-      },
-      {
-        "titular_norm": "PUNA GROUP",
-        "nombre": "PUNA GROUP S.A",
-        "es_persona": false,
-        "n_derechos": 45,
-        "ha": 111512.9,
-        "provincias": [
-          "catamarca"
-        ],
-        "minerales": [
-          "Li",
-          "K",
-          "Cloruros",
-          "Cu",
-          "Au",
-          "Ag"
-        ],
-        "tipos": {
-          "mina": 45
-        }
-      },
-      {
-        "titular_norm": "ULTRA ARGENTINA",
-        "nombre": "ULTRA ARGENTINA S.R.L",
-        "es_persona": false,
-        "n_derechos": 15,
-        "ha": 108986.8,
-        "provincias": [
-          "catamarca",
-          "salta"
-        ],
-        "minerales": [
-          "K",
-          "Li",
-          "B"
-        ],
-        "tipos": {
-          "cateo": 11,
-          "mina": 4
-        }
-      },
-      {
-        "titular_norm": "PAMPA EXPLORACION",
-        "nombre": "PAMPA EXPLORACION S.A",
-        "es_persona": false,
-        "n_derechos": 41,
-        "ha": 96103.2,
-        "provincias": [
-          "catamarca",
-          "san_juan"
-        ],
-        "minerales": [
-          "Cu",
-          "Au",
-          "Ag"
-        ],
-        "tipos": {
-          "mina": 39,
-          "manifestacion_descubrimiento": 2
-        }
-      },
-      {
-        "titular_norm": "VICTORY MINING",
-        "nombre": "Victory Mining S.A.S",
-        "es_persona": false,
-        "n_derechos": 23,
-        "ha": 95207.4,
-        "provincias": [
-          "catamarca"
-        ],
-        "minerales": [
-          "Diatomea"
-        ],
-        "tipos": {
-          "mina": 23
-        }
-      },
-      {
-        "titular_norm": "MORENA DEL VALLE MINERALS",
-        "nombre": "Morena del Valle Minerals S.A",
-        "es_persona": false,
-        "n_derechos": 44,
-        "ha": 90012.3,
-        "provincias": [
-          "catamarca"
-        ],
-        "minerales": [
-          "Li",
-          "K",
-          "Diatomea",
-          "Au",
-          "Cu",
-          "Cloruros"
-        ],
-        "tipos": {
-          "mina": 44
-        }
-      },
-      {
-        "titular_norm": "LITHOS ENERGIA",
-        "nombre": "LITHOS ENERGIA S.A",
-        "es_persona": false,
-        "n_derechos": 27,
-        "ha": 81688.6,
-        "provincias": [
-          "catamarca"
-        ],
-        "minerales": [
-          "Li",
-          "B",
-          "K"
-        ],
-        "tipos": {
-          "mina": 27
-        }
-      },
-      {
-        "titular_norm": "GONZALEZ OSCAR HORACIO GONZALEZ MARTIN JESUS",
-        "nombre": "GONZALEZ OSCAR HORACIO-GONZALEZ MARTIN JESUS",
-        "es_persona": false,
-        "n_derechos": 34,
-        "ha": 81657.9,
-        "provincias": [
-          "neuquen"
-        ],
-        "minerales": [
-          "Cu",
-          "Fe",
-          "Au",
-          "Azufre Diseminado",
-          "Pb",
-          "Otros"
-        ],
-        "tipos": {
-          "manifestacion_descubrimiento": 34
-        }
       }
     ],
     "resumen": {
-      "n_titulares": 2152,
-      "n_empresas": 1057,
-      "n_personas_fisicas": 1095,
-      "ha_empresas": 10791666.3,
-      "ha_personas_fisicas": 2928074.7,
-      "derechos_sin_titular": 7911,
+      "n_titulares": 2418,
+      "n_empresas": 1203,
+      "n_personas_fisicas": 1215,
+      "ha_empresas": 13579994.9,
+      "ha_personas_fisicas": 3872399.0,
+      "derechos_sin_titular": 8134,
       "aviso": "El ranking lista empresas por nombre y agrega a las personas fisicas en un conteo. Es un ranking de lo PUBLICADO: las provincias difieren en si informan titular, y los cateos de San Juan no lo informan."
     }
   }
