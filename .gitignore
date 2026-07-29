@@ -22,3 +22,7 @@ public/data/tenencias/
 # Entregables generados por informe.py: son material de cliente, se regeneran
 # con un comando y no tienen por que vivir en el repo publico.
 informes/
+
+# Bytecode de Python (no versionar)
+__pycache__/
+*.pyc
