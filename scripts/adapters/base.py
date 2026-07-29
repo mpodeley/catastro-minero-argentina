@@ -31,7 +31,7 @@ def utcnow() -> str:
 def make_session(headers: Optional[dict] = None) -> requests.Session:
     """Retrying HTTP session.
 
-    Same policy as estado-del-sistema/scripts/fetch_concesiones_geojson.py:
+    Same policy as estado-red-gas/scripts/fetch_concesiones_geojson.py:
     provincial servers are small and intermittently flaky, and a 502 on one
     request should not lose a whole province.
     """

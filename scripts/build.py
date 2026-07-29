@@ -4,7 +4,7 @@ Fail-soft by design. One dead provincial endpoint must never take down the whole
 build: the exception is caught, the province is marked `caida` in cobertura.json
 and the previously built file is left in place. Only a global failure or a
 validate.py FAIL aborts the deploy. This mirrors the `blocked` source convention
-in estado-del-sistema's FuentesPage.
+in estado-red-gas's FuentesPage.
 
 Usage:
     python scripts/build.py                 # all sources, using the raw/ cache

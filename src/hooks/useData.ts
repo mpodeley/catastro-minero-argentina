@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import type { Agregados, Envelope, TenenciaFC, TitularesDoc } from '../types'
 
 /** Loads a JSON written by scripts/_meta.py and unwraps its envelope.
- *  Mirrors estado-del-sistema/src/hooks/useData.ts so both projects behave
+ *  Mirrors estado-red-gas/src/hooks/useData.ts so both projects behave
  *  the same way when a dataset is missing or stale. */
 export function useJson<T>(path: string): {
   data: T | null

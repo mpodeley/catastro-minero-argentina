@@ -1,6 +1,6 @@
 """Province outlines in EPSG:4326, for the map and the containment check.
 
-Source is the copy already in estado-del-sistema, which is derived from
+Source is the copy already in estado-red-gas, which is derived from
 jazzido/Polymaps-Argentina and simplified at 0.02 degrees (~2 km). That project
 stores it in EPSG:3857 because it hand-rolls a Mercator SVG projection; Leaflet
 and every check in validate.py want lon/lat, so it is reprojected once here
@@ -23,7 +23,7 @@ from pyproj import Transformer
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DEFAULT_SRC = os.path.join(
-    os.path.dirname(ROOT), "estado-del-sistema", "public", "data", "provincias.geojson"
+    os.path.dirname(ROOT), "estado-red-gas", "public", "data", "provincias.geojson"
 )
 DST = os.path.join(ROOT, "public", "data", "provincias.geojson")
 
@@ -51,7 +51,7 @@ def main() -> int:
 
     gj["metadata"] = {
         "crs": "EPSG:4326",
-        "origen": "jazzido/Polymaps-Argentina via estado-del-sistema",
+        "origen": "jazzido/Polymaps-Argentina via estado-red-gas",
         "simplificacion_grados": 0.02,
         "aviso": "Contorno de contexto (~2 km). No usar para recortar ni medir superficies.",
     }

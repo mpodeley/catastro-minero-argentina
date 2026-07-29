@@ -1,4 +1,4 @@
-// Choropleth ramp for the national view. Ported from estado-del-sistema's
+// Choropleth ramp for the national view. Ported from estado-red-gas's
 // utils/choropleth.ts: a 7-step monochromatic warm ramp (dark amber → pale
 // yellow) that reads over a dark basemap and avoids rainbow confusion.
 //
