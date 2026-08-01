@@ -272,16 +272,21 @@ class WfsAdapter(BaseAdapter):
         expediente = pick("expediente", "expte_siged", "exp", "expte")
         titular_raw = pick("titular", "concesionario", "concsrio", "propietario")
         titular = N.titular_valido(N.strip_pii(titular_raw))
-        mineral_raw = pick("mineral", "minerales", "sustancia", "sustancias")
-        tipo_raw = pick("tipo", "tipo_derecho", "categoria")
-        estado_raw = pick("estado", "situacion")
+        # Mendoza's cateos put "primera & segunda" — the legal category — in the
+        # column called `mineral`; ingesting it would invent two substances.
+        mineral_raw = (
+            None if f.mineral_es_categoria
+            else pick("mineral", "minerales", "sustancia", "sustancias")
+        )
+        tipo_raw = pick("tipo", "tipo_derecho", "tipo_legal", "categoria")
+        estado_raw = pick("estado", "estado_legal", "estado_leg", "situacion")
 
         # San Juan flags historic records with a -HIST expediente suffix.
         if estado_raw is None and expediente and str(expediente).upper().endswith("-HIST"):
             estado_raw = "HIST"
 
         nombre = pick("nombre", "denominacion", "nombre_mina", "mina", "denominacio")
-        sup = N.parse_ha(pick("area", "sup_reg_ha", "superficie", "sup_ha", "hectareas"))
+        sup = N.parse_ha(pick("area", "area_ha", "sup_reg_ha", "superficie", "sup_ha", "hectareas"))
 
         d = Derecho(
             id=self.derecho_id(fid),
@@ -294,7 +299,9 @@ class WfsAdapter(BaseAdapter):
             expediente=str(expediente) if expediente else None,
             expediente_norm=N.norm_expediente(expediente),
             expediente_gde=(
-                str(pick("exptedgtl", "expediente_gde")) if pick("exptedgtl", "expediente_gde") else None
+                str(pick("exptedgtl", "expediente_gde", "exp_gde", "ex_gde"))
+                if pick("exptedgtl", "expediente_gde", "exp_gde", "ex_gde")
+                else None
             ),
             tipo_origen=str(tipo_raw) if tipo_raw else None,
             estado_origen=str(estado_raw) if estado_raw else None,

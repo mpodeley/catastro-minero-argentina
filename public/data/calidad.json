@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T16:58:48+00:00",
+  "generated_at": "2026-08-01T21:04:44+00:00",
   "source": "validate.py",
   "source_date": null,
   "data": {
@@ -452,6 +452,73 @@
           }
         },
         "fallas": []
+      },
+      {
+        "provincia": "mendoza",
+        "n": 1715,
+        "checks": {
+          "geometria": {
+            "invalidas": 32,
+            "reparadas": 32,
+            "pct": 1.87,
+            "ejemplos": [
+              "mendoza:minas:minas.96: Ring Self-intersection[-69.15983 -33.02741]",
+              "mendoza:minas:minas.103: Self-intersection[-68.39014 -35.3618]",
+              "mendoza:minas:minas.129: Ring Self-intersection[-69.44269 -32.13599]",
+              "mendoza:minas:minas.227: Self-intersection[-69.9773208981136 -35.1145115208474]",
+              "mendoza:minas:minas.313: Ring Self-intersection[-68.98387 -32.56179]"
+            ]
+          },
+          "ubicacion": {
+            "fuera_de_argentina": 0,
+            "desplazados": 0,
+            "limitrofes": 0,
+            "limitrofes_km_max": 0,
+            "pct": 0.0,
+            "ejemplos": [],
+            "sin_contorno_provincial": false,
+            "nota": "'limitrofes' son derechos cuyo centroide cae hasta 30 km fuera del contorno provincial: cruces de frontera reales o efecto del contorno simplificado (~2 km). 'desplazados' es lo que delata un error de faja."
+          },
+          "superficie": {
+            "con_declarada": 592,
+            "sin_declarada": 1123,
+            "delta_mediana_pct": 0.02,
+            "delta_p90_pct": 46.3,
+            "sobre_5pct": 81
+          },
+          "duplicados": {
+            "expedientes_repetidos": 21,
+            "geometrias_por_expediente_max": 46,
+            "grupos_identicos_restantes": 0,
+            "source_fid_repetido": 0
+          },
+          "superposiciones": {
+            "pares_por_tipo": {
+              "cateo|manifestacion_descubrimiento": 519,
+              "cateo|cateo": 406,
+              "manifestacion_descubrimiento|mina": 309,
+              "manifestacion_descubrimiento|manifestacion_descubrimiento": 255,
+              "cateo|mina": 210,
+              "cantera|cateo": 93,
+              "mina|mina": 79,
+              "cantera|cantera": 74,
+              "cantera|manifestacion_descubrimiento": 68,
+              "cantera|mina": 18
+            },
+            "mina_mina_distinto_titular": 1,
+            "ejemplos": [
+              [
+                "mendoza:minas:minas.106",
+                "mendoza:minas:minas.107"
+              ]
+            ]
+          },
+          "cobertura": {
+            "ha_total": 4090768.3,
+            "pct_provincia": 27.49
+          }
+        },
+        "fallas": []
       }
     ],
     "diff_corrida_previa": {
@@ -484,6 +551,11 @@
         "jujuy": {
           "antes": 1784,
           "ahora": 1784,
+          "delta_pct": 0.0
+        },
+        "mendoza": {
+          "antes": 1715,
+          "ahora": 1715,
           "delta_pct": 0.0
         }
       },

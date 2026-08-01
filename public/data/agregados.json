@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T16:58:50+00:00",
+  "generated_at": "2026-08-01T21:07:24+00:00",
   "source": "catastros mineros provinciales",
   "source_date": null,
   "data": {
@@ -217,6 +217,46 @@
         },
         "cobertura": "completa"
       },
+      "mendoza": {
+        "n_derechos": 1715,
+        "ha": 4090768.3,
+        "ha_union": 3807263.6,
+        "pct_provincia": 25.58,
+        "pct_provincia_suma": 27.49,
+        "solape": 1.07,
+        "n_titulares": 615,
+        "pct_con_titular": 96.9,
+        "tipos": {
+          "cateo": 512,
+          "manifestacion_descubrimiento": 434,
+          "cantera": 390,
+          "mina": 374,
+          "planta": 3,
+          "solicitud": 1,
+          "servidumbre": 1
+        },
+        "estados": {
+          "vigente": 1027,
+          "desconocido": 663,
+          "tramite": 15,
+          "vacante": 6,
+          "caduco": 4
+        },
+        "mineral_dominante": "Cu",
+        "minerales": {
+          "Cu": 310,
+          "aridos": 273,
+          "Au": 135,
+          "Ag": 80,
+          "talco": 45,
+          "Fe": 43,
+          "yeso": 39,
+          "cuarzo": 36,
+          "Tierras Silicosas": 31,
+          "Pb": 28
+        },
+        "cobertura": "completa"
+      },
       "santa_cruz": {
         "cobertura": "sin_datos",
         "motivo": "Sólo un PDF (CATASTRO-MINERO-AGOSTO-2023.pdf) en minpro.santacruz.gob.ar. Es de las provincias más importantes por producción (Cerro Negro, Cerro Vanguardia, San José) y no publica datos estructurados.",
@@ -230,11 +270,6 @@
       "rio_negro": {
         "cobertura": "sin_datos",
         "motivo": "Sin geoservicio localizado al 2026-07-28.",
-        "n_derechos": null
-      },
-      "mendoza": {
-        "cobertura": "sin_datos",
-        "motivo": "Sin geoservicio localizado. Ley 7722 restringe métodos de explotación.",
         "n_derechos": null
       },
       "la_rioja": {
@@ -790,11 +825,11 @@
       }
     ],
     "totales": {
-      "n_derechos": 19671,
-      "ha": 22008957.6,
-      "ha_suma": 24022659.0,
-      "n_provincias_con_datos": 6,
-      "n_titulares": 2415
+      "n_derechos": 21386,
+      "ha": 25816221.2,
+      "ha_suma": 28113427.3,
+      "n_provincias_con_datos": 7,
+      "n_titulares": 2991
     },
     "nota_superficie": "pct_provincia usa la UNION de los poligonos: el suelo cubierto por varios derechos se cuenta una vez. pct_provincia_suma suma las superficies y por lo tanto sobrecuenta. `solape` es el cociente entre ambas y mide cuan superpuesta esta la tenencia: 1,00 en Catamarca (sin solape) y 1,15 en San Juan y Salta.",
     "nota_departamentos": "Tabla sin geometria: no se vendorizan aun los limites departamentales del IGN. Los nombres vienen tal cual los publica cada provincia y no estan normalizados contra INDEC."

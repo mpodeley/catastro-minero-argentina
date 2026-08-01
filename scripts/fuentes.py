@@ -40,6 +40,10 @@ class Fuente:
     # When the source has no type column, the layer itself IS the type.
     tipo_fijo: Optional[str] = None
     estado_fijo: Optional[str] = None
+    # Some layers put the legal CATEGORY ("primera", "segunda") in the column
+    # named `mineral`. It is not a substance and must not reach the mineral
+    # facet, where it would invent two minerals nobody mines.
+    mineral_es_categoria: bool = False
     geom_kind: str = "poligono"
     srid_declarado: Optional[int] = None
     # Ask the server to reproject rather than doing the math locally.
@@ -230,7 +234,88 @@ JUJUY = [
 ]
 
 
-FUENTES: list[Fuente] = [*SAN_JUAN, *SALTA, *CATAMARCA, *NEUQUEN, *CORDOBA, *JUJUY]
+# --- Mendoza -----------------------------------------------------------------
+# Published May 2026 as a GeoNode node (mapas-mineria.mendoza.gov.ar) hanging off
+# the provincial IDE, which is why the 2026-07-28 sweep recorded the province as
+# having no geoservice. GeoNode ships GeoServer, so this is a plain WFS.
+#
+# Three things to know before touching these rows:
+#  - `minas.estado_legal` is empty in all 356 records. The column exists, the
+#    data does not, so every mina lands as "desconocido". That is the honest
+#    reading; do not fabricate "vigente" from the presence of the record.
+#  - `cateos.mineral` holds the legal category ("primera & segunda"), not a
+#    substance — hence `mineral_es_categoria`.
+#  - `acopios` (6 records) is deliberately NOT ingested. It is a stockpile
+#    registry rather than a mining right, and it publishes `domicilio` plus a
+#    `celular` column that actually contains personal e-mail addresses. Same
+#    class of leak as Jujuy's `dom_corre`.
+_MENDOZA_WFS = "https://mapas-mineria.mendoza.gov.ar/geoserver/wfs"
+
+MENDOZA = [
+    Fuente(
+        id="mendoza.mapasmineria.minas",
+        provincia="mendoza", provincia_nombre="Mendoza", kind="wfs",
+        url=_MENDOZA_WFS, layer="geonode:minas",
+        tipo_fijo="mina", srid_declarado=4326,
+        verificado_el="2026-08-01",
+        notas="356 features al 2026-08-01. estado_legal vacio en el 100%: todos quedan desconocido.",
+    ),
+    Fuente(
+        id="mendoza.mapasmineria.canteras",
+        provincia="mendoza", provincia_nombre="Mendoza", kind="wfs",
+        url=_MENDOZA_WFS, layer="geonode:canteras",
+        tipo_fijo="cantera", srid_declarado=4326,
+        verificado_el="2026-08-01",
+        notas="390 features. Estado en la columna 'estado'; 'Se desconoce' (66) queda desconocido.",
+    ),
+    Fuente(
+        id="mendoza.mapasmineria.cateos",
+        provincia="mendoza", provincia_nombre="Mendoza", kind="wfs",
+        url=_MENDOZA_WFS, layer="geonode:cateos",
+        tipo_fijo="cateo", srid_declarado=4326,
+        mineral_es_categoria=True,
+        verificado_el="2026-08-01",
+        notas="514 features. 'mineral' trae la categoria legal, no la sustancia.",
+    ),
+    Fuente(
+        id="mendoza.mapasmineria.manifestaciones",
+        provincia="mendoza", provincia_nombre="Mendoza", kind="wfs",
+        url=_MENDOZA_WFS, layer="geonode:manifestaciones",
+        tipo_fijo="manifestacion_descubrimiento", srid_declarado=4326,
+        verificado_el="2026-08-01",
+        notas=(
+            "456 features. Unica capa de Mendoza con area_ha propia. OJO: la capa no "
+            "es homogenea — trae 19 'ESTACA MINA' y 1 'Solicitud de demasia' que no "
+            "son manifestaciones. Por eso el tipo sale de tipo_legal y tipo_fijo "
+            "queda solo de red de contencion (hay un registro con tipo_legal='v')."
+        ),
+    ),
+    Fuente(
+        id="mendoza.mapasmineria.plantas",
+        provincia="mendoza", provincia_nombre="Mendoza", kind="wfs",
+        url=_MENDOZA_WFS, layer="geonode:plantas",
+        tipo_fijo="planta", srid_declarado=4326,
+        verificado_el="2026-08-01",
+        notas="3 features.",
+    ),
+    Fuente(
+        id="mendoza.mapasmineria.servidumbre",
+        provincia="mendoza", provincia_nombre="Mendoza", kind="wfs",
+        url=_MENDOZA_WFS, layer="geonode:servidumbre",
+        tipo_fijo="servidumbre", srid_declarado=22192,
+        verificado_el="2026-08-01",
+        notas=(
+            "1 feature. Unica capa que no es 4326: nativa EPSG:22192, Campo Inchauspe "
+            "faja 2 (no confundir con 22173, POSGAR 98). GeoServer reproyecta bien: "
+            "cae en -69,5/-33,3, dentro de Mendoza."
+        ),
+    ),
+]
+
+
+FUENTES: list[Fuente] = [
+    *SAN_JUAN, *SALTA, *CATAMARCA, *NEUQUEN, *CORDOBA, *JUJUY, *MENDOZA,
+]
 
 # Provinces deliberately out of v1 scope, published on the site as an explicit
 # absence. Incompleteness must read as "sin datos abiertos", never as zero —
@@ -243,7 +328,6 @@ SIN_DATOS_ABIERTOS: dict[str, str] = {
     ),
     "chubut": "Sin geoservicio localizado. Ley 5001 restringe explotación; los derechos existen igual.",
     "rio_negro": "Sin geoservicio localizado al 2026-07-28.",
-    "mendoza": "Sin geoservicio localizado. Ley 7722 restringe métodos de explotación.",
     "la_rioja": "Sin geoservicio localizado al 2026-07-28.",
     "san_luis": "Sin geoservicio localizado al 2026-07-28.",
 }

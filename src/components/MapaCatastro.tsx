@@ -344,7 +344,9 @@ function ZoomHint() {
     <div
       style={{
         position: 'absolute',
-        top: 12,
+        // Below the layers control, which Leaflet pins to the top-right corner —
+        // at top:12 the two overlapped and both became unreadable.
+        top: 58,
         right: 12,
         zIndex: 500,
         background: c.panel,

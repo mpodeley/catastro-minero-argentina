@@ -4,7 +4,10 @@ body { background: #0f172a; }
 
 /* Leaflet's defaults are built for a light page; recolor the chrome so the
    controls and popups do not glow white on the dark shell. */
-.leaflet-container { background: #0f172a; font: inherit; }
+/* font-family, not the `font` shorthand: the shorthand also inherits body's
+   16px, which blows up the attribution and popups to half the map width on a
+   phone. Leaflet's own 12px is the right size; only the typeface is ours. */
+.leaflet-container { background: #0f172a; font-family: inherit; }
 .leaflet-bar a,
 .leaflet-control-layers {
   background: #1e293b;

@@ -16,7 +16,7 @@ UX en español; comentarios y nombres de variables en inglés.
 PY="~/miniforge3/bin/mamba run -n insar python"
 
 cd scripts
-$PY test_normalize.py      # 65 casos, todos derivados de datos reales
+$PY test_normalize.py      # 76 casos, todos derivados de datos reales
 $PY build.py               # fuentes -> public/data/tenencias/
 $PY validate.py            # gate: sale != 0 y bloquea el deploy
 $PY aggregate.py
@@ -31,8 +31,14 @@ npm run build
 
 **`scripts/fuentes.py` es el registro y la fuente de verdad.** Una `Fuente` por
 capa provincial. Agregar una provincia = agregar filas, no escribir un módulo.
-4 de 6 provincias son el mismo `WfsAdapter` parametrizado; Neuquén usa `kml.py`
+5 de 7 provincias son el mismo `WfsAdapter` parametrizado; Neuquén usa `kml.py`
 y Jujuy `shp.py`.
+
+Al sumar una provincia hay que tocar **`AREA_PROV_KM2` en `validate.py`**: sin la
+superficie, el gate que detecta errores de CRS (>100% de la provincia titulada)
+se saltea en silencio, y `aggregate.py` —que importa esa misma tabla— deja
+`pct_provincia` en `None`, con lo que el coropleto pinta la provincia fuera de
+la rampa.
 
 Flujo: `fetch` (cache por sha256 en `raw/`) → `parse` → `normalize` → `dedupe` →
 `with_area` → GeoJSON por provincia + por tipo de geometría.
@@ -89,8 +95,9 @@ Contrastar contra estos números; un desvío el día 1 significa que algo se rom
 
 - San Juan `vw_minas_padron` 1.378 crudos → 1.166 tras dedupe · Salta 3.964 ·
   Catamarca `idecat:MINAS_19022026` 2.385 · Neuquén 6.629 placemarks ·
-  Jujuy `CATASTRO_MINERO` 1.784
-- Total nacional: 19.671 derechos, 24,0 M ha, 6 provincias, 2.418 titulares
+  Jujuy `CATASTRO_MINERO` 1.784 · Mendoza 356 minas + 390 canteras + 514 cateos
+  + 456 manifestaciones + 3 plantas + 1 servidumbre = 1.715 tras descartes
+- Total nacional: 21.386 derechos, 25,8 M ha, 7 provincias, 2.991 titulares
 - Golden record: San Juan `VEGA AZUL`, Calingasta, `GLENCORE PACHON S.A`,
   64,3859 ha declaradas vs 64,5348 calculadas (0,23%)
 - Round-trip de CRS contra el WKT de Salta: desviación máxima 0,60 m (gate < 5 m)

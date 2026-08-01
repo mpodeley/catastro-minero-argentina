@@ -12,6 +12,7 @@ import {
   sp,
 } from './theme'
 import { useAgregados, useTitulares } from './hooks/useData'
+import { useNarrow } from './hooks/useViewport'
 import type { DerechoProps } from './types'
 import { fmtHa, fmtInt } from './utils/format'
 
@@ -44,6 +45,11 @@ export default function App() {
   const [sel, setSel] = useState<DerechoProps | null>(null)
   const [counts, setCounts] = useState({ visibles: 0, cargadas: [] as string[] })
   const [vista, setVista] = useState<'mapa' | 'cobertura'>('mapa')
+  const narrow = useNarrow()
+  // On a phone the sidebar would eat two thirds of the screen and leave the map
+  // — the whole point of the view — in a 130px strip, so it folds away by
+  // default and the map keeps the viewport.
+  const [filtrosAbiertos, setFiltrosAbiertos] = useState(false)
 
   const provincias = useMemo(() => provinciasConDatos(agg), [agg])
 
@@ -93,106 +99,144 @@ export default function App() {
         fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
       }}
     >
-      <Header agg={agg} tit={tit} vista={vista} setVista={setVista} />
+      <Header agg={agg} tit={tit} vista={vista} setVista={setVista} narrow={narrow} />
 
       {vista === 'cobertura' ? (
         <Cobertura agg={agg} tit={tit} />
       ) : (
-        <div style={{ display: 'flex', flex: 1, minHeight: 0 }}>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: narrow ? 'column' : 'row',
+            flex: 1,
+            minHeight: 0,
+          }}
+        >
           <aside
             style={{
-              width: 260,
+              // Narrow: a sheet under the map (order 2), capped so the map is
+              // still visible behind it while filters are open.
+              width: narrow ? '100%' : 260,
+              order: narrow ? 2 : 0,
               flexShrink: 0,
               background: c.panel,
-              borderRight: `1px solid ${c.border}`,
+              borderRight: narrow ? 'none' : `1px solid ${c.border}`,
+              borderTop: narrow ? `1px solid ${c.border}` : 'none',
               overflowY: 'auto',
-              padding: sp.md,
+              maxHeight: narrow ? '52vh' : undefined,
+              padding: narrow && !filtrosAbiertos ? 0 : sp.md,
             }}
           >
-            <Seccion titulo="Colorear por">
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: sp.xs }}>
-                {MODOS.map((m) => (
-                  <button
-                    key={m.k}
-                    onClick={() => setModo(m.k)}
-                    style={btn(modo === m.k)}
-                  >
-                    {m.label}
-                  </button>
-                ))}
-              </div>
-            </Seccion>
-
-            <Seccion titulo="Buscar">
-              <input
-                value={texto}
-                onChange={(e) => setTexto(e.target.value)}
-                placeholder="titular, mina o expediente"
+            {narrow && (
+              <button
+                onClick={() => setFiltrosAbiertos((v) => !v)}
                 style={{
                   width: '100%',
-                  boxSizing: 'border-box',
-                  background: c.bg,
+                  background: 'none',
+                  border: 'none',
                   color: c.text,
-                  border: `1px solid ${c.border}`,
-                  borderRadius: 4,
-                  padding: '6px 8px',
-                  fontSize: 12,
+                  padding: '12px 14px',
+                  fontSize: 13,
+                  fontWeight: 600,
+                  textAlign: 'left',
+                  cursor: 'pointer',
                 }}
-              />
-            </Seccion>
+              >
+                {filtrosAbiertos ? 'Ocultar filtros' : 'Filtros y colores'}
+              </button>
+            )}
 
-            <Seccion titulo="Tipo">
-              {tiposDisponibles.map(([k, n]) => (
-                <Chip
-                  key={k}
-                  activo={!tipos.size || tipos.has(k)}
-                  color={COLOR_TIPO[k]}
-                  label={LABEL_TIPO[k] ?? k}
-                  n={n}
-                  onClick={() => toggle(tipos, setTipos, k)}
-                />
-              ))}
-            </Seccion>
+            {(!narrow || filtrosAbiertos) && (
+              <>
+              <Seccion titulo="Colorear por">
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: sp.xs }}>
+                  {MODOS.map((m) => (
+                    <button
+                      key={m.k}
+                      onClick={() => setModo(m.k)}
+                      style={btn(modo === m.k, narrow)}
+                    >
+                      {m.label}
+                    </button>
+                  ))}
+                </div>
+              </Seccion>
 
-            <Seccion titulo="Estado">
-              {Object.keys(LABEL_ESTADO).map((k) => (
-                <Chip
-                  key={k}
-                  activo={!estados.size || estados.has(k)}
-                  color={COLOR_ESTADO[k]}
-                  label={LABEL_ESTADO[k]}
-                  onClick={() => toggle(estados, setEstados, k)}
-                />
-              ))}
-            </Seccion>
-
-            <Seccion titulo="Mineral">
-              {mineralesDisponibles.map(([k, n]) => (
-                <Chip
-                  key={k}
-                  activo={!minerales.size || minerales.has(k)}
-                  color={COLOR_MINERAL[k] ?? c.textFaint}
-                  label={k}
-                  n={n}
-                  onClick={() => toggle(minerales, setMinerales, k)}
-                />
-              ))}
-            </Seccion>
-
-            <Seccion titulo="Otros">
-              <label style={{ fontSize: 12, display: 'flex', gap: sp.sm, alignItems: 'center' }}>
+              <Seccion titulo="Buscar">
                 <input
-                  type="checkbox"
-                  checked={soloConTitular}
-                  onChange={(e) => setSolo(e.target.checked)}
+                  value={texto}
+                  onChange={(e) => setTexto(e.target.value)}
+                  placeholder="titular, mina o expediente"
+                  style={{
+                    width: '100%',
+                    boxSizing: 'border-box',
+                    background: c.bg,
+                    color: c.text,
+                    border: `1px solid ${c.border}`,
+                    borderRadius: 4,
+                    padding: '6px 8px',
+                    fontSize: 12,
+                  }}
                 />
-                Sólo con titular conocido
-              </label>
-              <p style={{ fontSize: 10, color: c.textFaint, marginTop: sp.xs, lineHeight: 1.4 }}>
-                Los {fmtInt(tit?.resumen.derechos_sin_titular ?? 0)} derechos sin titular
-                no son un error: varias provincias no publican ese dato.
-              </p>
-            </Seccion>
+              </Seccion>
+
+              <Seccion titulo="Tipo">
+                {tiposDisponibles.map(([k, n]) => (
+                  <Chip
+                    key={k}
+                    activo={!tipos.size || tipos.has(k)}
+                    color={COLOR_TIPO[k]}
+                    label={LABEL_TIPO[k] ?? k}
+                    n={n}
+                    onClick={() => toggle(tipos, setTipos, k)}
+                    narrow={narrow}
+                  />
+                ))}
+              </Seccion>
+
+              <Seccion titulo="Estado">
+                {Object.keys(LABEL_ESTADO).map((k) => (
+                  <Chip
+                    key={k}
+                    activo={!estados.size || estados.has(k)}
+                    color={COLOR_ESTADO[k]}
+                    label={LABEL_ESTADO[k]}
+                    onClick={() => toggle(estados, setEstados, k)}
+                    narrow={narrow}
+                  />
+                ))}
+              </Seccion>
+
+              <Seccion titulo="Mineral">
+                {mineralesDisponibles.map(([k, n]) => (
+                  <Chip
+                    key={k}
+                    activo={!minerales.size || minerales.has(k)}
+                    color={COLOR_MINERAL[k] ?? c.textFaint}
+                    label={k}
+                    n={n}
+                    onClick={() => toggle(minerales, setMinerales, k)}
+                    narrow={narrow}
+                  />
+                ))}
+              </Seccion>
+
+              <Seccion titulo="Otros">
+                <label style={{ fontSize: 12, display: 'flex', gap: sp.sm, alignItems: 'center' }}>
+                  <input
+                    type="checkbox"
+                    checked={soloConTitular}
+                    onChange={(e) => setSolo(e.target.checked)}
+                  />
+                  Sólo con titular conocido
+                </label>
+                <p style={{ fontSize: 10, color: c.textFaint, marginTop: sp.xs, lineHeight: 1.4 }}>
+                  Los {fmtInt(tit?.resumen.derechos_sin_titular ?? 0)} derechos sin titular
+                  no son un error: varias provincias no publican ese dato.
+                </p>
+              </Seccion>
+              </>
+            )}
           </aside>
 
           <MapaCatastro
@@ -215,14 +259,17 @@ export default function App() {
           fontSize: 11,
           color: c.textFaint,
           display: 'flex',
-          gap: sp.lg,
+          flexWrap: 'wrap',
+          gap: narrow ? `2px ${sp.md}px` : sp.lg,
         }}
       >
         <span>{fmtInt(counts.visibles)} derechos visibles</span>
         <span>
           provincias cargadas: {counts.cargadas.length ? counts.cargadas.join(', ') : '—'}
         </span>
-        <span style={{ marginLeft: 'auto' }}>
+        {/* On a phone `margin-left: auto` squeezes this into a third column of
+            broken words; let it wrap onto its own line instead. */}
+        <span style={{ marginLeft: narrow ? 0 : 'auto' }}>
           Derivado de catastros provinciales · licencias por fuente en Cobertura
         </span>
       </footer>
@@ -235,11 +282,13 @@ function Header({
   tit,
   vista,
   setVista,
+  narrow,
 }: {
   agg: import('./types').Agregados | null
   tit: import('./types').TitularesDoc | null
   vista: string
   setVista: (v: 'mapa' | 'cobertura') => void
+  narrow: boolean
 }) {
   return (
     <header
@@ -248,7 +297,8 @@ function Header({
         padding: `${sp.sm}px ${sp.md}px`,
         display: 'flex',
         alignItems: 'baseline',
-        gap: sp.lg,
+        // The four blocks wrap to four rows on a phone and cost 150px of map.
+        gap: narrow ? `${sp.xs}px ${sp.md}px` : sp.lg,
         flexWrap: 'wrap',
       }}
     >
@@ -266,11 +316,14 @@ function Header({
           {tit && <span>{fmtInt(tit.resumen.n_titulares)} titulares</span>}
         </span>
       )}
-      <nav style={{ marginLeft: 'auto', display: 'flex', gap: sp.xs }}>
-        <button onClick={() => setVista('mapa')} style={btn(vista === 'mapa')}>
+      <nav style={{ marginLeft: narrow ? 0 : 'auto', display: 'flex', gap: sp.xs }}>
+        <button onClick={() => setVista('mapa')} style={btn(vista === 'mapa', narrow)}>
           Mapa
         </button>
-        <button onClick={() => setVista('cobertura')} style={btn(vista === 'cobertura')}>
+        <button
+          onClick={() => setVista('cobertura')}
+          style={btn(vista === 'cobertura', narrow)}
+        >
           Cobertura y titulares
         </button>
       </nav>
@@ -303,12 +356,14 @@ function Chip({
   label,
   n,
   onClick,
+  narrow = false,
 }: {
   activo: boolean
   color: string
   label: string
   n?: number
   onClick: () => void
+  narrow?: boolean
 }) {
   return (
     <button
@@ -320,11 +375,11 @@ function Chip({
         width: '100%',
         background: 'none',
         border: 'none',
-        padding: '3px 0',
+        padding: narrow ? '9px 0' : '3px 0',
         cursor: 'pointer',
         color: activo ? c.text : c.textFaint,
         textDecoration: activo ? 'none' : 'line-through',
-        fontSize: 12,
+        fontSize: narrow ? 13 : 12,
         textAlign: 'left',
       }}
     >
@@ -344,14 +399,15 @@ function Chip({
   )
 }
 
-function btn(activo: boolean): React.CSSProperties {
+/** `narrow` grows the hit area: 22px tall is fine for a mouse, not for a thumb. */
+function btn(activo: boolean, narrow = false): React.CSSProperties {
   return {
     background: activo ? c.accent : c.panelAlt,
     color: activo ? c.bg : c.text,
     border: `1px solid ${activo ? c.accent : c.border}`,
     borderRadius: 4,
-    padding: '4px 8px',
-    fontSize: 11,
+    padding: narrow ? '9px 12px' : '4px 8px',
+    fontSize: narrow ? 13 : 11,
     cursor: 'pointer',
     fontWeight: activo ? 600 : 400,
   }

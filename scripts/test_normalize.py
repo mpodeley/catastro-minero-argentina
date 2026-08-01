@@ -91,6 +91,16 @@ def main() -> int:
     # Jujuy: pertenencia administered inside a grupo minero — an effective right.
     check("estado grupo minero", N.map_estado("INCLUIDA EN G. M. AGUILAR"), "vigente")
     check("estado registrada", N.map_estado("REGISTRADA"), "vigente")
+    # Mendoza: the source writes these with a leading space and mixed case.
+    check("estado prescripta", N.map_estado(" Prescripta"), "caduco")
+    check("estado prescripta minuscula", N.map_estado(" prescripta"), "caduco")
+    # Deliberately NOT mapped: these describe the file, not the right. If one of
+    # them ever starts resolving to vigente/caduco, someone widened the table
+    # past what the province actually says.
+    check("estado archivado", N.map_estado("Archivado"), "desconocido")
+    check("estado graficado con obs", N.map_estado("Graficado con observaciones."), "desconocido")
+    check("estado se desconoce", N.map_estado("Se desconoce"), "desconocido")
+    check("estado guion", N.map_estado("-"), "desconocido")
 
     # --- Jujuy shapefile specifics -------------------------------------------
     # `dom_corre` carries holder e-mail addresses; the adapter drops the column,

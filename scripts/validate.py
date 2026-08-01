@@ -45,6 +45,7 @@ MAX_DERIVA_KM = 30.0
 AREA_PROV_KM2 = {
     "san_juan": 89_651, "salta": 155_488, "catamarca": 102_602,
     "neuquen": 94_078, "cordoba": 165_321, "jujuy": 53_219,
+    "mendoza": 148_827,
 }
 
 

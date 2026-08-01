@@ -299,6 +299,13 @@ _ESTADO_MAP = {
     # "desconocido" would misreport 16% of the province.
     "incluida": "vigente",
     "registrada": "vigente",
+    # Mendoza live data (2026-08-01): prescription extinguishes the right, so it
+    # is unambiguously caduco. The province's other labels are NOT mapped on
+    # purpose — "Archivado", "Borrado", "Perdido" and "Graficado con
+    # observaciones" describe the state of the file, not of the right, and
+    # forcing them into a bucket would overstate what the source says.
+    "prescripta": "caduco",
+    "prescripto": "caduco",
 }
 
 
